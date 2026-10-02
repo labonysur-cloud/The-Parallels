@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import Globe from 'react-globe.gl';
 
 const TEXTURES = {
@@ -9,17 +9,17 @@ const TEXTURES = {
 
 export default function PlanetGlobe({ sites, selectedSite, onSelect, onDeepDive }) {
   const globeEl = useRef();
+  const frameRef = useRef();
   const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
+  const [markerPositions, setMarkerPositions] = useState([]);
 
   useEffect(() => {
     const handleResize = () => setDimensions({ width: window.innerWidth, height: window.innerHeight });
     window.addEventListener('resize', handleResize);
-    
     if (globeEl.current) {
       globeEl.current.controls().autoRotate = true;
       globeEl.current.controls().autoRotateSpeed = 0.5;
     }
-    
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
@@ -33,95 +33,133 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect, onDeepDive 
     }
   }, [selectedSite]);
 
+  // Project lat/lng to screen coordinates on every animation frame
+  const updateMarkers = useCallback(() => {
+    if (globeEl.current && sites.length) {
+      const newPositions = sites.map(site => {
+        try {
+          const coords = globeEl.current.getScreenCoords(site.lat, site.lon, 0.01);
+          return { id: site.id, x: coords.x, y: coords.y };
+        } catch {
+          return { id: site.id, x: -9999, y: -9999 };
+        }
+      });
+      setMarkerPositions(newPositions);
+    }
+    frameRef.current = requestAnimationFrame(updateMarkers);
+  }, [sites]);
+
+  useEffect(() => {
+    frameRef.current = requestAnimationFrame(updateMarkers);
+    return () => cancelAnimationFrame(frameRef.current);
+  }, [updateMarkers]);
+
+  const getColor = (score) => score >= 80 ? '#22c55e' : score >= 65 ? '#eab308' : '#ef4444';
+
   return (
-    <Globe
-      ref={globeEl}
-      width={dimensions.width}
-      height={dimensions.height}
-      globeImageUrl={TEXTURES.earth}
-      bumpImageUrl={TEXTURES.bumpMap}
-      backgroundImageUrl={TEXTURES.background}
-      
-      ringsData={selectedSite ? [selectedSite] : []}
-      ringLat={d => d.lat}
-      ringLng={d => d.lon}
-      ringColor={d => d.computedScore >= 80 ? '#22c55e' : d.computedScore >= 65 ? '#eab308' : '#ef4444'}
-      ringMaxRadius={4}
-      ringPropagationSpeed={2}
-      ringRepeatPeriod={800}
+    <div style={{ position: 'relative', width: dimensions.width, height: dimensions.height }}>
 
-      htmlElementsData={sites}
-      htmlElement={d => {
-        const el = document.createElement('div');
-        const isSelected = selectedSite?.id === d.id;
-        const color = d.computedScore >= 80 ? '#22c55e' : d.computedScore >= 65 ? '#eab308' : '#ef4444';
-        
-        // Ensure the outer element can receive pointer events
-        el.style.pointerEvents = 'auto';
-        el.style.cursor = 'pointer';
-        
-        el.innerHTML = `
-          <div style="
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            transform: translate(-50%, -50%);
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            padding: 20px; /* Larger hit area */
-          ">
-            <div style="
-              width: ${isSelected ? '28px' : '16px'};
-              height: ${isSelected ? '28px' : '16px'};
-              background: ${color};
-              border: ${isSelected ? '4px' : '2px'} solid white;
-              border-radius: 50%;
-              box-shadow: 0 0 ${isSelected ? '40px' : '15px'} ${color};
-              transition: all 0.4s ease;
-            "></div>
-            ${isSelected ? `
-              <div style="
-                color: white; 
-                font-family: 'Space Grotesk', sans-serif;
-                font-weight: 700; 
-                font-size: 14px;
-                margin-top: 12px; 
-                text-shadow: 0 2px 10px rgba(0,0,0,0.8); 
-                white-space: nowrap;
-                background: rgba(0,0,0,0.5);
-                padding: 4px 12px;
-                border-radius: 100px;
-                border: 1px solid rgba(255,255,255,0.2);
-                backdrop-filter: blur(4px);
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-              ">
-                <div>${d.name} <span style="color: ${color}; margin-left: 4px;">${d.computedScore}%</span></div>
-                <div style="font-size: 9px; color: #38bdf8; margin-top: 3px; text-transform: uppercase; letter-spacing: 1px; font-weight: 900; animation: pulse 2s infinite;">► Click for High-Res Map</div>
-              </div>
-            ` : ''}
-          </div>
-        `;
-        
-        // Use pointerdown/click and stop propagation to prevent globe from swallowing the event
-        const handleInteraction = (e) => {
-          e.stopPropagation();
-          e.preventDefault();
-          if (isSelected && onDeepDive) {
-            onDeepDive(d);
-          } else if (onSelect) {
-            onSelect(d);
-          }
-        };
+      {/* Globe — kept with full pointer events for drag-rotate */}
+      <Globe
+        ref={globeEl}
+        width={dimensions.width}
+        height={dimensions.height}
+        globeImageUrl={TEXTURES.earth}
+        bumpImageUrl={TEXTURES.bumpMap}
+        backgroundImageUrl={TEXTURES.background}
+        ringsData={selectedSite ? [selectedSite] : []}
+        ringLat={d => d.lat}
+        ringLng={d => d.lon}
+        ringColor={d => getColor(d.computedScore)}
+        ringMaxRadius={4}
+        ringPropagationSpeed={2}
+        ringRepeatPeriod={800}
+        atmosphereColor="#38bdf8"
+        atmosphereAltitude={0.15}
+      />
 
-        el.onpointerdown = handleInteraction;
-        el.onclick = handleInteraction;
-        
-        return el;
-      }}
-      
-      atmosphereColor="#38bdf8"
-      atmosphereAltitude={0.15}
-    />
+      {/* Markers overlay — sits above the Globe canvas */}
+      <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+        {sites.map(site => {
+          const pos = markerPositions.find(p => p.id === site.id);
+          if (!pos || pos.x < 0) return null;
+          const isSelected = selectedSite?.id === site.id;
+          const color = getColor(site.computedScore);
+
+          return (
+            <button
+              key={site.id}
+              onClick={() => {
+                if (isSelected && onDeepDive) onDeepDive(site);
+                else if (onSelect) onSelect(site);
+              }}
+              style={{
+                position: 'absolute',
+                left: pos.x,
+                top: pos.y,
+                transform: 'translate(-50%, -50%)',
+                background: 'transparent',
+                border: 'none',
+                padding: '16px',           // large hit area
+                cursor: 'pointer',
+                pointerEvents: 'auto',
+                zIndex: isSelected ? 50 : 20,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+              }}
+            >
+              {/* Glowing dot */}
+              <div style={{
+                width: isSelected ? 24 : 13,
+                height: isSelected ? 24 : 13,
+                borderRadius: '50%',
+                background: color,
+                border: `${isSelected ? 3 : 2}px solid white`,
+                boxShadow: `0 0 ${isSelected ? 32 : 12}px ${color}`,
+                transition: 'all 0.3s ease',
+              }} />
+
+              {/* Label + CTA — only when selected */}
+              {isSelected && (
+                <div style={{
+                  marginTop: 10,
+                  fontFamily: 'Space Grotesk, sans-serif',
+                  fontWeight: 700,
+                  fontSize: 13,
+                  color: 'white',
+                  whiteSpace: 'nowrap',
+                  background: 'rgba(0,0,0,0.65)',
+                  padding: '6px 14px',
+                  borderRadius: 100,
+                  border: '1px solid rgba(255,255,255,0.25)',
+                  backdropFilter: 'blur(8px)',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: 4,
+                  userSelect: 'none',
+                }}>
+                  <span>
+                    {site.name}&nbsp;
+                    <span style={{ color }}>{site.computedScore}%</span>
+                  </span>
+                  <span style={{
+                    fontSize: 9,
+                    color: '#38bdf8',
+                    textTransform: 'uppercase',
+                    letterSpacing: 1.5,
+                    fontWeight: 900,
+                  }}>
+                    Click to open High-Res Map
+                  </span>
+                </div>
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+    </div>
   );
 }

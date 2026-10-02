@@ -1,5 +1,7 @@
 # The Parallel
 
+🚀 **Live Demo:** [https://the-parallels.vercel.app/](https://the-parallels.vercel.app/)
+
 ## Project Overview
 The Parallel is an explainable decision-support system designed to identify and characterize terrestrial analog sites for future Lunar and Martian base selection. Developed for the NASA Space Apps Challenge 2026, this platform serves as a mission simulator for space agencies, mission planners, and astronauts.
 

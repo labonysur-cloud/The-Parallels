@@ -112,3 +112,50 @@ input[type='range']::-webkit-slider-thumb {
 input[type='range']::-webkit-slider-thumb:hover {
   background: #FC3D21;
 }
+
+/* Markdown Formatting in AI Chat */
+.markdown-content p {
+  margin-bottom: 0.5rem;
+}
+.markdown-content p:last-child {
+  margin-bottom: 0;
+}
+.markdown-content strong,
+.markdown-content b {
+  font-weight: 700;
+  color: #fff;
+}
+.markdown-content ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.markdown-content ol {
+  list-style-type: decimal;
+  padding-left: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.markdown-content li {
+  margin-bottom: 0.25rem;
+}
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0;
+  font-size: 11px;
+}
+.markdown-content th {
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  font-weight: 600;
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.markdown-content td {
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.markdown-content tr:last-child td {
+  border-bottom: none;
+}

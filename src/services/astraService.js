@@ -6,7 +6,7 @@ const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'YOUR_GEMINI_API_KEY';
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
-const SYSTEM_CONTEXT = `You are ASTRA, an AI mission planning assistant for "The Parallel" — a NASA Space Apps Challenge project.
+const SYSTEM_CONTEXT = `You are Astrophel, an AI mission planning assistant for "The Parallel" — a NASA Space Apps Challenge project by Team Astrophel.
 
 Your role is to help astronauts, mission planners, and researchers identify the best Earth-based terrestrial analog sites for training and testing missions to the Moon and Mars.
 
@@ -46,9 +46,9 @@ Guidelines for your responses:
 - Keep responses under 150 words unless the user asks for detail.
 - You can suggest the user switch the dashboard to Moon or Mars mode.`;
 
-export async function askASTRA(userMessage, conversationHistory = []) {
+export async function askAstrophel(userMessage, conversationHistory = []) {
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
 
     const chat = model.startChat({
       history: [

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { askASTRA } from '../services/astraService';
+import { askAstrophel } from '../services/astraService';
 import { Send, Bot, User, X, Minimize2, Maximize2, Satellite } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -14,7 +14,7 @@ export default function ASTRAChat({ onClose }) {
   const [messages, setMessages] = useState([
     {
       role: 'model',
-      text: 'ASTRA online. I am your mission analog planning assistant. Describe your mission objective and I will identify the most suitable Earth training environments.',
+      text: 'Astrophel online. I am your mission analog planning assistant from Team Astrophel. Describe your mission objective and I will identify the most suitable Earth training environments.',
     },
   ]);
   const [input, setInput] = useState('');
@@ -39,7 +39,7 @@ export default function ASTRAChat({ onClose }) {
     setInput('');
     setLoading(true);
 
-    const reply = await askASTRA(text, getHistory());
+    const reply = await askAstrophel(text, getHistory());
     setMessages((prev) => [...prev, { role: 'model', text: reply }]);
     setLoading(false);
   };
@@ -63,7 +63,7 @@ export default function ASTRAChat({ onClose }) {
             <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-green-400 border-2 border-black animate-pulse" />
           </div>
           <div>
-            <div className="font-bold text-sm tracking-wide">ASTRA</div>
+            <div className="font-bold text-sm tracking-wide">Astrophel</div>
             <div className="text-[10px] text-nasa-light uppercase tracking-widest">Mission Planning AI</div>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function ASTRAChat({ onClose }) {
               </button>
             </div>
             <p className="text-[9px] text-gray-600 text-center mt-2 uppercase tracking-widest">
-              Powered by Google Gemini — Free
+              Astrophel AI — Powered by Google Gemini — Free
             </p>
           </div>
         </>

@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// Gemini Flash is completely FREE - 15 requests/min, 1M tokens/day
-// Get your free key at: https://ai.google.dev
+// Gemini 2.0 Flash — FREE tier: 15 requests/min, 1 million tokens/day
+// Get your free key at: https://aistudio.google.com/apikey (no credit card needed)
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'YOUR_GEMINI_API_KEY';
 
 const genAI = new GoogleGenerativeAI(API_KEY);
@@ -48,7 +48,7 @@ Guidelines for your responses:
 
 export async function askASTRA(userMessage, conversationHistory = []) {
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
     const chat = model.startChat({
       history: [

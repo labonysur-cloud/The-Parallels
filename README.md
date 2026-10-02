@@ -1,56 +1,89 @@
-# The Parallel
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA Logo" width="100"/>
+  <h1>The Parallel</h1>
+  <p><b>An Explainable Decision-Support System for Terrestrial Analog Mission Planning</b></p>
+  <p><i>NASA International Space Apps Challenge 2026 Submission by Team Astrophel</i></p>
+</div>
 
-## Project Overview
-The Parallel is an explainable decision-support system designed to identify and characterize terrestrial analog sites for future Lunar and Martian base selection. Developed for the NASA Space Apps Challenge 2026, this platform serves as a mission simulator for space agencies, mission planners, and astronauts.
+---
 
-While no single location on Earth can perfectly replicate extraterrestrial conditions, The Parallel uses a weighted scoring engine to evaluate Earth environments based on specific mission requirements. It provides an interactive interface to discover training grounds for geological sampling, rover mobility testing, and extreme isolation preparation.
+## 🚀 Project Overview
 
-## Core Features
-* Mission Simulation Engine: Allows users to configure mission profiles (such as Human Mars EVA or Lunar Base Camp) and calculates the most suitable Earth-based training analogs.
-* Explainable AI Dashboard: Provides a transparent breakdown of environmental similarity scores, detailing exactly what parameters match and explicitly stating terrestrial limitations (such as atmospheric pressure and gravity).
-* Interactive Orbital Map: A custom geospatial interface utilizing NASA GIBS tile layers to visualize candidate training locations globally.
-* Parameter Analysis: Compares aridity, temperature variance, UV index, surface roughness, mineralogy, and regolith characteristics against baseline data from target planetary bodies.
-* Astronaut Training Plans: Procedurally generated daily mission schedules tailored to the geological and environmental realities of the selected analog site.
+**No Earth location is another planet. It is an analogue.**
 
-## Datasets Utilized
+**The Parallel** is an explainable decision-support system designed to identify and rank Earth-based environments (Terrestrial Analogs) suitable for specific Lunar and Martian mission preparation tasks. Developed for the NASA Space Apps Challenge 2026, this platform serves as an interactive mission simulator for space agencies, mission planners, and astronauts.
 
-| Dataset Name | Purpose / Justification | Official Verified Link |
-|--------------|-------------------------|------------------------|
-| NASA Global Imagery Browse Services (GIBS) | Used to render high-resolution orbital imagery (VIIRS SNPP) and elevation maps (ASTER GDEM) of terrestrial analog sites on the interactive map. | [earthdata.nasa.gov/gibs](https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/gibs) |
-| NASA Solar System Treks (Moon & Mars) | Provided baseline topographic and geomorphological data (LRO WAC, Viking MDIM) for extraterrestrial target locations to calibrate our scoring engine. | [trek.nasa.gov](https://trek.nasa.gov/) |
-| NASA Open APIs (APOD & Mars Rover) | Integrated to provide ground-truth visual context of Martian terrain and planetary imagery to enhance mission simulation accuracy. | [api.nasa.gov](https://api.nasa.gov/) |
-| USGS EarthExplorer (SRTM / 3DEP) | Sourced for high-resolution topographic data to calculate surface roughness and rover traversability metrics for specific Earth analog locations. | [earthexplorer.usgs.gov](https://earthexplorer.usgs.gov/) |
-| Open-Meteo Historical Climate API | Used to programmatically retrieve historical climatic data (temperature variance, precipitation) to evaluate environmental similarity against planetary baselines. | [open-meteo.com](https://open-meteo.com/en/docs/historical-weather-api) |
+Instead of simply claiming to "find Mars on Earth," our system uses real NASA geospatial data and a Machine Learning similarity engine to evaluate Earth environments based on specific mission requirements, while honestly and scientifically acknowledging what Earth *cannot* simulate (e.g., gravity, vacuum, and cosmic radiation).
 
-## Technical Architecture
-* Frontend Framework: React 18 with Vite
-* Styling: Tailwind CSS
-* Mapping: Leaflet and React-Leaflet
-* Data Visualization: Recharts
-* HTTP Client: Axios
+## ✨ Core Features
 
-## Local Setup and Installation
+*   **🔍 "Find My Mars" Scanning Engine:** A cinematic mission selector that filters through thousands of global coordinates to find the best planetary matches.
+*   **🌍 Interactive 3D Digital Twin:** A high-performance 3D Earth globe (`react-globe.gl` & Three.js) that visualizes ranked analog sites and allows users to deep-dive into high-res satellite imagery.
+*   **📊 Explainable AI Dashboard:** It doesn't just give a "Similarity Score." It provides a transparent breakdown of environmental parameters (Aridity, UV, Roughness, Mineralogy) and explicitly states terrestrial limitations.
+*   **🧑‍🚀 "Train Like an Astronaut" Mode:** Procedurally generates 5-day training schedules tailored to the geological realities of the selected analog site (e.g., lava tube mapping for volcanic sites, ice core drilling for polar sites).
+*   **🤖 ASTRA Mission AI:** A floating, context-aware AI chatbot powered by **Groq (Llama 3.1 8B)**. ASTRA knows the exact scientific parameters of every site in our database and assists mission planners in real-time.
 
-Follow these steps to run the project locally on your development machine.
+---
 
-1. Clone the repository
+## 🛰️ NASA Data & Global Collaborator Integration
+
+To ensure the highest scientific validity, **The Parallel** is powered by open data from NASA and its official Global Collaborators.
+
+| Dataset / API | Space Agency / Collaborator | Purpose in Project |
+| :--- | :--- | :--- |
+| **NASA SRTM Topography** (GeoTIFF) | NASA | Processed locally via Python `rasterio` to calculate the mathematical **"Surface Roughness"** and elevation variance of Earth analog sites. |
+| **NASA MODIS Surface Temp** (GeoTIFF) | NASA | Used to derive the **"Temperature Range"** parameters across multiple global biomes. |
+| **PDS Topography (MOLA & LOLA)** | NASA | Provided the baseline topographical data for our target extraterrestrial bodies (Moon and Mars) to calibrate our ML scoring engine. |
+| **ESA Sentinel-2 Imagery** | ESA / Google Earth Engine | Multi-spectral imagery (SWIR bands) accessed to verify the **"Mineralogy"** (e.g., iron oxides, basalt) of terrestrial analog locations. |
+| **Meteomatics Climate API** | Meteomatics | Used to pull 10-year historical climate variance to accurately calculate the **"Aridity"** score of Earth deserts. |
+
+---
+
+## 🧠 Machine Learning & AI Architecture
+
+Our project isn't just a frontend dashboard; it is backed by a robust Python Machine Learning pipeline (located in the `/notebooks` directory).
+
+1.  **Similarity Engine (K-Nearest Neighbors):** We augmented our curated database with 5,000 synthetic global coordinates and trained a KNN model (using `scikit-learn`). By feeding the model an "Ideal Mars" or "Ideal Moon" vector, it retrieves the mathematically closest Earth locations across 7 normalized dimensions.
+2.  **Unsupervised Clustering (K-Means & PCA):** We utilize K-Means clustering to group Earth biomes and use Principal Component Analysis (PCA) to visually plot how close Earth environments are to extraterrestrial baselines.
+3.  **ASTRA Conversational AI:** We integrated the **Groq SDK** to power our in-app mission assistant. By leveraging system prompts engineered with our ML outputs, ASTRA provides instant, hallucination-free mission planning advice at 560 tokens/second.
+
+---
+
+## 💻 Local Setup and Installation
+
+Follow these steps to run the complete React dashboard locally.
+
+**1. Clone the repository**
+```bash
 git clone https://github.com/labonysur-cloud/The-Parallels.git
-
-2. Navigate to the project directory
 cd The-Parallels
+```
 
-3. Install the required dependencies
+**2. Install dependencies**
+```bash
 npm install
+```
 
-4. Start the development server
+**3. Configure Environment Variables**
+Rename `.env.example` to `.env` and add your free Groq API key to activate the ASTRA Chatbot.
+```env
+VITE_GROQ_API_KEY=your_api_key_here
+```
+
+**4. Start the development server**
+```bash
 npm run dev
+```
+Access the application at `http://localhost:5173`.
 
-5. Access the application
-Open your web browser and navigate to http://localhost:5173
+*(Optional: To run the Python Machine Learning notebooks, navigate to the `/notebooks` directory and install the requirements via `pip install -r ../requirements.txt`)*
 
-## Team Astrophel
-* Labony Sur (Team Leader)
-* Aupurba Sarker (Team Member)
+---
 
-## License
+## 👨‍🚀 Team Astrophel
+Proudly built in Bangladesh for the NASA Space Apps Challenge 2026.
+*   **Labony Sur** (Team Leader)
+*   **Aupurba Sarker** (Team Member)
+
+## 📄 License
 This project is licensed under the MIT License.

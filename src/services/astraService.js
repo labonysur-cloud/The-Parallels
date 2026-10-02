@@ -1,75 +1,87 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 
-// Gemini 2.0 Flash — FREE tier: 15 requests/min, 1 million tokens/day
-// Get your free key at: https://aistudio.google.com/apikey (no credit card needed)
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'YOUR_GEMINI_API_KEY';
+// Groq is completely FREE — no credit card needed
+// Get your free API key at: https://console.groq.com
+// Free tier: 14,400 requests/day, 30 requests/min
+// Model: llama-3.3-70b-versatile — extremely fast and intelligent
+const API_KEY = import.meta.env.VITE_GROQ_API_KEY || '';
 
-const genAI = new GoogleGenerativeAI(API_KEY);
+const groq = new Groq({ apiKey: API_KEY, dangerouslyAllowBrowser: true });
 
-const SYSTEM_CONTEXT = `You are Astrophel, an AI mission planning assistant for "The Parallel" — a NASA Space Apps Challenge project by Team Astrophel.
+const SYSTEM_PROMPT = `You are Astrophel, an AI mission planning assistant for "The Parallel" — a NASA Space Apps Challenge 2026 project by Team Astrophel (Labony Sur and Aupurba Sarker).
 
 Your role is to help astronauts, mission planners, and researchers identify the best Earth-based terrestrial analog sites for training and testing missions to the Moon and Mars.
 
 You have access to a database of 18 scientifically documented Earth analog sites:
-1. Atacama Desert (Chile) - Best Mars analog: extreme aridity, perchlorates, Mars-like minerals. Score: Mars 92%
-2. Haughton Impact Crater (Canada) - Dual Moon/Mars analog: impact geology, permafrost. Score: Moon 82%, Mars 78%
-3. Death Valley, USA - Mars analog: evaporites, desert pavement, volcanic craters. Score: Mars 81%
-4. Devon Island (Canada) - Polar desert, isolation training. Score: Moon 75%, Mars 72%
-5. Mauna Kea, Hawaii - Best lunar volcanic analog: basalt, lava tubes. Score: Moon 88%
-6. Craters of the Moon, Idaho - Lunar lava tubes and cinder cones. Score: Moon 84%
-7. McMurdo Dry Valleys, Antarctica - Extreme Mars aridity, polygon terrain. Score: Mars 85%
-8. Río Tinto, Spain - Mars acid-sulfate mineralogy: jarosite, hematite. Score: Mars 79%
-9. Dallol, Ethiopia - Mars hydrothermal deposits, hypersaline brines. Score: Mars 76%
-10. Erta Ale, Ethiopia - Active lunar basalt analog. Score: Moon 80%
-11. Askja/Holuhraun, Iceland - ESA astronaut training site, dual analog. Score: Moon 82%, Mars 70%
-12. Namib Desert, Namibia - Mars aeolian dunes, dry paleolakes. Score: Mars 78%
-13. Tabernas Desert, Spain - Mars sedimentary badlands, ESA ExoMars site. Score: Mars 74%
-14. Lanzarote, Spain - Official ESA astronaut training site, lava tubes. Score: Moon 83%
-15. Nördlingen Impact Crater, Germany - Impact geology for Moon/Mars. Score: Moon 71%
-16. Qaidam Basin, China - CNSA Mars analog: salt flats, high UV, cold arid. Score: Mars 82% (Currently top-ranked)
-17. Kilauea, Hawaii - Active basalt volcano, lunar mare analog. Score: Moon 86%
-18. Sahara Great Sand Seas, Algeria/Libya - Martian mega-dune fields. Score: Mars 72%
 
-Key scoring parameters: Aridity, Temperature Range, UV/Radiation, Surface Roughness, Mineralogy, Isolation, Regolith.
+MARS ANALOGS:
+1. Atacama Desert (Chile) — Aridity 9.8/10, perchlorates, nitratine. Mars match: 92%
+2. McMurdo Dry Valleys (Antarctica) — Aridity 9.0, polygon terrain, water activity 0.10. Mars match: 85%
+3. Qaidam Basin (China) — CNSA Mars analog, high UV, cold arid, salt flats. Mars match: 82%
+4. Death Valley (USA) — Evaporites, desert pavement, volcanic craters. Mars match: 81%
+5. Río Tinto (Spain) — Jarosite, hematite — exact Meridiani Planum minerals. Mars match: 79%
+6. Namib Desert (Namibia) — Aeolian dune fields, dry paleolakes. Mars match: 78%
+7. Haughton Impact Crater (Canada) — Impact geology, permafrost. Mars match: 78%
+8. Devon Island (Canada) — Polar desert, periglacial terrain. Mars match: 72%
+9. Tabernas Desert (Spain) — ESA ExoMars site, smectite/gypsum badlands. Mars match: 74%
+10. Dallol Hydrothermal (Ethiopia) — Hypersaline brines, sulfur deposits. Mars match: 76%
+11. Sahara Great Sand Seas (Algeria/Libya) — Mega-dune fields. Mars match: 72%
 
-What Earth CANNOT simulate (always be honest about this):
+LUNAR ANALOGS:
+12. Mauna Kea Lava Fields (Hawaii) — Tholeiitic basalt, lava tubes, palagonite. Moon match: 88%
+13. Kilauea Active Lava Flows (Hawaii) — Fresh basalt, pahoehoe/aa flows. Moon match: 86%
+14. Askja/Holuhraun (Iceland) — ESA astronaut training site. Moon match: 82%
+15. Haughton Impact Crater (Canada) — Dual analog. Moon match: 82%
+16. Lanzarote (Spain) — Official ESA PANGAEA training site, lava tubes. Moon match: 83%
+17. Craters of the Moon (Idaho) — Cinder cones, lava tubes, where Apollo crew trained. Moon match: 84%
+18. Kamchatka Volcanoes (Russia) — Dense active volcanic region. Moon match: 76%
+
+SCORING PARAMETERS (all sites rated 0-10):
+- Aridity, Temperature Range, UV/Radiation, Surface Roughness, Mineralogy, Isolation, Regolith
+
+WHAT EARTH CANNOT SIMULATE (always be honest):
 - Extraterrestrial gravity (Moon: 1/6 g, Mars: 1/3 g)
-- Space vacuum / near-zero atmospheric pressure
-- Cosmic and solar radiation levels
+- Space vacuum / near-zero atmospheric pressure  
+- Cosmic and solar radiation at space levels
 - Exact extraterrestrial soil chemistry
 
-Guidelines for your responses:
-- Be concise, scientific, and professional. No emojis.
+RESPONSE RULES:
+- Be concise, scientific, professional. No emojis.
 - Always recommend specific sites with match percentages.
-- When asked about a mission type, suggest 2-3 best analog sites with reasons.
-- Always mention limitations honestly.
-- Keep responses under 150 words unless the user asks for detail.
-- You can suggest the user switch the dashboard to Moon or Mars mode.`;
+- Mention limitations honestly.
+- Keep responses under 150 words unless the user asks for more detail.
+- When asked about a mission type, suggest 2-3 best analog sites with clear reasons.`;
 
 export async function askAstrophel(userMessage, conversationHistory = []) {
-  try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-flash-latest' });
+  if (!API_KEY) {
+    return 'Astrophel is offline. Please add your free GROQ_API_KEY to the .env file. Get one free at console.groq.com — no credit card needed.';
+  }
 
-    const chat = model.startChat({
-      history: [
-        {
-          role: 'user',
-          parts: [{ text: SYSTEM_CONTEXT }],
-        },
-        {
-          role: 'model',
-          parts: [{ text: 'Understood. I am ASTRA, your mission analog planning assistant. I am ready to help identify the best Earth training sites for lunar and Martian missions. What is your mission profile?' }],
-        },
-        ...conversationHistory,
-      ],
+  try {
+    const messages = [
+      { role: 'system', content: SYSTEM_PROMPT },
+      ...conversationHistory.map(m => ({
+        role: m.role === 'model' ? 'assistant' : 'user',
+        content: m.text,
+      })),
+      { role: 'user', content: userMessage },
+    ];
+
+    const completion = await groq.chat.completions.create({
+      model: 'llama-3.3-70b-versatile',
+      messages,
+      temperature: 0.6,
+      max_tokens: 300,
     });
 
-    const result = await chat.sendMessage(userMessage);
-    return result.response.text();
+    return completion.choices[0]?.message?.content || 'No response received.';
   } catch (error) {
-    if (error.message?.includes('API_KEY')) {
-      return 'ASTRA is offline. Please configure a valid Gemini API key in your .env file. Get a free key at ai.google.dev';
+    if (error?.status === 401) {
+      return 'Invalid API key. Please check your VITE_GROQ_API_KEY in the .env file.';
     }
-    return 'ASTRA is temporarily unavailable. Please try again.';
+    if (error?.status === 429) {
+      return 'Rate limit reached. Please wait a moment and try again.';
+    }
+    return 'Astrophel is temporarily unavailable. Please try again.';
   }
 }

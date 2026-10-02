@@ -8,22 +8,22 @@
 // Baseline parameters for target bodies (derived from published literature)
 export const BODY_BASELINES = {
   moon: {
-    aridity: 10,          // True vacuum, zero water
-    temp_range: 10,       // ~290K diurnal swing (equatorial)
-    uv_index: 10,         // Zero atmospheric attenuation
-    surface_roughness: 8, // Heavily cratered highlands
-    mineral_analog: 8,    // Anorthosite + mare basalt
-    isolation: 10,        // Extreme remote vacuum
-    regolith: 9,          // Angular, glassy agglutinates
+    aridity: 10,
+    temp_range: 10,
+    uv_index: 10,
+    surface_roughness: 8,
+    mineral_analog: 8,
+    isolation: 10,
+    regolith: 9,
   },
   mars: {
-    aridity: 9,           // aw < 0.1, 6 mbar atmosphere
-    temp_range: 8,        // ~80–110K diurnal swing
-    uv_index: 8,          // No ozone, UV-C reaches surface
-    surface_roughness: 5, // Varied: smooth plains to rough highlands
-    mineral_analog: 8,    // Fe-oxides, sulfates, perchlorates, basalt
-    isolation: 9,         // Extremely remote, thin atmosphere
-    regolith: 7,          // Sub-rounded basaltic, dust-coated
+    aridity: 9,
+    temp_range: 8,
+    uv_index: 8,
+    surface_roughness: 5,
+    mineral_analog: 8,
+    isolation: 9,
+    regolith: 7,
   },
 };
 
@@ -37,16 +37,6 @@ export const PARAM_LABELS = {
   regolith: 'Regolith',
 };
 
-export const PARAM_ICONS = {
-  aridity: '🏜️',
-  temp_range: '🌡️',
-  uv_index: '☀️',
-  surface_roughness: '🏔️',
-  mineral_analog: '⛏️',
-  isolation: '🌑',
-  regolith: '🪨',
-};
-
 export const DEFAULT_WEIGHTS = {
   aridity: 7,
   temp_range: 6,
@@ -57,10 +47,6 @@ export const DEFAULT_WEIGHTS = {
   regolith: 6,
 };
 
-/**
- * Score a single analog site against a target body with given weights.
- * Returns a score 0–100.
- */
 export function scoreAnalog(site, targetBody, weights = DEFAULT_WEIGHTS) {
   const baseline = BODY_BASELINES[targetBody];
   const params = site.analog_params;
@@ -79,9 +65,6 @@ export function scoreAnalog(site, targetBody, weights = DEFAULT_WEIGHTS) {
   return totalWeight > 0 ? Math.round((totalScore / totalWeight) * 100) : 0;
 }
 
-/**
- * Score all sites and return sorted array with scores.
- */
 export function rankAllSites(sites, targetBody, weights = DEFAULT_WEIGHTS) {
   return sites
     .map((site) => ({
@@ -91,10 +74,6 @@ export function rankAllSites(sites, targetBody, weights = DEFAULT_WEIGHTS) {
     .sort((a, b) => b.computedScore - a.computedScore);
 }
 
-/**
- * Get parameter-level breakdown for a site vs target.
- * Returns array of { param, earthValue, targetValue, weight, contribution }
- */
 export function getScoreBreakdown(site, targetBody, weights = DEFAULT_WEIGHTS) {
   const baseline = BODY_BASELINES[targetBody];
   const params = site.analog_params;
@@ -108,7 +87,6 @@ export function getScoreBreakdown(site, targetBody, weights = DEFAULT_WEIGHTS) {
     return {
       param: key,
       label: PARAM_LABELS[key],
-      icon: PARAM_ICONS[key],
       earthValue: earthVal,
       targetValue: targetVal,
       weight: w,
@@ -116,18 +94,4 @@ export function getScoreBreakdown(site, targetBody, weights = DEFAULT_WEIGHTS) {
       similarity: Math.round((1 - diff) * 100),
     };
   });
-}
-
-/**
- * Radar chart data for recharts RadarChart
- */
-export function getRadarData(site, targetBody) {
-  const baseline = BODY_BASELINES[targetBody];
-  const params = site.analog_params;
-  return Object.keys(baseline).map((key) => ({
-    subject: PARAM_LABELS[key],
-    [site.name]: params[key] ?? 0,
-    [targetBody === 'moon' ? 'Moon' : 'Mars']: baseline[key],
-    fullMark: 10,
-  }));
 }

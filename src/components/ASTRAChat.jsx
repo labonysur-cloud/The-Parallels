@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { askAstrophel } from '../services/astraService';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { Send, Bot, User, X, Minimize2, Maximize2, Satellite } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -99,12 +101,17 @@ export default function ASTRAChat({ onClose }) {
                     : <User size={14} className="text-white" />
                   }
                 </div>
-                <div className={`max-w-[80%] px-4 py-3 rounded-2xl text-xs leading-relaxed font-medium ${
+                <div className={`max-w-[85%] px-4 py-3 rounded-2xl text-xs leading-relaxed font-medium ${
                   msg.role === 'model'
                     ? 'bg-white/5 border border-white/10 text-gray-200 rounded-tl-sm'
                     : 'bg-nasa-light/20 border border-nasa-light/30 text-white rounded-tr-sm'
                 }`}>
-                  {msg.text}
+                  <ReactMarkdown 
+                    remarkPlugins={[remarkGfm]}
+                    className="markdown-content"
+                  >
+                    {msg.text}
+                  </ReactMarkdown>
                 </div>
               </div>
             ))}

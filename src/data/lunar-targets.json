@@ -1,0 +1,157 @@
+[
+  {
+    "id": "shackleton-rim",
+    "name": "Shackleton Crater Rim",
+    "lat": -89.9,
+    "lon": 0.0,
+    "elevation_m": -2940,
+    "diameter_km": 20.9,
+    "type": "impact_crater",
+    "region": "South Polar",
+    "analog_params": {
+      "aridity": 10,
+      "temp_range": 10,
+      "uv_index": 10,
+      "surface_roughness": 8.5,
+      "mineral_analog": 7.5,
+      "isolation": 10,
+      "regolith": 9.0
+    },
+    "key_features": [
+      "Permanently Shadowed Regions (PSR) with confirmed water ice",
+      "Near-permanent solar illumination on rim peaks (~90% of year)",
+      "Artemis III candidate landing zone",
+      "Steep inner walls, rough ejecta blanket"
+    ],
+    "resources": ["Water Ice (PSR confirmed by LCROSS)", "Solar Power (rim peaks)", "Regolith ISRU"],
+    "hazards": ["Permanent shadow in crater floor", "Steep slopes (>30°) on inner wall", "Extreme temperature gradient (100K to 40K across 1 km)"],
+    "data_sources": ["LOLA DEM (20m/px)", "LCROSS water detection", "LRO DIVINER thermal mapping"],
+    "mission_relevance": "Primary Artemis base camp candidate — water ice + power on ridge peaks",
+    "best_earth_analog": "haughton",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Shackleton_crater_LROC.jpg/1280px-Shackleton_crater_LROC.jpg"
+  },
+  {
+    "id": "malapert-mountain",
+    "name": "Malapert Mountain / Malapert A",
+    "lat": -85.9,
+    "lon": 0.0,
+    "elevation_m": 5000,
+    "diameter_km": 70,
+    "type": "mountain_ridge",
+    "region": "South Polar",
+    "analog_params": {
+      "aridity": 10,
+      "temp_range": 9.5,
+      "uv_index": 10,
+      "surface_roughness": 7.0,
+      "mineral_analog": 7.0,
+      "isolation": 10,
+      "regolith": 8.5
+    },
+    "key_features": [
+      "Near-permanent solar illumination (>80% of lunar year on summit)",
+      "Line-of-sight to Earth for communications",
+      "Relatively gentle slopes for base construction",
+      "Proximity to PSR water ice deposits at Shackleton"
+    ],
+    "resources": ["Continuous Solar Power", "Earth Line of Sight", "Proximity to Water Ice"],
+    "hazards": ["No local water ice", "Regolith gardening from micrometeorites", "25 km from nearest PSR"],
+    "data_sources": ["LOLA illumination model", "LROC WAC mosaic", "LRO Mini-RF"],
+    "mission_relevance": "Best known site for sustained solar power + Earth comms; ISRO Chandrayaan-3 landed nearby",
+    "best_earth_analog": "mauna-kea",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lunar_south_pole_LOLA_map.jpg/1280px-Lunar_south_pole_LOLA_map.jpg"
+  },
+  {
+    "id": "aristarchus-plateau",
+    "name": "Aristarchus Plateau",
+    "lat": 26.3,
+    "lon": -47.5,
+    "elevation_m": 2000,
+    "diameter_km": 200,
+    "type": "volcanic_plateau",
+    "region": "Oceanus Procellarum",
+    "analog_params": {
+      "aridity": 10,
+      "temp_range": 10,
+      "uv_index": 10,
+      "surface_roughness": 7.5,
+      "mineral_analog": 9.0,
+      "isolation": 10,
+      "regolith": 8.5
+    },
+    "key_features": [
+      "Highest concentration of pyroclastic deposits on the Moon",
+      "Schröteri Valley (largest sinuous rille — ancient lava channel)",
+      "Aristarchus crater exposing deep crust",
+      "Transient Lunar Phenomena (TLP) observed historically"
+    ],
+    "resources": ["Titanium-rich ilmenite (TiO₂ up to 8 wt%)", "Pyroclastic glass beads (potential He-3)", "Regolith ISRU"],
+    "hazards": ["Near-equatorial high diurnal temperature swing", "No permanent water ice", "Unstable pyroclastic slopes"],
+    "data_sources": ["LOLA DEM 128 ppd", "M³ mineralogy (Chandrayaan-1)", "LROC NAC high-resolution imaging"],
+    "mission_relevance": "Highest science priority for pyroclastics, ilmenite mining, and sinuous rille geology",
+    "best_earth_analog": "kilauea",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Aristarchus_crater.jpg/1280px-Aristarchus_crater.jpg"
+  },
+  {
+    "id": "lacus-mortis",
+    "name": "Lacus Mortis Pit (Lava Tube Skylight)",
+    "lat": 44.9,
+    "lon": 27.5,
+    "elevation_m": 800,
+    "diameter_km": 45,
+    "type": "lava_tube_skylight",
+    "region": "Mare Frigoris boundary",
+    "analog_params": {
+      "aridity": 10,
+      "temp_range": 8.0,
+      "uv_index": 9.0,
+      "surface_roughness": 9.5,
+      "mineral_analog": 7.5,
+      "isolation": 10,
+      "regolith": 8.0
+    },
+    "key_features": [
+      "Confirmed pit/skylight into a lava tube (100m diameter, ~80m deep)",
+      "Stable temperature environment inside tube (~-23°C constant vs ±200°C surface)",
+      "Natural radiation shielding from regolith overburden",
+      "Protected from micrometeorite bombardment"
+    ],
+    "resources": ["Natural radiation shelter", "Thermally stable (no HVAC needed)", "Potential ice deposit"],
+    "hazards": ["Steep pit walls (near-vertical)", "Unknown internal morphology", "Access engineering challenge"],
+    "data_sources": ["LROC NAC Pit imaging", "LOLA local DEM", "Kiefer thermal model"],
+    "mission_relevance": "Most promising natural lunar base shelter candidate — radiation protection without artificial structure",
+    "best_earth_analog": "craters-of-the-moon",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lacus_Mortis_pit_LROC.jpg/800px-Lacus_Mortis_pit_LROC.jpg"
+  },
+  {
+    "id": "mare-tranquillitatis",
+    "name": "Mare Tranquillitatis (Apollo 11)",
+    "lat": 8.5,
+    "lon": 31.4,
+    "elevation_m": -2700,
+    "diameter_km": 873,
+    "type": "mare_basalt",
+    "region": "Near Side Equatorial",
+    "analog_params": {
+      "aridity": 10,
+      "temp_range": 10,
+      "uv_index": 10,
+      "surface_roughness": 4.5,
+      "mineral_analog": 8.0,
+      "isolation": 10,
+      "regolith": 9.0
+    },
+    "key_features": [
+      "Apollo 11 (1969) and Apollo 17 nearby — well-characterized regolith",
+      "Smooth, flat mare basalt plains — ideal for landing",
+      "High titanium content (pyroxene + ilmenite)",
+      "Regolith: grain size 40–100µm, porosity ~45%"
+    ],
+    "resources": ["Titanium (ilmenite)", "Iron-rich regolith for ISRU", "Solar power (equatorial)"],
+    "hazards": ["No water ice", "Maximum diurnal temperature swing (100K to 390K)", "Micrometeorite gardening"],
+    "data_sources": ["Apollo sample return catalog", "LOLA 512 ppd DEM", "Kaguya/SELENE spectral mapping"],
+    "mission_relevance": "Ground-truth reference for all future lunar missions — best-characterized regolith on the Moon",
+    "best_earth_analog": "mauna-kea",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aldrin_Apollo_11_original.jpg/1280px-Aldrin_Apollo_11_original.jpg"
+  }
+]

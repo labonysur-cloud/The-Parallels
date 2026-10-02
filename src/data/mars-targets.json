@@ -1,0 +1,162 @@
+[
+  {
+    "id": "jezero-crater",
+    "name": "Jezero Crater (Perseverance)",
+    "lat": 18.4,
+    "lon": 77.7,
+    "elevation_m": -2600,
+    "diameter_km": 49,
+    "type": "paleolake_delta",
+    "region": "Isidis Planitia boundary",
+    "analog_params": {
+      "aridity": 9,
+      "temp_range": 8,
+      "uv_index": 8,
+      "surface_roughness": 6.5,
+      "mineral_analog": 9.5,
+      "isolation": 9,
+      "regolith": 7
+    },
+    "key_features": [
+      "Confirmed ancient river delta with paleolake sediments",
+      "Diverse mineralogy: carbonates, phyllosilicates, olivine-rich floor",
+      "Mars 2020 Perseverance rover active sampling (since 2021)",
+      "Fan-shaped delta deposit up to 3.5 km wide"
+    ],
+    "resources": ["Water ice (subsurface)", "MOXIE O₂ from CO₂ demonstrated", "Sedimentary regolith"],
+    "hazards": ["Rocky delta surface for landing", "Dust devil activity", "Diurnal ΔT ~80K"],
+    "key_minerals": ["Carbonates", "Olivine", "Phyllosilicates (smectite)", "Perchlorate salts"],
+    "data_sources": ["CRISM MTRDR (mineralogy)", "HiRISE DTM 1m", "MOLA MEGDR", "CTX mosaic"],
+    "mission_relevance": "Primary Mars 2020 site; sample cache for Mars Sample Return mission",
+    "best_earth_analog": "atacama",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jezero_Crater_HiRISE.jpg/1280px-Jezero_Crater_HiRISE.jpg"
+  },
+  {
+    "id": "hellas-rim",
+    "name": "Hellas Basin Rim",
+    "lat": -38.7,
+    "lon": 62.4,
+    "elevation_m": 200,
+    "diameter_km": 2300,
+    "type": "impact_basin",
+    "region": "Southern Highlands",
+    "analog_params": {
+      "aridity": 9,
+      "temp_range": 9,
+      "uv_index": 7,
+      "surface_roughness": 7,
+      "mineral_analog": 8,
+      "isolation": 9,
+      "regolith": 7
+    },
+    "key_features": [
+      "Deepest basin on Mars (-8.2 km below datum) — highest atmospheric pressure",
+      "Rim regions have evidence of ancient glaciation and valley networks",
+      "Phyllosilicates and carbonates in rim exposures",
+      "Unique layered deposits in basin floor"
+    ],
+    "resources": ["Higher surface pressure (~1.2 kPa vs 0.6 kPa average)", "Evidence of past water", "Diverse mineralogy on rim"],
+    "hazards": ["Major global dust storm source", "Complex terrain", "Strong katabatic winds"],
+    "key_minerals": ["Phyllosilicates", "Carbonates", "Fe/Mg smectites", "Chlorides"],
+    "data_sources": ["MOLA MEGDR (topography)", "CRISM mapping (mineralogy)", "THEMIS day/night IR"],
+    "mission_relevance": "Highest atmospheric pressure on Mars — slightly better for ascent vehicles and EVA suits",
+    "best_earth_analog": "mcmurdo-dry-valleys",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Hellas_basin_MOLA_zoom.jpg/1280px-Hellas_basin_MOLA_zoom.jpg"
+  },
+  {
+    "id": "isidis-planitia",
+    "name": "Isidis Planitia (BepiColombo / ESA)",
+    "lat": 12.9,
+    "lon": 87.0,
+    "elevation_m": -3500,
+    "diameter_km": 1500,
+    "type": "impact_basin_plain",
+    "region": "Equatorial",
+    "analog_params": {
+      "aridity": 9,
+      "temp_range": 8,
+      "uv_index": 8,
+      "surface_roughness": 3.5,
+      "mineral_analog": 7,
+      "isolation": 9,
+      "regolith": 7
+    },
+    "key_features": [
+      "BeagleBeagle 2 (2003) and NASA's landing area for multiple studies",
+      "Flat, smooth plains — low landing hazard",
+      "Evidence of ancient shoreline at basin edges",
+      "Nili Fossae nearby — one of the best-preserved mineral diversity zones"
+    ],
+    "resources": ["Smooth terrain (solar panel deployment)", "Proximity to Nili Fossae minerals", "Low elevation"],
+    "hazards": ["Dust accumulation in basin", "Limited surface diversity for science"],
+    "key_minerals": ["Basalt", "Olivine", "Fe-smectites (rim)", "Carbonates (Nili Fossae)"],
+    "data_sources": ["MOLA MEGDR 128 ppd", "CTX panchromatic mosaic", "CRISM MRDR 200m"],
+    "mission_relevance": "ESA ExoMars Rosalind Franklin rover candidate landing zone; very flat and safe",
+    "best_earth_analog": "qaidam-basin",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Isidis_Planitia_map.jpg/1280px-Isidis_Planitia_map.jpg"
+  },
+  {
+    "id": "arcadia-planitia",
+    "name": "Arcadia Planitia (Ice Accessible)",
+    "lat": 47.1,
+    "lon": -172.3,
+    "elevation_m": -4000,
+    "diameter_km": 1500,
+    "type": "ice_rich_plains",
+    "region": "Northern Lowlands",
+    "analog_params": {
+      "aridity": 8,
+      "temp_range": 9,
+      "uv_index": 7,
+      "surface_roughness": 4,
+      "mineral_analog": 6,
+      "isolation": 9,
+      "regolith": 8
+    },
+    "key_features": [
+      "Confirmed shallow ground ice at <1m depth (SHARAD radar)",
+      "Ice table accessible with a simple drill",
+      "Relatively smooth, low-hazard landing terrain",
+      "Mid-latitude location for obliquity-driven ice cycles"
+    ],
+    "resources": ["Confirmed shallow ground ice (ISRU water)", "Smooth plains for construction", "Low dust opacity"],
+    "hazards": ["Mid-latitude reduced solar power", "Seasonal CO₂ frost cycle", "Permafrost engineering challenges"],
+    "key_minerals": ["Water Ice (subsurface confirmed)", "Basalt", "Dust (Fe-rich)"],
+    "data_sources": ["SHARAD subsurface radar", "HiRISE ice-exposure fresh craters", "MOLA topography"],
+    "mission_relevance": "SpaceX Starship human Mars landing prime target — shallow accessible ice for ISRU water/propellant",
+    "best_earth_analog": "devon-island",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arcadia_Planitia_Mars.jpg/1280px-Arcadia_Planitia_Mars.jpg"
+  },
+  {
+    "id": "valles-marineris-east",
+    "name": "Valles Marineris (Melas Chasma)",
+    "lat": -13.9,
+    "lon": -59.2,
+    "elevation_m": -7000,
+    "diameter_km": 4000,
+    "type": "canyon_system",
+    "region": "Equatorial Tharsis",
+    "analog_params": {
+      "aridity": 9,
+      "temp_range": 8,
+      "uv_index": 8,
+      "surface_roughness": 9,
+      "mineral_analog": 9,
+      "isolation": 9,
+      "regolith": 7
+    },
+    "key_features": [
+      "4,000 km long, 7 km deep canyon system (Grand Canyon x10)",
+      "Layered sedimentary deposits, sulfate mounds, chloride deposits",
+      "Highest mineral diversity in the solar system at one location",
+      "Interior Layered Deposits (ILDs) show ancient lake/ice history"
+    ],
+    "resources": ["High pressure environment in deepest sections", "Layered rock record (geology ISRU)", "Potential subsurface water"],
+    "hazards": ["Extreme steep slopes (45° canyon walls)", "Massive landslide risk", "Wind funneling through canyon"],
+    "key_minerals": ["Hydrated Sulfates (kieserite, gypsum, polyhydrated sulfates)", "Fe-smectites", "Chlorides", "Carbonates"],
+    "data_sources": ["CRISM MTRDR (highest resolution mineralogy)", "HiRISE NAC 25cm images", "OMEGA/MEx (sulfate mapping)"],
+    "mission_relevance": "Richest geological/mineral record; radiation-protected canyon floor; potential subsurface water",
+    "best_earth_analog": "rio-tinto",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Valles_Marineris_NASA.jpg/1280px-Valles_Marineris_NASA.jpg"
+  }
+]

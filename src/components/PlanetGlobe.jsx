@@ -3,7 +3,6 @@ import Globe from 'react-globe.gl';
 
 const TEXTURES = {
   earth: 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
-  earthNight: 'https://unpkg.com/three-globe/example/img/earth-night.jpg',
   bumpMap: 'https://unpkg.com/three-globe/example/img/earth-topology.png',
   background: 'https://unpkg.com/three-globe/example/img/night-sky.png'
 };
@@ -29,7 +28,8 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
   useEffect(() => {
     if (selectedSite && globeEl.current) {
       globeEl.current.controls().autoRotate = false;
-      globeEl.current.pointOfView({ lat: selectedSite.lat, lng: selectedSite.lon, altitude: 0.8 }, 1500);
+      // Increased altitude from 0.8 to 1.4 to prevent texture blurriness
+      globeEl.current.pointOfView({ lat: selectedSite.lat, lng: selectedSite.lon, altitude: 1.4 }, 1500);
     } else if (!selectedSite && globeEl.current) {
       globeEl.current.controls().autoRotate = true;
       globeEl.current.pointOfView({ altitude: 2.5 }, 1500);
@@ -45,7 +45,16 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
       bumpImageUrl={TEXTURES.bumpMap}
       backgroundImageUrl={TEXTURES.background}
       
-      // Render custom HTML glowing markers for the analog sites
+      // Animated Radar Rings for the selected site
+      ringsData={selectedSite ? [selectedSite] : []}
+      ringLat={d => d.lat}
+      ringLng={d => d.lon}
+      ringColor={d => d.computedScore >= 80 ? '#22c55e' : d.computedScore >= 65 ? '#eab308' : '#ef4444'}
+      ringMaxRadius={3}
+      ringPropagationSpeed={2}
+      ringRepeatPeriod={800}
+
+      // Render custom HTML glowing markers
       htmlElementsData={sites}
       htmlElement={d => {
         const el = document.createElement('div');

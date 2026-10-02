@@ -5,7 +5,8 @@ import { rankAllSites } from '../services/scoringEngine';
 import PlanetGlobe from '../components/PlanetGlobe';
 import AnalogReport from '../components/AnalogReport';
 import DetailedMapModal from '../components/DetailedMapModal';
-import { ChevronLeft, SlidersHorizontal, Rocket, Globe } from 'lucide-react';
+import ASTRAChat from '../components/ASTRAChat';
+import { ChevronLeft, SlidersHorizontal, Rocket, Globe, Satellite } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function MissionDashboard() {
@@ -14,6 +15,7 @@ export default function MissionDashboard() {
   const [rankedSites, setRankedSites] = useState([]);
   const [selectedSite, setSelectedSite] = useState(null);
   const [showDetailedMap, setShowDetailedMap] = useState(false);
+  const [showASTRA, setShowASTRA] = useState(false);
 
   useEffect(() => {
     const ranked = rankAllSites(sitesData, target);
@@ -139,6 +141,26 @@ export default function MissionDashboard() {
           onClose={() => setShowDetailedMap(false)} 
         />
       )}
+
+      {/* ASTRA Floating Chat Button */}
+      <AnimatePresence>
+        {!showASTRA && (
+          <motion.button
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            exit={{ scale: 0, opacity: 0 }}
+            onClick={() => setShowASTRA(true)}
+            className="fixed bottom-6 right-6 z-[150] w-14 h-14 rounded-full bg-nasa-light text-space-950 shadow-[0_0_30px_rgba(56,189,248,0.5)] flex items-center justify-center hover:scale-110 transition-transform"
+          >
+            <Satellite size={24} />
+          </motion.button>
+        )}
+      </AnimatePresence>
+
+      {/* ASTRA Chat Panel */}
+      <AnimatePresence>
+        {showASTRA && <ASTRAChat onClose={() => setShowASTRA(false)} />}
+      </AnimatePresence>
     </div>
   );
 }

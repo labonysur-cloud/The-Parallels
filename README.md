@@ -43,5 +43,9 @@ npm run dev
 5. Access the application
 Open your web browser and navigate to http://localhost:5173
 
+## Team Astrophel
+* Labony Sur (Team Leader)
+* Aupurba Sarker (Team Member)
+
 ## License
 This project is licensed under the MIT License.

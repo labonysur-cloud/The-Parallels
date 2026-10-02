@@ -4,6 +4,7 @@ import sitesData from '../data/analog-sites.json';
 import { rankAllSites } from '../services/scoringEngine';
 import PlanetGlobe from '../components/PlanetGlobe';
 import AnalogReport from '../components/AnalogReport';
+import DetailedMapModal from '../components/DetailedMapModal';
 import { ChevronLeft, SlidersHorizontal, Rocket, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -12,8 +13,8 @@ export default function MissionDashboard() {
   const [target, setTarget] = useState(searchParams.get('target') || 'mars');
   const [rankedSites, setRankedSites] = useState([]);
   const [selectedSite, setSelectedSite] = useState(null);
+  const [showDetailedMap, setShowDetailedMap] = useState(false);
 
-  // Re-rank sites when target body changes
   useEffect(() => {
     const ranked = rankAllSites(sitesData, target);
     setRankedSites(ranked);
@@ -23,20 +24,18 @@ export default function MissionDashboard() {
   return (
     <div className="w-screen h-screen bg-space-950 text-white overflow-hidden font-body relative">
       
-      {/* Background 3D Globe - Absolute z-0 */}
       <div className="absolute inset-0 z-0">
         <PlanetGlobe 
           targetBody={target}
           sites={rankedSites} 
           selectedSite={selectedSite} 
           onSelect={setSelectedSite} 
+          onDeepDive={() => setShowDetailedMap(true)}
         />
       </div>
 
-      {/* Foreground Floating UI - Absolute z-10 */}
       <div className="absolute inset-0 z-10 pointer-events-none flex justify-between p-6">
         
-        {/* Left Floating Panel - Mission Control */}
         <motion.div 
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -110,7 +109,6 @@ export default function MissionDashboard() {
           </div>
         </motion.div>
 
-        {/* Top Center Badge */}
         <div className="absolute top-6 left-1/2 -translate-x-1/2 pointer-events-none">
           <div className="bg-black/50 backdrop-blur-xl border border-white/20 px-8 py-3 rounded-full shadow-[0_0_30px_rgba(0,0,0,0.8)] flex items-center gap-4">
             <span className={`w-2 h-2 rounded-full animate-pulse ${target === 'mars' ? 'bg-nasa-red' : 'bg-nasa-light'}`}></span>
@@ -118,7 +116,6 @@ export default function MissionDashboard() {
           </div>
         </div>
 
-        {/* Right Floating Panel - Explainable AI Dashboard */}
         <motion.div 
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -134,6 +131,14 @@ export default function MissionDashboard() {
         </motion.div>
 
       </div>
+
+      {/* Conditionally render the Detailed Map Modal */}
+      {showDetailedMap && (
+        <DetailedMapModal 
+          site={selectedSite} 
+          onClose={() => setShowDetailedMap(false)} 
+        />
+      )}
     </div>
   );
 }

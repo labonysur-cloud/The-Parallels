@@ -7,7 +7,7 @@ const TEXTURES = {
   background: 'https://unpkg.com/three-globe/example/img/night-sky.png'
 };
 
-export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
+export default function PlanetGlobe({ sites, selectedSite, onSelect, onDeepDive }) {
   const globeEl = useRef();
   const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
 
@@ -15,7 +15,6 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
     const handleResize = () => setDimensions({ width: window.innerWidth, height: window.innerHeight });
     window.addEventListener('resize', handleResize);
     
-    // Initial rotation spin effect
     if (globeEl.current) {
       globeEl.current.controls().autoRotate = true;
       globeEl.current.controls().autoRotateSpeed = 0.5;
@@ -24,11 +23,9 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // When a site is selected, fly to it and stop auto-rotation
   useEffect(() => {
     if (selectedSite && globeEl.current) {
       globeEl.current.controls().autoRotate = false;
-      // Increased altitude from 0.8 to 1.4 to prevent texture blurriness
       globeEl.current.pointOfView({ lat: selectedSite.lat, lng: selectedSite.lon, altitude: 1.4 }, 1500);
     } else if (!selectedSite && globeEl.current) {
       globeEl.current.controls().autoRotate = true;
@@ -45,7 +42,6 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
       bumpImageUrl={TEXTURES.bumpMap}
       backgroundImageUrl={TEXTURES.background}
       
-      // Animated Radar Rings for the selected site
       ringsData={selectedSite ? [selectedSite] : []}
       ringLat={d => d.lat}
       ringLng={d => d.lon}
@@ -54,7 +50,6 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
       ringPropagationSpeed={2}
       ringRepeatPeriod={800}
 
-      // Render custom HTML glowing markers
       htmlElementsData={sites}
       htmlElement={d => {
         const el = document.createElement('div');
@@ -94,16 +89,24 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect }) {
                 border-radius: 100px;
                 border: 1px solid rgba(255,255,255,0.2);
                 backdrop-filter: blur(4px);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
               ">
-                ${d.name} <span style="color: ${color}; margin-left: 4px;">${d.computedScore}%</span>
+                <div>${d.name} <span style="color: ${color}; margin-left: 4px;">${d.computedScore}%</span></div>
+                <div style="font-size: 9px; color: #38bdf8; margin-top: 3px; text-transform: uppercase; letter-spacing: 1px; font-weight: 900; animation: pulse 2s infinite;">► Click for High-Res Map</div>
               </div>
             ` : ''}
           </div>
         `;
         
-        el.onclick = () => onSelect(d);
-        // Let pointer events pass through to allow clicking
-        el.style.pointerEvents = 'none';
+        el.onclick = () => {
+          if (isSelected && onDeepDive) {
+            onDeepDive(d);
+          } else {
+            onSelect(d);
+          }
+        };
         return el;
       }}
       

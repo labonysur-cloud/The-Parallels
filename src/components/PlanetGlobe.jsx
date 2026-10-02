@@ -46,7 +46,7 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect, onDeepDive 
       ringLat={d => d.lat}
       ringLng={d => d.lon}
       ringColor={d => d.computedScore >= 80 ? '#22c55e' : d.computedScore >= 65 ? '#eab308' : '#ef4444'}
-      ringMaxRadius={3}
+      ringMaxRadius={4}
       ringPropagationSpeed={2}
       ringRepeatPeriod={800}
 
@@ -56,23 +56,26 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect, onDeepDive 
         const isSelected = selectedSite?.id === d.id;
         const color = d.computedScore >= 80 ? '#22c55e' : d.computedScore >= 65 ? '#eab308' : '#ef4444';
         
+        // Ensure the outer element can receive pointer events
+        el.style.pointerEvents = 'auto';
+        el.style.cursor = 'pointer';
+        
         el.innerHTML = `
           <div style="
             display: flex;
             flex-direction: column;
             align-items: center;
-            cursor: pointer;
             transform: translate(-50%, -50%);
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            pointer-events: auto;
+            padding: 20px; /* Larger hit area */
           ">
             <div style="
-              width: ${isSelected ? '24px' : '12px'};
-              height: ${isSelected ? '24px' : '12px'};
+              width: ${isSelected ? '28px' : '16px'};
+              height: ${isSelected ? '28px' : '16px'};
               background: ${color};
-              border: ${isSelected ? '3px' : '2px'} solid white;
+              border: ${isSelected ? '4px' : '2px'} solid white;
               border-radius: 50%;
-              box-shadow: 0 0 ${isSelected ? '30px' : '15px'} ${color};
+              box-shadow: 0 0 ${isSelected ? '40px' : '15px'} ${color};
               transition: all 0.4s ease;
             "></div>
             ${isSelected ? `
@@ -100,13 +103,20 @@ export default function PlanetGlobe({ sites, selectedSite, onSelect, onDeepDive 
           </div>
         `;
         
-        el.onclick = () => {
+        // Use pointerdown/click and stop propagation to prevent globe from swallowing the event
+        const handleInteraction = (e) => {
+          e.stopPropagation();
+          e.preventDefault();
           if (isSelected && onDeepDive) {
             onDeepDive(d);
-          } else {
+          } else if (onSelect) {
             onSelect(d);
           }
         };
+
+        el.onpointerdown = handleInteraction;
+        el.onclick = handleInteraction;
+        
         return el;
       }}
       

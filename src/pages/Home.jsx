@@ -1,46 +1,46 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Rocket, Globe as GlobeIcon, Crosshair, Radar } from 'lucide-react';
+import { Crosshair, Radar } from 'lucide-react';
 import Globe from 'react-globe.gl';
 
-const TEXTURES = {
-  earth: 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg',
-  bumpMap: 'https://unpkg.com/three-globe/example/img/earth-topology.png',
-  background: 'https://unpkg.com/three-globe/example/img/night-sky.png'
-};
+const MARS_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg';
+const MOON_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg';
+
+// A small, independently rotating 3D globe component for the cards
+function MiniGlobe({ texture, atmosphereColor, speed = 2.0 }) {
+  const globeEl = useRef();
+  
+  useEffect(() => {
+    if (globeEl.current) {
+      globeEl.current.controls().autoRotate = true;
+      globeEl.current.controls().autoRotateSpeed = speed;
+      globeEl.current.controls().enableZoom = false;
+    }
+  }, []);
+
+  return (
+    <Globe
+      ref={globeEl}
+      width={160}
+      height={160}
+      globeImageUrl={texture}
+      atmosphereColor={atmosphereColor}
+      atmosphereAltitude={0.15}
+      backgroundColor="rgba(0,0,0,0)"
+    />
+  );
+}
 
 export default function Home() {
   const [scanning, setScanning] = useState(false);
   const [scanText, setScanText] = useState('');
   const [progress, setProgress] = useState(0);
   const navigate = useNavigate();
-  const globeEl = useRef();
-  const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
-
-  useEffect(() => {
-    const handleResize = () => setDimensions({ width: window.innerWidth, height: window.innerHeight });
-    window.addEventListener('resize', handleResize);
-    
-    // Configure globe controls once it mounts
-    if (globeEl.current) {
-      globeEl.current.controls().autoRotate = true;
-      globeEl.current.controls().autoRotateSpeed = 0.5;
-      globeEl.current.controls().enableZoom = false;
-    }
-    
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   const startScan = (target) => {
     setScanning(true);
     setScanText('Initializing orbital scan...');
-    
-    // Zoom in visually on the globe
-    if (globeEl.current) {
-      globeEl.current.controls().autoRotateSpeed = 4.0;
-      globeEl.current.pointOfView({ altitude: 1.2 }, 4000);
-    }
     
     setTimeout(() => { setScanText('Scanning Earth...'); setProgress(25); }, 800);
     setTimeout(() => { setScanText('1,248 candidate regions found...'); setProgress(50); }, 1800);
@@ -54,23 +54,12 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen bg-space-950 text-white overflow-hidden">
+    <div className="relative min-h-screen bg-black text-white overflow-hidden">
       
-      {/* 3D Background */}
-      <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
-        <Globe
-          ref={globeEl}
-          width={dimensions.width}
-          height={dimensions.height}
-          globeImageUrl={TEXTURES.earth}
-          bumpImageUrl={TEXTURES.bumpMap}
-          backgroundImageUrl={TEXTURES.background}
-          atmosphereColor="#38bdf8"
-          atmosphereAltitude={0.15}
-        />
-      </div>
+      {/* Deep black aesthetic background with a subtle starfield effect */}
+      <div className="absolute inset-0 z-0 pointer-events-none bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neutral-900/40 via-black to-black"></div>
 
-      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-6 starfield">
+      <div className="relative z-10 min-h-screen flex flex-col items-center justify-center p-6">
         <AnimatePresence mode="wait">
           {!scanning ? (
             <motion.div 
@@ -78,101 +67,107 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9 }}
-              className="max-w-3xl w-full text-center space-y-12"
+              className="max-w-4xl w-full text-center space-y-16"
             >
-              <div className="space-y-4">
-                <h1 className="text-6xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-nasa-light to-white tracking-tight drop-shadow-lg">
+              <div className="space-y-4 mt-8">
+                <h1 className="text-7xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-500 tracking-tighter drop-shadow-2xl">
                   THE PARALLEL
                 </h1>
-                <p className="text-xl text-muted font-light max-w-2xl mx-auto drop-shadow-md">
+                <p className="text-lg text-neutral-400 font-light max-w-2xl mx-auto tracking-wide">
                   An explainable decision-support system that identifies Earth environments suitable for specific lunar and Martian mission preparation tasks.
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-6 pt-8">
+              <div className="grid md:grid-cols-2 gap-8 pt-4">
                 {/* Mars Mission Card */}
-                <div className="glass p-8 rounded-2xl border border-white/10 hover:border-nasa-red/50 transition-all group relative overflow-hidden backdrop-blur-md bg-black/20">
-                  <div className="absolute inset-0 bg-nasa-red/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="relative z-10 flex flex-col items-center space-y-6">
-                    <div className="p-4 bg-nasa-red/20 rounded-full text-nasa-red shadow-[0_0_15px_rgba(239,68,68,0.5)]">
-                      <Rocket size={40} />
+                <div className="p-8 rounded-3xl border border-neutral-800 hover:border-nasa-red/40 transition-all duration-500 group relative overflow-hidden bg-gradient-to-b from-neutral-900/50 to-black shadow-2xl">
+                  <div className="absolute inset-0 bg-nasa-red/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="relative z-10 flex flex-col items-center space-y-8">
+                    
+                    {/* 3D Mars Model */}
+                    <div className="w-[160px] h-[160px] rounded-full flex items-center justify-center shadow-[0_0_40px_rgba(252,61,33,0.15)] group-hover:shadow-[0_0_60px_rgba(252,61,33,0.3)] transition-shadow duration-500">
+                      <MiniGlobe texture={MARS_TEXTURE} atmosphereColor="#FC3D21" speed={2.5} />
                     </div>
-                    <div>
-                      <h2 className="text-2xl font-bold mb-2 drop-shadow-sm">Human Mars EVA</h2>
-                      <p className="text-sm text-muted">14-day geological exploration & rover testing</p>
+
+                    <div className="space-y-2">
+                      <h2 className="text-3xl font-bold text-white tracking-tight">Human Mars EVA</h2>
+                      <p className="text-sm text-neutral-400 font-light">14-day geological exploration & rover testing</p>
                     </div>
                     <button 
                       onClick={() => startScan('mars')}
-                      className="w-full py-4 bg-nasa-red hover:bg-red-600 text-white rounded-xl font-bold tracking-wide transition-colors flex items-center justify-center gap-2 shadow-lg"
+                      className="w-full py-4 bg-nasa-red/10 hover:bg-nasa-red text-nasa-red hover:text-white border border-nasa-red/20 rounded-2xl font-bold tracking-widest transition-all duration-300 flex items-center justify-center gap-3 uppercase text-sm"
                     >
-                      <Radar size={20} />
+                      <Radar size={18} />
                       FIND MY MARS
                     </button>
                   </div>
                 </div>
 
                 {/* Moon Mission Card */}
-                <div className="glass p-8 rounded-2xl border border-white/10 hover:border-nasa-light/50 transition-all group relative overflow-hidden backdrop-blur-md bg-black/20">
-                  <div className="absolute inset-0 bg-nasa-light/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="relative z-10 flex flex-col items-center space-y-6">
-                    <div className="p-4 bg-nasa-light/20 rounded-full text-nasa-light shadow-[0_0_15px_rgba(56,189,248,0.5)]">
-                      <GlobeIcon size={40} />
+                <div className="p-8 rounded-3xl border border-neutral-800 hover:border-white/30 transition-all duration-500 group relative overflow-hidden bg-gradient-to-b from-neutral-900/50 to-black shadow-2xl">
+                  <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="relative z-10 flex flex-col items-center space-y-8">
+                    
+                    {/* 3D Moon Model */}
+                    <div className="w-[160px] h-[160px] rounded-full flex items-center justify-center shadow-[0_0_40px_rgba(255,255,255,0.1)] group-hover:shadow-[0_0_60px_rgba(255,255,255,0.2)] transition-shadow duration-500">
+                      <MiniGlobe texture={MOON_TEXTURE} atmosphereColor="#ffffff" speed={1.5} />
                     </div>
-                    <div>
-                      <h2 className="text-2xl font-bold mb-2 drop-shadow-sm">Lunar Base Camp</h2>
-                      <p className="text-sm text-muted">Polar crater exploration & dust environment testing</p>
+
+                    <div className="space-y-2">
+                      <h2 className="text-3xl font-bold text-white tracking-tight">Lunar Base Camp</h2>
+                      <p className="text-sm text-neutral-400 font-light">Polar crater exploration & dust environment testing</p>
                     </div>
                     <button 
                       onClick={() => startScan('moon')}
-                      className="w-full py-4 bg-nasa-light hover:bg-blue-400 text-space-950 rounded-xl font-bold tracking-wide transition-colors flex items-center justify-center gap-2 shadow-lg"
+                      className="w-full py-4 bg-white/5 hover:bg-white text-white hover:text-black border border-white/10 rounded-2xl font-bold tracking-widest transition-all duration-300 flex items-center justify-center gap-3 uppercase text-sm"
                     >
-                      <Crosshair size={20} />
+                      <Crosshair size={18} />
                       FIND MY MOON
                     </button>
                   </div>
                 </div>
               </div>
               
-              <p className="text-xs text-muted/60 pt-12 uppercase tracking-widest drop-shadow-sm">
+              <p className="text-xs text-neutral-600 pt-8 uppercase tracking-[0.2em]">
                 No Earth location is another planet. It is an analogue.
               </p>
             </motion.div>
           ) : (
             <motion.div 
               key="scanning"
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
-              className="flex flex-col items-center max-w-md w-full space-y-8 glass p-10 rounded-3xl backdrop-blur-md bg-black/40 border border-white/10"
+              className="flex flex-col items-center max-w-md w-full space-y-10 p-12 rounded-3xl bg-neutral-900/30 border border-neutral-800 backdrop-blur-xl"
             >
-              <div className="relative w-48 h-48">
-                <GlobeIcon size={192} className="text-nasa-light animate-pulse-slow" strokeWidth={1} />
+              <div className="relative w-48 h-48 flex items-center justify-center">
+                <MiniGlobe texture={MARS_TEXTURE} atmosphereColor="#38bdf8" speed={6.0} />
                 <motion.div 
-                  className="absolute inset-0 border-t-2 border-nasa-light rounded-full"
+                  className="absolute inset-0 border-t-2 border-l-2 border-white/40 rounded-full"
                   animate={{ rotate: 360 }}
-                  transition={{ duration: 1.5, repeat: Infinity, ease: "linear" }}
+                  transition={{ duration: 1.0, repeat: Infinity, ease: "linear" }}
                 />
               </div>
               
-              <div className="w-full space-y-4 text-center">
-                <h3 className="text-2xl font-bold text-nasa-light font-heading h-8 drop-shadow-sm">
+              <div className="w-full space-y-6 text-center">
+                <h3 className="text-xl font-bold text-white tracking-wide h-8">
                   {scanText}
                 </h3>
                 
-                <div className="h-2 w-full bg-space-800 rounded-full overflow-hidden">
+                <div className="h-1.5 w-full bg-neutral-800 rounded-full overflow-hidden">
                   <motion.div 
-                    className="h-full bg-gradient-to-r from-nasa-blue to-nasa-light"
+                    className="h-full bg-white"
                     initial={{ width: 0 }}
                     animate={{ width: `${progress}%` }}
                     transition={{ duration: 0.5 }}
                   />
                 </div>
                 
-                <div className="text-left font-mono text-xs text-nasa-light/90 space-y-1">
-                  <p>{progress > 10 ? 'Terrain ........ ✓' : 'Terrain ........ pending'}</p>
-                  <p>{progress > 30 ? 'Climate ........ ✓' : 'Climate ........ pending'}</p>
-                  <p>{progress > 50 ? 'Geology ........ ✓' : 'Geology ........ pending'}</p>
-                  <p>{progress > 70 ? 'Dryness ........ ✓' : 'Dryness ........ pending'}</p>
-                  <p>{progress > 85 ? 'Isolation ...... ✓' : 'Isolation ...... pending'}</p>
+                <div className="text-left font-mono text-xs text-neutral-400 space-y-2 uppercase tracking-wider">
+                  <p className="flex justify-between"><span>Terrain</span> <span>{progress > 10 ? '✓' : '...'}</span></p>
+                  <p className="flex justify-between"><span>Climate</span> <span>{progress > 30 ? '✓' : '...'}</span></p>
+                  <p className="flex justify-between"><span>Geology</span> <span>{progress > 50 ? '✓' : '...'}</span></p>
+                  <p className="flex justify-between"><span>Dryness</span> <span>{progress > 70 ? '✓' : '...'}</span></p>
+                  <p className="flex justify-between"><span>Isolation</span> <span>{progress > 85 ? '✓' : '...'}</span></p>
                 </div>
               </div>
             </motion.div>

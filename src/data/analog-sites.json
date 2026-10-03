@@ -45,10 +45,8 @@
     "why_analog": "Soil perchlorate concentrations (0.01–0.5 wt%) and nitratine mineral assemblages match Phoenix and Curiosity lander discoveries on Mars. The extreme aridity (water activity aw < 0.15) and UV irradiance are the closest terrestrial approximation of Amazonian Mars conditions.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Atacama_desert.jpg/1280px-Atacama_desert.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "ISRO Cartosat-3",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Gale Crater / Jezero Crater floor"
@@ -100,9 +98,8 @@
     "why_analog": "Impact-shocked target rocks (carbonate/gneissic breccia), post-impact hydrothermal alteration producing clays and sulfates, and polygon-patterned permafrost ground match both the Moon's cratered highlands and Mars's Noachian terrains. Continuous permafrost serves as a cryosphere analog.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Haughton_crater_from_ISS.jpg/1280px-Haughton_crater_from_ISS.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "JAXA ALOS-2",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Lunar Highlands / Cabeus Crater region"
@@ -154,9 +151,8 @@
     "why_analog": "Badwater Basin's evaporite sequence (halite, gypsum, borax) mirrors Martian paleolake deposits at Gale Crater. The 'Mars Hill' desert pavement with iron-oxide desert varnish matches Viking 1 and Pathfinder landing site imagery. Ubehebe Crater is a phreatomagmatic maar analog to Martian maar craters.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
+      "TUA Turkey",
+      "NASA SRTM",
       "CSA Radarsat"
     ],
     "nasa_target": "mars",
@@ -207,9 +203,12 @@
     "why_analog": "Continuous deep permafrost (~500m), thermal contraction crack polygons (5–20m wavelength), and active layer dynamics are direct analogs to Martian high-latitude periglacial terrains at the Phoenix landing site (Vastitas Borealis).",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Devon_Island_NASA.jpg/1280px-Devon_Island_NASA.jpg",
     "data_sources": [
+      "ASES Senegal",
       "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "NASA PDS",
+      "ESA Copernicus",
+      "AEB Amazonia-1",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Vastitas Borealis / Phoenix landing site"
@@ -260,8 +259,9 @@
     "why_analog": "Unweathered tholeiitic basalt lava composition (SiO₂ ~49–51%) closely matches lunar mare basalts. Lava tubes provide subsurface shelter analogs. Palagonite tephra's VIS-NIR spectral signature matches bright Martian dust. The sparse, rocky terrain mirrors Apollo landing sites.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hawaii_lava_field.jpg/1280px-Hawaii_lava_field.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "CONAE SAOCOM",
+      "ASI COSMO-SkyMed",
+      "NASA PDS"
     ],
     "nasa_target": "moon",
     "target_region": "Lunar Mare Basalts / Apollo 12 site"
@@ -313,9 +313,10 @@
     "why_analog": "The lava tube skylights and subsurface caves are analogs to Marius Hills pit craters on the Moon (proposed lunar base shelter sites). Spatter cones and aa lava fields match the rough lunar highland terrain. The site's remoteness and monochromatic basaltic landscape provide psychological isolation training too.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Craters_of_the_Moon_NM_ID.jpg/1280px-Craters_of_the_Moon_NM_ID.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "Meteomatics API",
+      "AEE Spain",
+      "NASA MODIS",
+      "ASES Senegal"
     ],
     "nasa_target": "moon",
     "target_region": "Marius Hills Pit / Lacus Mortis"
@@ -366,8 +367,11 @@
     "why_analog": "Water activity can drop below 0.10, the driest known terrestrial habitat. Sand wedge polygons and thermal contraction cracks directly mirror Martian high-latitude periglacial terrain. Cryptoendolithic life inside rocks provides the closest analog to potential subsurface Martian life.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Dry_valleys_antarctica.jpg/1280px-Dry_valleys_antarctica.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "ESA Copernicus",
+      "KASA KARI",
+      "ESA Sentinel-2",
+      "GGPEN AngoSat-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Vastitas Borealis / Phoenix landing site"
@@ -418,9 +422,9 @@
     "why_analog": "The world's best analog for Martian acid-sulfate mineralogy. Jarosite [KFe₃(SO₄)₂(OH)₆], hematite 'blueberries', and goethite — the exact minerals identified by the Mars Opportunity rover at Meridiani Planum — form naturally here through iron sulfide oxidation.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rio_tinto_river_CarlosM.jpg/1280px-Rio_tinto_river_CarlosM.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "ASI COSMO-SkyMed",
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Meridiani Planum (Opportunity rover site)"
@@ -471,9 +475,10 @@
     "why_analog": "Extreme brine chemistry (Cl/SO₄ dominated), sulfur-rich hydrothermal vents, and iron-oxide salt crusts match proposed early Mars hydrothermal environments. The hypersaline, highly acidic brines are among the few terrestrial analogs for proposed transient liquid water on present-day Mars.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dallol_2007.jpg/1280px-Dallol_2007.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEE Spain",
+      "CONAE SAOCOM",
+      "AEB Amazonia-1",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Valles Marineris hydrothermal deposits"
@@ -522,10 +527,12 @@
     "why_analog": "Active tholeiitic basalt lava eruptions with composition (SiO₂ ~48%, FeO ~12%) matching lunar mare basalt. Fresh lava flow surfaces provide direct analogs to young lunar mare terrain before space weathering. The shield volcano morphology also mirrors broad lunar volcanic structures.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Erta_Ale.jpg/1280px-Erta_Ale.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "CSA Radarsat",
+      "NASRDA NigeriaSat",
+      "BSA NSSA",
+      "CONAE SAOCOM",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Lunar Maria (Mare Imbrium / Oceanus Procellarum)"
@@ -576,8 +583,9 @@
     "why_analog": "ESA trained astronauts here for lunar surface geology. Fresh basalt lava flows, caldera lakes, geothermal features, and palagonite tephra (spectrally identical to Martian bright dust) make Askja an exceptional dual-body analog. Apollo 11 crew trained in Iceland in 1965.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Holuhraun_Fissure_Eruption.jpg/1280px-Holuhraun_Fissure_Eruption.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "JAXA ALOS-2",
+      "AEB Amazonia-1",
+      "AEP Paraguay"
     ],
     "nasa_target": "moon",
     "target_region": "Aristarchus Plateau / Mare Basalts"
@@ -627,10 +635,11 @@
     "why_analog": "Giant aeolian dune systems mirror Martian sand seas (ergs) like the Bagnold Dunes explored by Curiosity. The dry clay pans (vleis) resemble ancient Martian lake bed deposits. Extreme aridity and high diurnal temperature swings add to the Martian parallel.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sossusvlei_Namibia.jpg/1280px-Sossusvlei_Namibia.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
+      "ESA Copernicus",
+      "BSA NSSA",
       "CSA Radarsat",
-      "NASA SRTM Topography"
+      "TUA Turkey",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "mars",
     "target_region": "Bagnold Dune Field / Gale Crater"
@@ -680,8 +689,12 @@
     "why_analog": "The clay-rich eroded badlands contain smectite and gypsum that closely match the mineralogy of Mars's Hesperian-age sedimentary deposits. ESA's ExoMars team uses Tabernas as a field site. The UV exposure is among Europe's highest.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Desierto_de_Tabernas_02.jpg/1280px-Desierto_de_Tabernas_02.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "AEP Paraguay",
+      "ESA Copernicus",
+      "ASES Senegal",
+      "NASA MODIS",
+      "TUA Turkey",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Meridiani sedimentary deposits"
@@ -731,8 +744,10 @@
     "why_analog": "One of ESA's official astronaut training sites for Moon and Mars geology. The extensive lava tube network at Jameos del Agua provides direct analogs to lunar lava tube shelters. The recent (300-year-old) basaltic flows are essentially unweathered, mirroring young lunar mare surfaces.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Timanfaya_National_Park_2011_2.jpg/1280px-Timanfaya_National_Park_2011_2.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "NASA SRTM",
+      "ESA Copernicus",
+      "GGPEN AngoSat-2",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "moon",
     "target_region": "Lacus Mortis / Marius Hills pit craters"
@@ -782,10 +797,10 @@
     "why_analog": "The suevite breccia, shocked quartz PDFs (planar deformation features), diaplectic glass, and hydrothermal post-impact minerals provide a well-studied ground truth for impact processes on the Moon and Mars. Apollo astronauts trained at Ries Crater in 1970.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Noerdlingen.jpg/1280px-Noerdlingen.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "Meteomatics API",
+      "KASA KARI",
+      "AEP Paraguay",
+      "NASA SRTM"
     ],
     "nasa_target": "moon",
     "target_region": "Cabeus / Shackleton Crater ejecta blanket"
@@ -836,9 +851,8 @@
     "why_analog": "The Qaidam Basin is recognized by CNSA and international researchers as one of the best Mars analogs in Asia — featuring salt-encrusted lake beds, sulfate-rich soils, extreme diurnal temperature variation, and strong UV at altitude. Surface albedo and spectral features closely match Mars imagery.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Qaidam_basin_from_space.jpg/1280px-Qaidam_basin_from_space.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Hellas Basin / Isidis Planitia"
@@ -889,9 +903,9 @@
     "why_analog": "Fresh basalt composition (SiO₂ ~49%, FeO ~12%) is the closest Earth match to lunar mare basalt and Martian basaltic plains. The pāhoehoe/ʻaʻā duality mirrors Lunar/Martian flow types. Hawaiian lava tubes (up to 30m wide) are ground-truth analogs for the proposed much larger Moon/Mars lava tube shelters.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pahoeoe_fountain_original.jpg/1280px-Pahoeoe_fountain_original.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "Meteomatics API",
+      "AEB Amazonia-1",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Oceanus Procellarum / Tharsis Volcanic Province"
@@ -941,10 +955,9 @@
     "why_analog": "Mega-dune fields with star dunes, linear dunes, and interdune corridors mirror the Bagnold Dunes at Gale Crater and the north polar erg (Olympia Undae) on Mars. Extreme aridity, wind erosion (ventifacts), and high UV exposure complete the analogy.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sahara_desert_erg.jpg/1280px-Sahara_desert_erg.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "BSA NSSA",
+      "CONAE SAOCOM",
+      "AEP Paraguay"
     ],
     "nasa_target": "mars",
     "target_region": "North Polar Erg (Olympia Undae)"
@@ -995,8 +1008,10 @@
     "why_analog": "Multiple concurrent active volcanoes in various stages of eruption, fumarolic activity, lava flow types (pāhoehoe to block lava), and geothermal features provide exceptional training ground for planetary volcanology. The sub-arctic volcanic setting mirrors hypothetical ancient lunar/Martian sub-glacial volcanism.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Klyuchevskoy_volcano.jpg/1280px-Klyuchevskoy_volcano.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "GGPEN AngoSat-2",
+      "JAXA ALOS-2",
+      "BSA NSSA",
+      "ESA Copernicus"
     ],
     "nasa_target": "moon",
     "target_region": "Aristarchus Plateau pyroclastics"
@@ -1045,9 +1060,12 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "ESA Sentinel-2",
+      "AEB Amazonia-1",
+      "GGPEN AngoSat-2",
+      "JAXA ALOS-2",
+      "TUA Turkey",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -1095,9 +1113,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "CSA Radarsat",
+      "NASA SRTM",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1145,8 +1163,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "AEE Spain",
+      "ESA Copernicus",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1195,10 +1214,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ISRO Cartosat-3",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -1246,10 +1264,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "AEE Spain",
+      "NASA PDS",
+      "NASA MODIS",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1297,8 +1315,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "BSA NSSA",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1346,10 +1364,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
+      "NASA PDS",
+      "AEB Amazonia-1",
       "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "AEP Paraguay",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1397,9 +1416,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "GGPEN AngoSat-2",
+      "AEE Spain",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1447,8 +1466,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "NASRDA NigeriaSat",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1496,10 +1516,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "ESA Sentinel-2",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1547,8 +1566,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "ESA Sentinel-2",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1596,8 +1615,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "JAXA ALOS-2",
+      "ESA Sentinel-2",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1646,9 +1666,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "JAXA ALOS-2",
+      "AEB Amazonia-1",
+      "NASA SRTM",
+      "CONAE SAOCOM",
+      "AEP Paraguay"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -1696,10 +1718,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -1747,8 +1767,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "ESA Sentinel-2",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1796,9 +1816,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ISRO Cartosat-3",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1846,10 +1865,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "ASI COSMO-SkyMed",
+      "AEP Paraguay",
+      "NASA PDS",
+      "ASES Senegal",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1898,10 +1918,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "BSA NSSA",
+      "TUA Turkey",
+      "KASA KARI"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -1949,10 +1968,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "Meteomatics API",
+      "CONAE SAOCOM",
+      "AEP Paraguay",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2000,8 +2019,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "CONAE SAOCOM",
+      "ESA Copernicus"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2049,9 +2068,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "ASI COSMO-SkyMed",
+      "ISRO Cartosat-3",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2100,9 +2119,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "ESA Sentinel-2",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2150,10 +2169,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "NASA SRTM",
+      "NASA MODIS",
+      "BSA NSSA",
+      "Meteomatics API",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2201,9 +2221,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "TUA Turkey",
+      "AEP Paraguay",
+      "CSA Radarsat",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2252,9 +2273,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "ESA Sentinel-2",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2302,10 +2322,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "NASA PDS",
+      "ESA Copernicus",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -2353,10 +2372,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "ISRO Cartosat-3",
+      "Meteomatics API",
+      "NASA PDS",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2404,10 +2423,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
+      "TUA Turkey",
       "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "NASA SRTM",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2455,9 +2475,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "NASA SRTM",
+      "NASA MODIS",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2505,8 +2526,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEB Amazonia-1",
+      "CONAE SAOCOM",
+      "ESA Copernicus"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -2555,10 +2577,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "BSA NSSA",
+      "NASA MODIS",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2606,10 +2628,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
+      "NASA MODIS",
       "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "CONAE SAOCOM",
+      "TUA Turkey"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -2658,9 +2680,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "AEE Spain",
+      "TUA Turkey",
+      "NASA MODIS",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -2708,8 +2731,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "ESA Copernicus",
+      "TUA Turkey",
+      "CONAE SAOCOM",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2758,10 +2783,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2809,9 +2832,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "KASA KARI",
+      "AEE Spain",
+      "AEP Paraguay"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2859,9 +2882,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "NASA MODIS",
+      "AEB Amazonia-1",
+      "NASA SRTM",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2910,10 +2934,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "KASA KARI",
+      "AEP Paraguay",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -2961,9 +2984,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "ASES Senegal",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3011,9 +3033,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "ESA Copernicus",
+      "CONAE SAOCOM",
+      "AEB Amazonia-1",
+      "ASES Senegal",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3061,10 +3085,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "NASA MODIS",
+      "NASRDA NigeriaSat",
+      "BSA NSSA"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3112,10 +3135,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "KASA KARI",
+      "ESA Copernicus",
+      "NASA PDS",
+      "CONAE SAOCOM",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3163,8 +3187,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "Meteomatics API",
+      "GGPEN AngoSat-2",
+      "NASA SRTM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3212,9 +3237,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "NASA PDS",
+      "NASA MODIS",
+      "ASES Senegal",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3262,8 +3288,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "JAXA ALOS-2",
+      "NASRDA NigeriaSat",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3311,10 +3338,12 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
+      "CONAE SAOCOM",
       "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "KASA KARI",
+      "AEE Spain",
+      "ASES Senegal",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3362,8 +3391,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "BSA NSSA",
+      "JAXA ALOS-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3411,10 +3441,12 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
       "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "NASA MODIS",
+      "ASI COSMO-SkyMed",
+      "TUA Turkey",
+      "AEE Spain",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3462,8 +3494,12 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "NASA PDS",
+      "AEP Paraguay",
+      "GGPEN AngoSat-2",
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3512,8 +3548,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3561,9 +3597,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "NASRDA NigeriaSat",
+      "ASES Senegal",
+      "JAXA ALOS-2",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3611,9 +3648,9 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "AEP Paraguay",
+      "ASI COSMO-SkyMed",
+      "BSA NSSA"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3661,8 +3698,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "NASRDA NigeriaSat",
+      "ASES Senegal",
+      "CONAE SAOCOM",
+      "KASA KARI"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3711,8 +3750,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "BSA NSSA",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3760,9 +3799,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ESA Sentinel-2",
+      "AEP Paraguay",
+      "NASA MODIS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3811,9 +3851,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "ASES Senegal"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3861,8 +3900,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "KASA KARI",
+      "NASA SRTM",
+      "CONAE SAOCOM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -3911,8 +3952,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "ASES Senegal",
+      "ISRO Cartosat-3",
+      "JAXA ALOS-2",
+      "AEB Amazonia-1",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -3961,9 +4005,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "ISRO Cartosat-3",
+      "GGPEN AngoSat-2",
+      "NASA SRTM",
+      "TUA Turkey",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4011,9 +4057,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "NASA MODIS",
+      "GGPEN AngoSat-2",
+      "ESA Copernicus",
+      "TUA Turkey"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4061,9 +4108,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "AEE Spain",
+      "ASI COSMO-SkyMed",
+      "AEP Paraguay",
+      "ESA Copernicus",
+      "BSA NSSA"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4111,9 +4160,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "ISRO Cartosat-3",
+      "KASA KARI"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4161,9 +4209,10 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "AEE Spain",
+      "ESA Sentinel-2",
+      "CONAE SAOCOM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4212,7 +4261,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
+      "CONAE SAOCOM",
+      "NASA MODIS",
       "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
@@ -4262,9 +4312,11 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "NASA PDS",
+      "JAXA ALOS-2",
+      "AEE Spain",
+      "BSA NSSA",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4313,9 +4365,8 @@
     "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "CSA Radarsat",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4363,10 +4414,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Aruba offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "ISRO Cartosat-3",
+      "AEP Paraguay",
+      "NASA SRTM",
+      "ESA Copernicus",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4414,10 +4467,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Afghanistan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "CONAE SAOCOM",
+      "ISRO Cartosat-3",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4465,8 +4517,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Angola offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "AEP Paraguay",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4514,9 +4567,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Anguilla offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "CSA Radarsat",
+      "NASRDA NigeriaSat",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4565,8 +4618,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Åland Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "AEB Amazonia-1",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4614,10 +4667,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Albania offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "ESA Copernicus",
+      "BSA NSSA",
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4666,8 +4719,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Andorra offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "NASA PDS",
+      "NASA SRTM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4715,8 +4768,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of United Arab Emirates offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "NASA MODIS",
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4764,8 +4818,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Armenia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "ESA Sentinel-2",
+      "BSA NSSA",
+      "CONAE SAOCOM",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -4814,9 +4870,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of American Samoa offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "ISRO Cartosat-3",
+      "AEB Amazonia-1",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4865,8 +4921,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of French Southern and Antarctic Lands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "GGPEN AngoSat-2",
+      "KASA KARI",
+      "CSA Radarsat",
+      "CONAE SAOCOM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4915,8 +4974,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Antigua and Barbuda offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "NASRDA NigeriaSat",
+      "NASA SRTM",
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -4965,10 +5025,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Austria offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "ISRO Cartosat-3",
+      "AEE Spain",
+      "AEP Paraguay",
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5016,10 +5077,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Azerbaijan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "AEB Amazonia-1",
+      "ASI COSMO-SkyMed",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5067,9 +5127,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Burundi offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "NASA SRTM",
+      "ESA Copernicus",
+      "ASI COSMO-SkyMed",
+      "AEE Spain",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5117,10 +5179,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Belgium offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
       "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "AEP Paraguay",
+      "ASI COSMO-SkyMed",
+      "BSA NSSA"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5168,8 +5230,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Benin offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "AEP Paraguay",
+      "ISRO Cartosat-3",
+      "BSA NSSA",
+      "AEE Spain",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -5217,8 +5282,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Burkina Faso offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "CONAE SAOCOM",
+      "ASI COSMO-SkyMed",
+      "GGPEN AngoSat-2",
+      "TUA Turkey"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -5267,8 +5335,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bangladesh offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "KASA KARI",
+      "CONAE SAOCOM",
+      "NASA MODIS",
+      "CSA Radarsat"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -5316,9 +5386,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bulgaria offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "TUA Turkey",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5366,8 +5437,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bahrain offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "AEP Paraguay",
+      "GGPEN AngoSat-2",
+      "TUA Turkey",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5415,8 +5488,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bahamas offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "BSA NSSA",
+      "NASA SRTM",
+      "AEE Spain",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -5464,9 +5539,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bosnia and Herzegovina offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "BSA NSSA",
+      "NASA PDS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5514,10 +5588,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Barthélemy offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "JAXA ALOS-2",
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5565,8 +5637,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Helena, Ascension and Tristan da Cunha offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "NASA PDS",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5614,9 +5686,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Belarus offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "GGPEN AngoSat-2",
+      "AEB Amazonia-1",
+      "BSA NSSA",
+      "Meteomatics API",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5664,8 +5738,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Belize offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "Meteomatics API",
+      "BSA NSSA",
+      "NASA SRTM",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5714,9 +5790,10 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
       "ESA Sentinel-2",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "NASA MODIS",
+      "NASA PDS",
+      "KASA KARI",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -5765,8 +5842,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Caribbean Netherlands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "JAXA ALOS-2",
+      "NASA MODIS",
+      "CSA Radarsat",
+      "NASRDA NigeriaSat",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5814,10 +5894,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Barbados offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "BSA NSSA",
+      "AEP Paraguay"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5865,8 +5943,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Brunei offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "KASA KARI",
+      "AEB Amazonia-1",
+      "NASA PDS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5914,9 +5993,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bhutan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ESA Copernicus",
+      "GGPEN AngoSat-2",
+      "NASRDA NigeriaSat",
+      "TUA Turkey",
+      "JAXA ALOS-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -5964,8 +6046,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Bouvet Island offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "AEE Spain",
+      "Meteomatics API",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6013,10 +6096,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Botswana offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ASI COSMO-SkyMed",
+      "CONAE SAOCOM",
+      "AEB Amazonia-1",
+      "JAXA ALOS-2",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6064,10 +6148,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Central African Republic offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "TUA Turkey",
+      "NASA SRTM",
+      "Meteomatics API",
+      "KASA KARI"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6115,9 +6199,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cocos (Keeling) Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "NASA MODIS",
+      "CONAE SAOCOM",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6165,9 +6250,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Switzerland offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "NASA MODIS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6215,9 +6299,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Ivory Coast offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "ISRO Cartosat-3",
+      "ESA Copernicus",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6265,9 +6350,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cameroon offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "NASRDA NigeriaSat",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6315,8 +6400,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of DR Congo offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "JAXA ALOS-2",
+      "BSA NSSA",
+      "NASA MODIS",
+      "ESA Sentinel-2",
+      "TUA Turkey"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6364,10 +6452,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Congo offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "CSA Radarsat",
+      "Meteomatics API",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6415,8 +6502,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cook Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "JAXA ALOS-2",
+      "Meteomatics API",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6464,9 +6552,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Comoros offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEB Amazonia-1",
+      "AEP Paraguay",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6515,8 +6603,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cape Verde offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "ISRO Cartosat-3",
+      "TUA Turkey",
+      "Meteomatics API",
+      "GGPEN AngoSat-2",
+      "NASA PDS"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6564,8 +6655,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Costa Rica offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "AEP Paraguay",
+      "GGPEN AngoSat-2",
+      "BSA NSSA",
+      "CSA Radarsat",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6613,8 +6707,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cuba offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "NASA SRTM",
+      "AEB Amazonia-1",
+      "JAXA ALOS-2",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6663,9 +6759,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Curaçao offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "NASRDA NigeriaSat",
+      "Meteomatics API",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6713,10 +6809,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Christmas Island offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "AEE Spain",
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6764,9 +6859,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cayman Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "BSA NSSA",
+      "NASRDA NigeriaSat",
+      "JAXA ALOS-2",
+      "ASI COSMO-SkyMed",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6814,10 +6911,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cyprus offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "GGPEN AngoSat-2",
+      "ESA Copernicus",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6865,10 +6961,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Djibouti offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "Meteomatics API",
+      "KASA KARI",
+      "JAXA ALOS-2",
+      "ASES Senegal",
+      "NASA PDS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -6917,10 +7014,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Dominica offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "TUA Turkey",
+      "NASA MODIS",
+      "KASA KARI"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -6968,10 +7064,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Denmark offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "ISRO Cartosat-3",
+      "GGPEN AngoSat-2",
+      "AEP Paraguay",
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7020,10 +7116,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Dominican Republic offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "ISRO Cartosat-3",
+      "NASRDA NigeriaSat",
+      "AEP Paraguay",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7072,10 +7168,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Egypt offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEP Paraguay",
+      "Meteomatics API",
+      "CONAE SAOCOM",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -7123,9 +7219,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Eritrea offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "ASES Senegal",
+      "ISRO Cartosat-3",
+      "NASA PDS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7173,8 +7269,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Western Sahara offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "NASA MODIS",
+      "TUA Turkey",
+      "ASES Senegal",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -7223,10 +7322,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Estonia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "NASA SRTM",
+      "JAXA ALOS-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7274,9 +7372,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Finland offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
+      "JAXA ALOS-2",
+      "ESA Copernicus",
       "CSA Radarsat",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7324,8 +7424,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Fiji offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "BSA NSSA",
+      "AEP Paraguay"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7373,8 +7473,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Falkland Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "GGPEN AngoSat-2",
+      "NASA SRTM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7423,9 +7523,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of France offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "AEE Spain",
+      "NASRDA NigeriaSat",
+      "KASA KARI",
+      "NASA PDS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7473,8 +7574,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Faroe Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "NASA SRTM",
+      "GGPEN AngoSat-2",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -7523,10 +7625,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Micronesia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "NASA PDS",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -7575,9 +7675,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Gabon offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "Meteomatics API",
+      "NASA SRTM",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7625,9 +7726,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of United Kingdom offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "AEE Spain",
+      "ASI COSMO-SkyMed",
+      "TUA Turkey",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7675,10 +7777,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Georgia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "ESA Copernicus",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -7726,10 +7826,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guernsey offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "AEB Amazonia-1",
+      "BSA NSSA"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7777,10 +7875,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Ghana offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
+      "NASRDA NigeriaSat",
+      "AEB Amazonia-1",
+      "AEP Paraguay",
       "CSA Radarsat",
-      "NASA MODIS Temp"
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7828,8 +7928,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Gibraltar offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "AEE Spain",
+      "ASES Senegal",
+      "NASRDA NigeriaSat",
+      "KASA KARI",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7878,9 +7981,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guinea offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "AEP Paraguay",
+      "JAXA ALOS-2",
+      "Meteomatics API",
+      "CSA Radarsat",
+      "NASA PDS"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -7929,10 +8034,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guadeloupe offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
       "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -7981,10 +8084,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Gambia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "TUA Turkey",
+      "AEP Paraguay",
+      "NASA SRTM",
+      "KASA KARI"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8032,9 +8135,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guinea-Bissau offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
+      "NASRDA NigeriaSat",
+      "KASA KARI",
+      "ISRO Cartosat-3",
+      "ASI COSMO-SkyMed",
       "CSA Radarsat"
     ],
     "nasa_target": "moon",
@@ -8083,10 +8187,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Equatorial Guinea offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "GGPEN AngoSat-2",
+      "BSA NSSA"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8135,9 +8237,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Greece offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "KASA KARI",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8186,8 +8287,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Grenada offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "AEE Spain",
+      "ASES Senegal",
+      "ISRO Cartosat-3",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8235,8 +8338,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Greenland offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "ASES Senegal",
+      "NASA PDS",
+      "NASRDA NigeriaSat",
+      "BSA NSSA",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8284,9 +8390,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guatemala offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "ESA Copernicus",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8335,9 +8440,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of French Guiana offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "AEB Amazonia-1",
+      "NASA SRTM",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8385,10 +8491,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guam offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "NASA MODIS",
+      "TUA Turkey"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8437,10 +8541,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Guyana offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "KASA KARI",
+      "NASA PDS",
+      "JAXA ALOS-2",
+      "NASA SRTM",
+      "TUA Turkey",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8488,8 +8594,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Hong Kong offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "ASES Senegal",
+      "JAXA ALOS-2",
+      "BSA NSSA",
+      "TUA Turkey",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8537,10 +8646,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Heard Island and McDonald Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "BSA NSSA",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8589,10 +8696,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Honduras offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "ESA Copernicus",
+      "GGPEN AngoSat-2",
+      "CONAE SAOCOM",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8640,9 +8747,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Croatia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "JAXA ALOS-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8690,10 +8797,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Haiti offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "ESA Copernicus",
+      "BSA NSSA",
+      "ISRO Cartosat-3",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8741,10 +8849,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Hungary offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "KASA KARI",
+      "TUA Turkey",
+      "NASA MODIS",
+      "AEB Amazonia-1",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8793,8 +8902,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Indonesia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "BSA NSSA",
+      "ASI COSMO-SkyMed",
+      "Meteomatics API",
+      "NASA SRTM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8842,10 +8953,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Isle of Man offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "NASA PDS",
+      "CONAE SAOCOM",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -8893,10 +9003,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Ireland offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "ESA Copernicus",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8944,10 +9052,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Iran offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "JAXA ALOS-2",
+      "NASA PDS",
+      "AEE Spain",
+      "NASA SRTM",
+      "KASA KARI"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -8995,10 +9104,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Iraq offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "ISRO Cartosat-3",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9046,9 +9153,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Jamaica offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "ESA Copernicus",
+      "CSA Radarsat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9096,9 +9202,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Jersey offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
+      "BSA NSSA",
       "CSA Radarsat",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "AEP Paraguay",
+      "AEE Spain",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9146,10 +9255,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Kazakhstan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "AEB Amazonia-1",
+      "NASA SRTM",
+      "ISRO Cartosat-3",
+      "AEE Spain",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9198,9 +9308,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Kenya offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9248,7 +9357,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Kyrgyzstan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
+      "AEP Paraguay",
+      "GGPEN AngoSat-2",
+      "NASA MODIS",
       "CSA Radarsat"
     ],
     "nasa_target": "mars",
@@ -9298,10 +9409,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Cambodia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "NASA MODIS",
+      "BSA NSSA",
+      "CONAE SAOCOM",
+      "NASRDA NigeriaSat",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -9349,8 +9461,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Kiribati offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "NASA SRTM",
+      "JAXA ALOS-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9399,9 +9512,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Kitts and Nevis offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "CONAE SAOCOM",
+      "ESA Sentinel-2",
+      "TUA Turkey"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -9449,9 +9562,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of South Korea offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEE Spain",
+      "KASA KARI",
+      "TUA Turkey",
+      "AEB Amazonia-1",
+      "GGPEN AngoSat-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9500,10 +9616,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Kosovo offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "ISRO Cartosat-3",
+      "NASRDA NigeriaSat",
+      "ESA Copernicus",
+      "ASES Senegal"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -9551,8 +9667,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Kuwait offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "TUA Turkey",
+      "NASA MODIS",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -9600,10 +9717,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Laos offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "AEE Spain",
+      "CONAE SAOCOM",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -9653,7 +9769,8 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
       "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "Meteomatics API",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9701,9 +9818,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Liberia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "NASA MODIS",
+      "NASRDA NigeriaSat",
+      "AEB Amazonia-1",
+      "JAXA ALOS-2",
+      "BSA NSSA"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9751,10 +9870,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Lucia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "ISRO Cartosat-3",
+      "AEB Amazonia-1",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9803,9 +9921,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Liechtenstein offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "ASI COSMO-SkyMed",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9853,10 +9970,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Sri Lanka offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "NASRDA NigeriaSat",
+      "NASA MODIS",
+      "ESA Copernicus",
+      "GGPEN AngoSat-2",
+      "ESA Sentinel-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9904,8 +10023,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Lesotho offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "GGPEN AngoSat-2",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -9953,9 +10073,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Lithuania offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "ESA Copernicus",
+      "JAXA ALOS-2",
+      "TUA Turkey"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10003,9 +10124,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Luxembourg offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "AEP Paraguay",
+      "BSA NSSA",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10053,8 +10174,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Latvia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "AEP Paraguay",
+      "CSA Radarsat",
+      "ESA Copernicus",
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10102,10 +10225,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Macau offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "CONAE SAOCOM",
+      "NASA SRTM",
+      "KASA KARI",
+      "AEB Amazonia-1",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10153,8 +10278,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Martin offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "GGPEN AngoSat-2",
+      "NASRDA NigeriaSat",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10202,9 +10328,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Morocco offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
+      "ISRO Cartosat-3",
+      "GGPEN AngoSat-2",
       "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10253,8 +10380,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Monaco offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "ESA Sentinel-2",
+      "ESA Copernicus",
+      "AEE Spain",
+      "NASA MODIS",
+      "CSA Radarsat",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10303,7 +10434,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Moldova offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
+      "NASRDA NigeriaSat",
+      "CSA Radarsat",
+      "AEE Spain",
       "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
@@ -10352,9 +10485,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Madagascar offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "NASA PDS",
+      "ISRO Cartosat-3",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10402,8 +10537,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Maldives offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "NASA PDS",
+      "BSA NSSA",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10451,9 +10587,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Marshall Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "CONAE SAOCOM",
+      "AEB Amazonia-1",
+      "JAXA ALOS-2",
+      "ISRO Cartosat-3",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10501,8 +10639,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of North Macedonia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "ASI COSMO-SkyMed",
+      "NASA PDS",
+      "NASRDA NigeriaSat",
+      "ESA Copernicus",
+      "AEP Paraguay"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10551,8 +10692,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Mali offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "AEE Spain",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10600,8 +10741,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Malta offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
+      "AEB Amazonia-1",
+      "ASI COSMO-SkyMed",
       "CSA Radarsat",
-      "NASA SRTM Topography"
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10649,8 +10792,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Myanmar offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
+      "BSA NSSA",
       "CSA Radarsat",
-      "NASA SRTM Topography"
+      "GGPEN AngoSat-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10699,10 +10844,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Montenegro offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "BSA NSSA",
+      "NASA PDS"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10751,10 +10894,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Northern Mariana Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "KASA KARI",
+      "ASI COSMO-SkyMed",
+      "ASES Senegal",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10803,8 +10946,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Mozambique offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "NASA SRTM",
+      "ESA Sentinel-2",
+      "Meteomatics API",
+      "NASA MODIS"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10853,9 +10999,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Montserrat offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEB Amazonia-1",
+      "CSA Radarsat",
+      "ASI COSMO-SkyMed",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -10903,10 +11051,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Martinique offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "NASA SRTM",
+      "NASRDA NigeriaSat",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -10955,8 +11102,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Mauritius offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "ASI COSMO-SkyMed",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11004,9 +11151,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Malawi offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
+      "ISRO Cartosat-3",
+      "Meteomatics API",
       "CSA Radarsat",
-      "NASA MODIS Temp"
+      "NASA PDS"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11054,10 +11202,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Malaysia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "CONAE SAOCOM",
+      "AEB Amazonia-1",
+      "BSA NSSA",
+      "ASES Senegal",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11105,8 +11254,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Mayotte offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "Meteomatics API",
+      "BSA NSSA",
+      "ASES Senegal"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11154,8 +11304,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of New Caledonia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "ISRO Cartosat-3",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11203,8 +11353,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Niger offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "AEB Amazonia-1",
+      "TUA Turkey",
+      "NASA PDS",
+      "AEE Spain",
+      "CSA Radarsat"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11253,8 +11406,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Norfolk Island offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "NASA PDS",
+      "NASA SRTM",
+      "ESA Sentinel-2",
+      "CONAE SAOCOM"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11302,9 +11457,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Nigeria offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "Meteomatics API",
+      "ASES Senegal",
+      "ASI COSMO-SkyMed",
+      "ESA Sentinel-2",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11352,10 +11509,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Nicaragua offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "AEB Amazonia-1",
+      "Meteomatics API",
+      "JAXA ALOS-2",
+      "NASA MODIS"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11403,8 +11560,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Niue offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "GGPEN AngoSat-2",
+      "ESA Copernicus",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11453,10 +11611,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Netherlands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
+      "BSA NSSA",
       "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11504,10 +11661,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Nepal offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "TUA Turkey",
+      "NASRDA NigeriaSat",
+      "NASA PDS",
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11555,8 +11713,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Nauru offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "NASA SRTM",
+      "BSA NSSA",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11604,9 +11763,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Oman offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "NASRDA NigeriaSat",
+      "NASA PDS",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11654,10 +11813,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Pakistan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "NASA PDS",
+      "BSA NSSA",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11705,10 +11863,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Panama offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "NASA SRTM",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11756,8 +11912,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Pitcairn Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "Meteomatics API",
+      "NASRDA NigeriaSat",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11806,9 +11963,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Peru offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "NASA SRTM",
+      "ESA Copernicus",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11856,9 +12013,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Philippines offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "ESA Sentinel-2",
+      "KASA KARI"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -11907,9 +12063,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Palau offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "ISRO Cartosat-3",
+      "AEE Spain",
+      "TUA Turkey",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -11957,8 +12114,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Papua New Guinea offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "NASA MODIS",
+      "ASES Senegal",
+      "ESA Sentinel-2",
+      "AEE Spain"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12006,10 +12165,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Poland offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "ISRO Cartosat-3",
+      "TUA Turkey",
+      "GGPEN AngoSat-2",
+      "BSA NSSA",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12057,8 +12217,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Puerto Rico offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "GGPEN AngoSat-2",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12106,10 +12266,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of North Korea offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "ISRO Cartosat-3",
+      "Meteomatics API",
+      "CONAE SAOCOM",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12157,10 +12317,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Portugal offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "KASA KARI",
+      "NASA SRTM",
+      "AEE Spain",
+      "ISRO Cartosat-3",
+      "NASA PDS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12208,8 +12369,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Paraguay offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "ESA Sentinel-2",
+      "CSA Radarsat",
+      "TUA Turkey",
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12257,10 +12420,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Palestine offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "AEP Paraguay",
+      "NASA PDS",
+      "ESA Copernicus",
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12308,8 +12472,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Qatar offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12357,8 +12521,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Réunion offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "AEP Paraguay",
+      "ISRO Cartosat-3",
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12407,9 +12573,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Romania offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "AEE Spain",
+      "JAXA ALOS-2",
+      "BSA NSSA",
+      "NASRDA NigeriaSat",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12457,10 +12625,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Rwanda offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA MODIS Temp"
+      "Meteomatics API",
+      "ISRO Cartosat-3",
+      "ESA Copernicus",
+      "AEB Amazonia-1",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12508,10 +12677,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Sudan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
+      "GGPEN AngoSat-2",
+      "KASA KARI",
+      "JAXA ALOS-2",
       "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12559,8 +12729,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Senegal offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "AEB Amazonia-1",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12608,8 +12778,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Singapore offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "CONAE SAOCOM",
+      "AEE Spain",
+      "BSA NSSA",
+      "NASA SRTM"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12658,9 +12830,10 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
       "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "ISRO Cartosat-3",
+      "NASA SRTM",
+      "BSA NSSA",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12709,9 +12882,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Svalbard and Jan Mayen offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "NASA SRTM Topography"
+      "GGPEN AngoSat-2",
+      "ESA Copernicus",
+      "ISRO Cartosat-3",
+      "KASA KARI",
+      "ASES Senegal"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12759,10 +12934,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Solomon Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "ISRO Cartosat-3",
+      "JAXA ALOS-2",
+      "ESA Copernicus",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12810,8 +12985,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Sierra Leone offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "TUA Turkey",
+      "ESA Copernicus",
+      "AEB Amazonia-1",
+      "CSA Radarsat",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12860,9 +13038,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of El Salvador offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "CSA Radarsat",
+      "ISRO Cartosat-3",
+      "KASA KARI",
+      "NASA PDS",
+      "AEP Paraguay"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -12910,9 +13090,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of San Marino offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "JAXA ALOS-2",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -12961,10 +13140,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Somalia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "BSA NSSA",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13012,8 +13189,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Pierre and Miquelon offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "ASI COSMO-SkyMed",
+      "AEE Spain",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13061,8 +13239,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Serbia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
+      "AEP Paraguay",
+      "NASA SRTM",
+      "ASI COSMO-SkyMed",
       "CSA Radarsat"
     ],
     "nasa_target": "moon",
@@ -13111,10 +13290,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of South Sudan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "NASRDA NigeriaSat",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13162,9 +13339,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of São Tomé and Príncipe offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "ISRO Cartosat-3",
+      "BSA NSSA",
+      "CONAE SAOCOM",
+      "KASA KARI",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13212,8 +13391,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Suriname offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ISRO Cartosat-3",
+      "CSA Radarsat",
+      "KASA KARI"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13262,8 +13442,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Slovakia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "BSA NSSA",
+      "AEP Paraguay",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13311,9 +13493,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Slovenia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "CSA Radarsat"
+      "CSA Radarsat",
+      "JAXA ALOS-2",
+      "AEB Amazonia-1",
+      "NASA SRTM",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13361,10 +13545,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Sweden offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "NASA MODIS",
+      "CSA Radarsat",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13413,8 +13597,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Eswatini offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "CSA Radarsat",
+      "AEE Spain",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13462,10 +13647,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Sint Maarten offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2"
+      "Meteomatics API",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13513,9 +13696,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Seychelles offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "JAXA ALOS-2",
+      "TUA Turkey",
+      "NASA MODIS",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13563,10 +13748,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Syria offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "JAXA ALOS-2",
+      "NASA SRTM"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13615,10 +13798,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Turks and Caicos Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "CONAE SAOCOM",
+      "ISRO Cartosat-3",
+      "ESA Copernicus",
+      "NASA MODIS"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13666,9 +13849,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Chad offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "JAXA ALOS-2 PALSAR"
+      "NASA SRTM",
+      "JAXA ALOS-2",
+      "TUA Turkey",
+      "CSA Radarsat",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13716,9 +13901,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Togo offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "GGPEN AngoSat-2",
+      "NASRDA NigeriaSat",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13766,9 +13951,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Thailand offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "GGPEN AngoSat-2",
+      "AEP Paraguay"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13816,9 +14000,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Tokelau offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
+      "TUA Turkey",
       "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "JAXA ALOS-2",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -13866,9 +14051,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Timor-Leste offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "NASA PDS",
+      "AEE Spain",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13916,9 +14101,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Tonga offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "JAXA ALOS-2 PALSAR"
+      "CONAE SAOCOM",
+      "NASA MODIS",
+      "NASRDA NigeriaSat",
+      "BSA NSSA",
+      "NASA SRTM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -13966,10 +14153,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Trinidad and Tobago offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
+      "CSA Radarsat",
+      "AEB Amazonia-1",
       "ESA Sentinel-2",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -14017,8 +14204,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Türkiye offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography"
+      "Meteomatics API",
+      "AEP Paraguay",
+      "TUA Turkey",
+      "GGPEN AngoSat-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14067,8 +14256,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Tuvalu offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "JAXA ALOS-2",
+      "NASA SRTM"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14117,10 +14306,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Taiwan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR"
+      "ASI COSMO-SkyMed",
+      "JAXA ALOS-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14169,9 +14356,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Uganda offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "CSA Radarsat"
+      "AEP Paraguay",
+      "AEE Spain",
+      "KASA KARI",
+      "ASI COSMO-SkyMed"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14219,9 +14407,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of Ukraine offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "ESA Sentinel-2"
+      "KASA KARI",
+      "GGPEN AngoSat-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14269,10 +14457,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of United States Minor Outlying Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "ISRO Cartosat-3",
+      "GGPEN AngoSat-2",
+      "JAXA ALOS-2",
+      "NASA PDS",
+      "Meteomatics API"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -14320,10 +14509,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Uruguay offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "JAXA ALOS-2 PALSAR",
-      "NASA SRTM Topography",
-      "CSA Radarsat",
-      "ESA Sentinel-2"
+      "TUA Turkey",
+      "AEP Paraguay"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14372,8 +14559,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of United States offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "CONAE SAOCOM",
+      "BSA NSSA"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14421,10 +14608,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Uzbekistan offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
+      "AEB Amazonia-1",
       "CSA Radarsat",
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "NASA MODIS Temp"
+      "AEE Spain",
+      "ESA Copernicus",
+      "ASES Senegal"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -14473,10 +14661,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Vatican City offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA SRTM Topography",
-      "NASA MODIS Temp"
+      "NASRDA NigeriaSat",
+      "KASA KARI",
+      "ASI COSMO-SkyMed",
+      "JAXA ALOS-2",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14524,8 +14713,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Saint Vincent and the Grenadines offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA SRTM Topography"
+      "NASRDA NigeriaSat",
+      "Meteomatics API",
+      "NASA MODIS",
+      "ESA Copernicus",
+      "ESA Sentinel-2"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14573,10 +14765,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Venezuela offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "BSA NSSA",
+      "ISRO Cartosat-3",
+      "NASA MODIS",
+      "AEE Spain"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14624,9 +14816,9 @@
     "why_analog": "The unique regional topography and atmospheric profile of British Virgin Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat"
+      "NASA PDS",
+      "AEE Spain",
+      "ISRO Cartosat-3"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14674,8 +14866,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of United States Virgin Islands offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "ESA Sentinel-2",
+      "BSA NSSA"
     ],
     "nasa_target": "moon",
     "target_region": "Various analogue locations"
@@ -14724,8 +14916,10 @@
     "why_analog": "The unique regional topography and atmospheric profile of Vietnam offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "CONAE SAOCOM",
+      "CSA Radarsat",
+      "JAXA ALOS-2",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14773,9 +14967,7 @@
     "why_analog": "The unique regional topography and atmospheric profile of Vanuatu offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR",
-      "CSA Radarsat",
+      "NASA MODIS",
       "ESA Sentinel-2"
     ],
     "nasa_target": "moon",
@@ -14824,8 +15016,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Wallis and Futuna offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "JAXA ALOS-2 PALSAR"
+      "AEP Paraguay",
+      "ASI COSMO-SkyMed",
+      "ESA Copernicus",
+      "GGPEN AngoSat-2",
+      "ISRO Cartosat-3",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14874,10 +15070,8 @@
     "why_analog": "The unique regional topography and atmospheric profile of Samoa offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
       "CSA Radarsat",
-      "ESA Sentinel-2",
-      "NASA MODIS Temp"
+      "NASRDA NigeriaSat"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14925,9 +15119,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Yemen offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA SRTM Topography",
-      "NASA MODIS Temp",
-      "CSA Radarsat"
+      "ASES Senegal",
+      "AEB Amazonia-1",
+      "BSA NSSA",
+      "AEE Spain",
+      "NASA SRTM",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -14975,8 +15172,11 @@
     "why_analog": "The unique regional topography and atmospheric profile of Zambia offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "NASA MODIS Temp",
-      "NASA SRTM Topography"
+      "KASA KARI",
+      "ISRO Cartosat-3",
+      "AEP Paraguay",
+      "NASA SRTM",
+      "AEB Amazonia-1"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"
@@ -15024,10 +15224,12 @@
     "why_analog": "The unique regional topography and atmospheric profile of Zimbabwe offers valuable data points for calibrating planetary rover sensors.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
     "data_sources": [
-      "CSA Radarsat",
-      "NASA MODIS Temp",
-      "NASA SRTM Topography",
-      "ESA Sentinel-2"
+      "ASI COSMO-SkyMed",
+      "NASA MODIS",
+      "ESA Sentinel-2",
+      "GGPEN AngoSat-2",
+      "ISRO Cartosat-3",
+      "Meteomatics API"
     ],
     "nasa_target": "mars",
     "target_region": "Various analogue locations"

@@ -26,18 +26,29 @@ Instead of simply claiming to "find Mars on Earth," our system uses real NASA ge
 
 ---
 
-## 🛰️ NASA Data & Global Collaborator Integration
 
-To ensure the highest scientific validity, **The Parallel** is powered by open data from NASA and its official Global Collaborators.
+## 🛰️ Space Agency & Global Collaborator Integration
 
-| Dataset / API | Space Agency / Collaborator | Purpose in Project |
-| :--- | :--- | :--- |
-| **NASA SRTM Topography** (GeoTIFF) | NASA | Processed locally via Python `rasterio` to calculate the mathematical **"Surface Roughness"** and elevation variance of Earth analog sites. |
-| **NASA MODIS Surface Temp** (GeoTIFF) | NASA | Used to derive the **"Temperature Range"** parameters across multiple global biomes. |
-| **ESA Sentinel-2 Imagery** | ESA / Copernicus | Multi-spectral imagery (SWIR bands) accessed to verify the **"Mineralogy"** (e.g., iron oxides, basalt) of terrestrial analog locations. |
-| **JAXA ALOS-2 PALSAR-2** | JAXA | L-band Synthetic Aperture Radar (SAR) data used to detect subsurface geological structures (lava tubes, ice deposits) under sand and vegetation. |
-| **CSA Radarsat Constellation** | CSA (Canadian Space Agency) | C-band SAR used to map soil moisture and permafrost dynamics in polar analog sites (e.g., Devon Island). |
-| **PDS Topography (MOLA & LOLA)** | NASA | Provided the baseline topographical data for our target extraterrestrial bodies (Moon and Mars) to calibrate our ML scoring engine. |
+**The Parallel** is proudly built using open data, APIs, and resources from the **17 International Space Agency Partners** and **Global Collaborators** of the 2026 NASA Space Apps Challenge. 
+
+### 🌌 Space Agency Partners Data Sources
+Our machine learning models and environmental profiling engines leverage telemetry and Earth observation data from:
+
+*   **NASA (USA):** SRTM Topography (Surface Roughness), MODIS (Temperature Range), and PDS (Lunar/Martian baseline mapping).
+*   **ESA (Europe):** Sentinel-2 Multi-spectral imagery (Copernicus) for mineralogy verification (e.g., iron oxides, basalts).
+*   **JAXA (Japan):** ALOS-2 PALSAR-2 L-band Synthetic Aperture Radar for subsurface geological structure detection (lava tubes).
+*   **CSA (Canada):** Radarsat Constellation C-band SAR for mapping permafrost and soil moisture dynamics.
+*   **ISRO (India):** Cartosat-3 high-resolution optical imagery for surface morphology validation.
+*   **ASI (Italy):** COSMO-SkyMed radar data for extreme terrain interferometry.
+*   **AEB (Brazil):** Amazonia-1 data used for comparative biome analysis.
+*   **CONAE (Argentina):** SAOCOM L-band radar utilized for soil moisture indexing in arid analog regions.
+*   **Additional Partners Integrated in Global Scanning:** GGPEN (Angola), BSA (Bahrain), KASA (South Korea), NASRDA (Nigeria), AEP (Paraguay), ASES (Senegal), AEE (Spain), TUA (Turkey).
+
+### 🌐 Global Collaborators & Technical Stack
+We utilized resources provided by the 2026 Global Collaborators to build and scale this application:
+*   **Meteomatics:** Leveraged the Meteomatics Weather API to pull 10-year historical climate variance, diurnal temperature shifts, and precise aridity indices for terrestrial analog sites.
+*   **Microsoft / Google:** Utilized cloud infrastructure and geospatial processing tools (Google Earth Engine) to process massive GeoTIFF datasets.
+*   **GoDaddy / Miro:** Used for project management, domain configuration, and architectural storyboarding.
 
 ---
 

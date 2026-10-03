@@ -24,7 +24,7 @@ export default function MissionDashboard() {
   }, [target]);
 
   return (
-    <div className="w-screen h-screen bg-space-950 text-white overflow-hidden font-body relative">
+    <div className="w-screen h-screen bg-black text-white overflow-hidden font-body relative selection:bg-white/20">
       
       <div className="absolute inset-0 z-0">
         <PlanetGlobe 
@@ -36,30 +36,31 @@ export default function MissionDashboard() {
         />
       </div>
 
-      <div className="absolute inset-0 z-10 pointer-events-none flex justify-between p-6">
+      <div className="absolute inset-0 z-10 pointer-events-none flex justify-between">
         
+        {/* Left Sidebar */}
         <motion.div 
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          className="w-[400px] h-full flex flex-col pointer-events-auto bg-black/40 backdrop-blur-2xl border border-white/10 rounded-3xl shadow-[0_0_50px_rgba(0,0,0,0.8)] overflow-hidden"
+          className="w-[400px] h-full flex flex-col pointer-events-auto bg-black/70 backdrop-blur-3xl border-r border-white/5 shadow-[20px_0_50px_rgba(0,0,0,0.5)] overflow-hidden"
         >
           <div className="p-6 border-b border-white/10 bg-gradient-to-b from-white/5 to-transparent flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2 text-nasa-light hover:text-white transition-colors">
               <ChevronLeft size={20} />
               <span className="font-bold text-xs tracking-widest font-heading uppercase">Abort Mission</span>
             </Link>
-            <div className="flex bg-black/50 border border-white/10 rounded-full p-1">
+            <div className="flex bg-white/5 border border-white/10 rounded-full p-1">
               <button 
                 onClick={() => setTarget('moon')}
-                className={`px-4 py-2 rounded-full text-xs font-bold flex items-center gap-2 transition-all ${target === 'moon' ? 'bg-nasa-light text-space-950 shadow-[0_0_15px_#38bdf8]' : 'text-gray-400 hover:text-white'}`}
+                className={`px-4 py-1.5 rounded-full text-[10px] uppercase tracking-widest font-bold flex items-center gap-2 transition-all ${target === 'moon' ? 'bg-nasa-light text-black shadow-[0_0_20px_rgba(56,189,248,0.4)]' : 'text-gray-500 hover:text-white'}`}
               >
-                <Globe size={14} /> MOON
+                <Globe size={12} /> MOON
               </button>
               <button 
                 onClick={() => setTarget('mars')}
-                className={`px-4 py-2 rounded-full text-xs font-bold flex items-center gap-2 transition-all ${target === 'mars' ? 'bg-nasa-red text-white shadow-[0_0_15px_#FC3D21]' : 'text-gray-400 hover:text-white'}`}
+                className={`px-4 py-1.5 rounded-full text-[10px] uppercase tracking-widest font-bold flex items-center gap-2 transition-all ${target === 'mars' ? 'bg-nasa-red text-white shadow-[0_0_20px_rgba(252,61,33,0.4)]' : 'text-gray-500 hover:text-white'}`}
               >
-                <Rocket size={14} /> MARS
+                <Rocket size={12} /> MARS
               </button>
             </div>
           </div>
@@ -85,18 +86,18 @@ export default function MissionDashboard() {
                   key={site.id}
                   layout
                   onClick={() => setSelectedSite(site)}
-                  className={`w-full text-left p-4 rounded-2xl border transition-all ${
+                  className={`w-full text-left p-4 border-b border-white/5 transition-all flex flex-col gap-2 ${
                     selectedSite?.id === site.id 
-                    ? target === 'mars' ? 'bg-nasa-red/20 border-nasa-red shadow-[0_0_20px_rgba(252,61,33,0.2)]' : 'bg-nasa-light/20 border-nasa-light shadow-[0_0_20px_rgba(56,189,248,0.2)]'
-                    : 'bg-black/40 border-white/5 hover:border-white/20 hover:bg-white/5'
+                    ? 'bg-white/5 border-l-2' + (target === 'mars' ? ' border-l-nasa-red' : ' border-l-nasa-light')
+                    : 'hover:bg-white/5 border-l-2 border-l-transparent'
                   }`}
                 >
                   <div className="flex justify-between items-start mb-3">
                     <span className="text-[10px] font-mono font-bold text-gray-500">#{index + 1}</span>
-                    <span className={`text-[10px] font-bold px-3 py-1 rounded-full border ${
-                      site.computedScore >= 80 ? 'bg-green-500/20 text-green-400 border-green-500/30' :
-                      site.computedScore >= 65 ? 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30' :
-                      'bg-red-500/20 text-red-400 border-red-500/30'
+                    <span className={`text-[10px] font-mono font-bold tracking-widest ${
+                      site.computedScore >= 80 ? 'text-green-400' :
+                      site.computedScore >= 65 ? 'text-yellow-400' :
+                      'text-red-400'
                     }`}>
                       {site.computedScore}% MATCH
                     </span>
@@ -121,7 +122,7 @@ export default function MissionDashboard() {
         <motion.div 
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          className="w-[450px] h-full flex flex-col pointer-events-auto bg-black/40 backdrop-blur-2xl border border-white/10 rounded-3xl shadow-[0_0_50px_rgba(0,0,0,0.8)] overflow-hidden"
+          className="w-[450px] h-full flex flex-col pointer-events-auto bg-black/70 backdrop-blur-3xl border-l border-white/5 shadow-[-20px_0_50px_rgba(0,0,0,0.5)] overflow-hidden"
         >
           {selectedSite ? (
             <AnalogReport site={selectedSite} targetBody={target} />

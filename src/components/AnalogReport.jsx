@@ -46,17 +46,20 @@ export default function AnalogReport({ site, targetBody }) {
         <h2 className="text-2xl font-bold font-heading leading-tight">{site.name}</h2>
         <div className="text-nasa-light font-mono text-[10px] mt-1 uppercase tracking-widest">{site.country}</div>
         
-        <div className="mt-5 flex items-center justify-between bg-white/5 p-4 rounded-2xl border border-white/5 shadow-inner">
+        <div className="mt-5 flex items-center justify-between">
           <div>
-            <div className="text-[10px] text-gray-400 uppercase tracking-widest mb-1 font-bold">Mission Match</div>
-            <div className="text-4xl font-bold text-white tracking-tighter">{site.computedScore}<span className="text-xl text-gray-500">%</span></div>
+            <div className="text-[10px] text-gray-500 uppercase tracking-widest mb-1 font-bold">Mission Match</div>
+            <div className="text-5xl font-bold text-white tracking-tighter font-mono">{site.computedScore}<span className="text-xl text-gray-600">%</span></div>
           </div>
-          <div className="w-14 h-14 rounded-full border border-white/10 bg-black/40 flex items-center justify-center relative shadow-[0_0_15px_rgba(56,189,248,0.2)]">
+          <div className="w-16 h-16 flex items-center justify-center relative">
             <div 
-              className="absolute inset-0 rounded-full border-2 border-nasa-light"
+              className="absolute inset-0 rounded-full border-2 border-white/10"
+            />
+            <div 
+              className="absolute inset-0 rounded-full border-2 border-nasa-light shadow-[0_0_15px_rgba(56,189,248,0.4)]"
               style={{ clipPath: `polygon(0 0, 100% 0, 100% ${site.computedScore}%, 0 ${site.computedScore}%)` }}
             />
-            <Activity size={20} className="text-nasa-light" />
+            <Activity size={24} className="text-nasa-light" />
           </div>
         </div>
       </div>
@@ -64,12 +67,11 @@ export default function AnalogReport({ site, targetBody }) {
       <div className="p-6 space-y-8">
         
         {/* Explainable AI */}
-        <div className="p-4 rounded-xl border border-nasa-light/30 bg-nasa-blue/20 shadow-[0_0_20px_rgba(11,61,145,0.15)] relative overflow-hidden">
-          <div className="absolute top-0 left-0 w-1 h-full bg-nasa-light" />
+        <div className="relative pl-4 border-l-2 border-nasa-light py-1">
           <h3 className="text-[10px] font-bold uppercase tracking-widest text-nasa-light mb-2 flex items-center gap-2">
             <ShieldAlert size={14} /> Explainable AI Summary
           </h3>
-          <p className="text-xs leading-relaxed text-gray-200">
+          <p className="text-xs leading-relaxed text-gray-400">
             {site.why_analog}
           </p>
         </div>
@@ -120,13 +122,12 @@ export default function AnalogReport({ site, targetBody }) {
           <h3 className="text-[10px] font-bold uppercase tracking-widest text-nasa-light flex items-center gap-2">
             <CalendarDays size={14} /> {targetBody === 'mars' ? 'MARS' : 'LUNAR'} TRAINING PLAN
           </h3>
-          <div className="space-y-2">
+          <div className="space-y-0">
             {trainingPlan.map((plan, i) => (
-              <div key={i} className="flex gap-3 items-center bg-black/40 border border-white/5 p-3 rounded-xl hover:border-nasa-light/50 transition-colors cursor-default">
-                <div className="font-mono text-[9px] bg-white/10 px-2 py-1 rounded text-nasa-light font-bold w-12 text-center">{plan.day}</div>
-                <div className="text-nasa-light bg-nasa-light/10 p-1.5 rounded-lg">{plan.icon}</div>
-                <div className="text-[11px] font-bold text-gray-200 flex-1">{plan.task}</div>
-                <ChevronRight size={12} className="text-gray-600" />
+              <div key={i} className="flex gap-3 items-center border-b border-white/5 py-3 hover:bg-white/5 transition-colors px-2 cursor-default group">
+                <div className="font-mono text-[9px] text-gray-500 font-bold w-10">{plan.day}</div>
+                <div className="text-nasa-light opacity-70 group-hover:opacity-100 transition-opacity">{plan.icon}</div>
+                <div className="text-[11px] font-bold text-gray-300 flex-1">{plan.task}</div>
               </div>
             ))}
           </div>

@@ -2,7 +2,7 @@ import { getScoreBreakdown } from '../services/scoringEngine';
 import { 
   ShieldAlert, CheckCircle2, XCircle, ChevronRight, Activity, CalendarDays,
   Droplets, ThermometerSun, Sun, Mountain, Pickaxe, MapPin, Cuboid,
-  Car, Radio, Map, UserX, FlaskConical, Tent, Settings, Battery
+  Car, Radio, Map, UserX, FlaskConical, Tent, Settings, Battery, Database
 } from 'lucide-react';
 
 const paramIconMap = {
@@ -74,6 +74,20 @@ export default function AnalogReport({ site, targetBody }) {
           <p className="text-xs leading-relaxed text-gray-400">
             {site.why_analog}
           </p>
+        </div>
+
+        {/* Space Apps Agency Telemetry */}
+        <div className="space-y-2 pt-2">
+          <h4 className="font-bold text-gray-500 text-[9px] uppercase tracking-widest flex items-center gap-2">
+            <Database size={12} /> Space Agency Telemetry Sources
+          </h4>
+          <div className="flex flex-wrap gap-2">
+            {site.data_sources?.map((source, i) => (
+              <span key={i} className="text-[9px] font-mono text-nasa-light bg-nasa-light/5 border border-nasa-light/20 px-2 py-1 rounded-sm uppercase tracking-wider">
+                {source}
+              </span>
+            ))}
+          </div>
         </div>
 
         {/* Similarity Breakdown Bars */}

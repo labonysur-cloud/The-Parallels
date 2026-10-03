@@ -34,9 +34,10 @@ To ensure the highest scientific validity, **The Parallel** is powered by open d
 | :--- | :--- | :--- |
 | **NASA SRTM Topography** (GeoTIFF) | NASA | Processed locally via Python `rasterio` to calculate the mathematical **"Surface Roughness"** and elevation variance of Earth analog sites. |
 | **NASA MODIS Surface Temp** (GeoTIFF) | NASA | Used to derive the **"Temperature Range"** parameters across multiple global biomes. |
+| **ESA Sentinel-2 Imagery** | ESA / Copernicus | Multi-spectral imagery (SWIR bands) accessed to verify the **"Mineralogy"** (e.g., iron oxides, basalt) of terrestrial analog locations. |
+| **JAXA ALOS-2 PALSAR-2** | JAXA | L-band Synthetic Aperture Radar (SAR) data used to detect subsurface geological structures (lava tubes, ice deposits) under sand and vegetation. |
+| **CSA Radarsat Constellation** | CSA (Canadian Space Agency) | C-band SAR used to map soil moisture and permafrost dynamics in polar analog sites (e.g., Devon Island). |
 | **PDS Topography (MOLA & LOLA)** | NASA | Provided the baseline topographical data for our target extraterrestrial bodies (Moon and Mars) to calibrate our ML scoring engine. |
-| **ESA Sentinel-2 Imagery** | ESA / Google Earth Engine | Multi-spectral imagery (SWIR bands) accessed to verify the **"Mineralogy"** (e.g., iron oxides, basalt) of terrestrial analog locations. |
-| **Meteomatics Climate API** | Meteomatics | Used to pull 10-year historical climate variance to accurately calculate the **"Aridity"** score of Earth deserts. |
 
 ---
 

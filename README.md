@@ -3,6 +3,7 @@
   <h1>The Parallel</h1>
   <p><b>An Explainable Decision-Support System for Terrestrial Analog Mission Planning</b></p>
   <p><i>NASA International Space Apps Challenge 2026 Submission by Team Astrophel</i></p>
+  <p><a href="https://the-parallels.vercel.app/"><b>🌍 View Live Demo</b></a></p>
 </div>
 
 ---

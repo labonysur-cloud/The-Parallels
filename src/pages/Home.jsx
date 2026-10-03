@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Globe from 'react-globe.gl';
 import * as THREE from 'three';
 
-const MARS_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg';
-const MOON_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg';
+const MARS_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/4/46/Solarsystemscope_texture_2k_mars.jpg';
+const MOON_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Solarsystemscope_texture_8k_moon.jpg/2048px-Solarsystemscope_texture_8k_moon.jpg';
 
 function FloatingPlanet({ texture, atmosphereColor, name, description, onClick }) {
   const globeEl = useRef();

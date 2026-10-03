@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Globe from 'react-globe.gl';
+import * as THREE from 'three';
 
 const MARS_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg';
 const MOON_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg';
@@ -9,12 +10,24 @@ const MOON_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMo
 function FloatingPlanet({ texture, atmosphereColor, name, description, onClick }) {
   const globeEl = useRef();
   const [hovered, setHovered] = useState(false);
+  const size = 380; // Increased size
   
   useEffect(() => {
     if (globeEl.current) {
       globeEl.current.controls().autoRotate = true;
       globeEl.current.controls().autoRotateSpeed = hovered ? 4.0 : 1.5;
       globeEl.current.controls().enableZoom = false;
+
+      // Fully illuminate the globe to remove the dark shadow
+      const scene = globeEl.current.scene();
+      if (scene) {
+        const hasAmbientLight = scene.children.some(c => c.type === 'AmbientLight' && c.name === 'fullIllumination');
+        if (!hasAmbientLight) {
+          const light = new THREE.AmbientLight(0xffffff, 2.5);
+          light.name = 'fullIllumination';
+          scene.add(light);
+        }
+      }
     }
   }, [hovered]);
 
@@ -28,11 +41,11 @@ function FloatingPlanet({ texture, atmosphereColor, name, description, onClick }
       transition={{ type: "spring", stiffness: 300, damping: 20 }}
     >
       {/* 3D Planet */}
-      <div className={`w-[280px] h-[280px] rounded-full flex items-center justify-center transition-all duration-700 ${hovered ? 'shadow-[0_0_80px_rgba(255,255,255,0.15)]' : 'shadow-none'}`}>
+      <div className={`w-[380px] h-[380px] rounded-full flex items-center justify-center transition-all duration-700 ${hovered ? 'shadow-[0_0_100px_rgba(255,255,255,0.15)]' : 'shadow-none'}`}>
         <Globe
           ref={globeEl}
-          width={280}
-          height={280}
+          width={size}
+          height={size}
           globeImageUrl={texture}
           atmosphereColor={atmosphereColor}
           atmosphereAltitude={0.15}

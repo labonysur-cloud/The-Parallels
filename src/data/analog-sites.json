@@ -7,9 +7,17 @@
     "lon": -69.9,
     "elevation_m": 2400,
     "area_km2": 105000,
-    "type": ["desert", "arid"],
-    "target": ["mars"],
-    "matchScore": { "moon": 52, "mars": 92 },
+    "type": [
+      "desert",
+      "arid"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 52,
+      "mars": 92
+    },
     "analog_params": {
       "aridity": 9.8,
       "temp_range": 6.5,
@@ -26,11 +34,21 @@
       "mean_temp_c": 15,
       "thermal_inertia_tiu": 550
     },
-    "minerals": ["Perchlorates", "Nitratine", "Anhydrite", "Halite", "Gypsum"],
+    "minerals": [
+      "Perchlorates",
+      "Nitratine",
+      "Anhydrite",
+      "Halite",
+      "Gypsum"
+    ],
     "description": "The hyperarid core of the Atacama is the driest non-polar desert on Earth, with some locations recording less than 1mm of rainfall per year. Salt-encrusted playas and iron-oxide coated rocks mirror the Martian surface chemistry.",
     "why_analog": "Soil perchlorate concentrations (0.01–0.5 wt%) and nitratine mineral assemblages match Phoenix and Curiosity lander discoveries on Mars. The extreme aridity (water activity aw < 0.15) and UV irradiance are the closest terrestrial approximation of Amazonian Mars conditions.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Atacama_desert.jpg/1280px-Atacama_desert.jpg",
-    "data_sources": ["NASA SRTMGL1 (topography)", "Open-Meteo Historical Archive", "WorldClim v2"],
+    "data_sources": [
+      "NASA SRTMGL1 (topography)",
+      "Open-Meteo Historical Archive",
+      "WorldClim v2"
+    ],
     "nasa_target": "mars",
     "target_region": "Gale Crater / Jezero Crater floor"
   },
@@ -42,9 +60,18 @@
     "lon": -89.7,
     "elevation_m": 200,
     "area_km2": 415,
-    "type": ["crater", "polar"],
-    "target": ["moon", "mars"],
-    "matchScore": { "moon": 82, "mars": 78 },
+    "type": [
+      "crater",
+      "polar"
+    ],
+    "target": [
+      "moon",
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 82,
+      "mars": 78
+    },
     "analog_params": {
       "aridity": 6.5,
       "temp_range": 8.0,
@@ -61,11 +88,21 @@
       "mean_temp_c": -17.5,
       "thermal_inertia_tiu": 750
     },
-    "minerals": ["Impact Breccia", "Shocked Carbonate", "Diaplectic Glass", "Hydrothermal Clays", "Sulfates"],
+    "minerals": [
+      "Impact Breccia",
+      "Shocked Carbonate",
+      "Diaplectic Glass",
+      "Hydrothermal Clays",
+      "Sulfates"
+    ],
     "description": "A 23-km diameter complex impact crater formed ~23 million years ago in a polar desert. NASA's Haughton-Mars Project (HMP) has used it for decades to test Mars rovers, suits, and exploration protocols.",
     "why_analog": "Impact-shocked target rocks (carbonate/gneissic breccia), post-impact hydrothermal alteration producing clays and sulfates, and polygon-patterned permafrost ground match both the Moon's cratered highlands and Mars's Noachian terrains. Continuous permafrost serves as a cryosphere analog.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Haughton_crater_from_ISS.jpg/1280px-Haughton_crater_from_ISS.jpg",
-    "data_sources": ["NASA ASTER GDEM v3 (polar topography)", "Open-Meteo Historical Archive", "USGS EarthExplorer"],
+    "data_sources": [
+      "NASA ASTER GDEM v3 (polar topography)",
+      "Open-Meteo Historical Archive",
+      "USGS EarthExplorer"
+    ],
     "nasa_target": "moon",
     "target_region": "Lunar Highlands / Cabeus Crater region"
   },
@@ -77,9 +114,18 @@
     "lon": -116.82,
     "elevation_m": -86,
     "area_km2": 13500,
-    "type": ["desert", "arid", "volcanic"],
-    "target": ["mars"],
-    "matchScore": { "moon": 45, "mars": 81 },
+    "type": [
+      "desert",
+      "arid",
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 45,
+      "mars": 81
+    },
     "analog_params": {
       "aridity": 8.5,
       "temp_range": 5.5,
@@ -96,11 +142,21 @@
       "mean_temp_c": 25,
       "thermal_inertia_tiu": 600
     },
-    "minerals": ["Halite", "Gypsum", "Thenardite", "Borax", "Desert Varnish (Mn/Fe)"],
+    "minerals": [
+      "Halite",
+      "Gypsum",
+      "Thenardite",
+      "Borax",
+      "Desert Varnish (Mn/Fe)"
+    ],
     "description": "The hottest and driest place in North America, featuring salt playas, desert pavements of ventifacted basalt pebbles, and maar volcanic craters — multiple Martian surface analogs in one location.",
     "why_analog": "Badwater Basin's evaporite sequence (halite, gypsum, borax) mirrors Martian paleolake deposits at Gale Crater. The 'Mars Hill' desert pavement with iron-oxide desert varnish matches Viking 1 and Pathfinder landing site imagery. Ubehebe Crater is a phreatomagmatic maar analog to Martian maar craters.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
-    "data_sources": ["USGS EPQS (elevation)", "Open-Meteo Historical Archive", "USGS 3DEP 1m LiDAR"],
+    "data_sources": [
+      "USGS EPQS (elevation)",
+      "Open-Meteo Historical Archive",
+      "USGS 3DEP 1m LiDAR"
+    ],
     "nasa_target": "mars",
     "target_region": "Meridiani Planum / Gale Crater"
   },
@@ -112,9 +168,18 @@
     "lon": -88.0,
     "elevation_m": 400,
     "area_km2": 55247,
-    "type": ["polar", "arid"],
-    "target": ["moon", "mars"],
-    "matchScore": { "moon": 75, "mars": 72 },
+    "type": [
+      "polar",
+      "arid"
+    ],
+    "target": [
+      "moon",
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 75,
+      "mars": 72
+    },
     "analog_params": {
       "aridity": 7.0,
       "temp_range": 8.5,
@@ -127,15 +192,22 @@
     "climate": {
       "map_mm_yr": 85,
       "diurnal_delta_c": 50,
-      "water_activity": 0.50,
+      "water_activity": 0.5,
       "mean_temp_c": -16,
       "thermal_inertia_tiu": 900
     },
-    "minerals": ["Permafrost Ice", "Sedimentary Rock", "Periglacial Sediment"],
+    "minerals": [
+      "Permafrost Ice",
+      "Sedimentary Rock",
+      "Periglacial Sediment"
+    ],
     "description": "The world's largest uninhabited island — a vast Arctic polar desert with permafrost, polygon-patterned ground, and conditions closely mimicking early Mars and the lunar polar regions.",
     "why_analog": "Continuous deep permafrost (~500m), thermal contraction crack polygons (5–20m wavelength), and active layer dynamics are direct analogs to Martian high-latitude periglacial terrains at the Phoenix landing site (Vastitas Borealis).",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Devon_Island_NASA.jpg/1280px-Devon_Island_NASA.jpg",
-    "data_sources": ["NASA ASTER GDEM v3", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "NASA ASTER GDEM v3",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "mars",
     "target_region": "Vastitas Borealis / Phoenix landing site"
   },
@@ -147,9 +219,17 @@
     "lon": -155.47,
     "elevation_m": 4205,
     "area_km2": 700,
-    "type": ["volcanic", "lava-tube"],
-    "target": ["moon"],
-    "matchScore": { "moon": 88, "mars": 65 },
+    "type": [
+      "volcanic",
+      "lava-tube"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 88,
+      "mars": 65
+    },
     "analog_params": {
       "aridity": 5.5,
       "temp_range": 7.0,
@@ -162,15 +242,25 @@
     "climate": {
       "map_mm_yr": 380,
       "diurnal_delta_c": 20,
-      "water_activity": 0.60,
+      "water_activity": 0.6,
       "mean_temp_c": 5,
       "thermal_inertia_tiu": 1200
     },
-    "minerals": ["Tholeiitic Basalt", "Olivine", "Pyroxene", "Palagonite", "Volcanic Glass"],
+    "minerals": [
+      "Tholeiitic Basalt",
+      "Olivine",
+      "Pyroxene",
+      "Palagonite",
+      "Volcanic Glass"
+    ],
     "description": "The summit zone of Mauna Kea hosts ancient lava flows in a high-altitude, oxygen-thin environment. NASA uses these fields for lunar geology training and rover testing.",
     "why_analog": "Unweathered tholeiitic basalt lava composition (SiO₂ ~49–51%) closely matches lunar mare basalts. Lava tubes provide subsurface shelter analogs. Palagonite tephra's VIS-NIR spectral signature matches bright Martian dust. The sparse, rocky terrain mirrors Apollo landing sites.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Hawaii_lava_field.jpg/1280px-Hawaii_lava_field.jpg",
-    "data_sources": ["USGS EPQS", "USGS 3DEP", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "USGS EPQS",
+      "USGS 3DEP",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "moon",
     "target_region": "Lunar Mare Basalts / Apollo 12 site"
   },
@@ -182,9 +272,18 @@
     "lon": -113.56,
     "elevation_m": 1874,
     "area_km2": 2900,
-    "type": ["volcanic", "lava-tube", "crater"],
-    "target": ["moon"],
-    "matchScore": { "moon": 84, "mars": 58 },
+    "type": [
+      "volcanic",
+      "lava-tube",
+      "crater"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 84,
+      "mars": 58
+    },
     "analog_params": {
       "aridity": 5.0,
       "temp_range": 6.5,
@@ -201,11 +300,20 @@
       "mean_temp_c": 8,
       "thermal_inertia_tiu": 1100
     },
-    "minerals": ["Basalt", "Spatter", "Volcanic Ash", "Obsidian", "Cinder"],
+    "minerals": [
+      "Basalt",
+      "Spatter",
+      "Volcanic Ash",
+      "Obsidian",
+      "Cinder"
+    ],
     "description": "A vast field of volcanic features including cinder cones, spatter cones, lava flows, and pit craters in Idaho — NASA trained Apollo astronauts here in the 1960s.",
     "why_analog": "The lava tube skylights and subsurface caves are analogs to Marius Hills pit craters on the Moon (proposed lunar base shelter sites). Spatter cones and aa lava fields match the rough lunar highland terrain. The site's remoteness and monochromatic basaltic landscape provide psychological isolation training too.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Craters_of_the_Moon_NM_ID.jpg/1280px-Craters_of_the_Moon_NM_ID.jpg",
-    "data_sources": ["USGS 3DEP 1m LiDAR", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "USGS 3DEP 1m LiDAR",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "moon",
     "target_region": "Marius Hills Pit / Lacus Mortis"
   },
@@ -217,9 +325,18 @@
     "lon": 162.0,
     "elevation_m": 500,
     "area_km2": 4500,
-    "type": ["polar", "arid", "desert"],
-    "target": ["mars"],
-    "matchScore": { "moon": 62, "mars": 85 },
+    "type": [
+      "polar",
+      "arid",
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 62,
+      "mars": 85
+    },
     "analog_params": {
       "aridity": 9.0,
       "temp_range": 7.5,
@@ -232,15 +349,23 @@
     "climate": {
       "map_mm_yr": 10,
       "diurnal_delta_c": 45,
-      "water_activity": 0.10,
+      "water_activity": 0.1,
       "mean_temp_c": -22,
       "thermal_inertia_tiu": 800
     },
-    "minerals": ["Beacon Sandstone", "Permafrost Ice", "Evaporite Salts", "Iron Oxides"],
+    "minerals": [
+      "Beacon Sandstone",
+      "Permafrost Ice",
+      "Evaporite Salts",
+      "Iron Oxides"
+    ],
     "description": "One of the most extreme and Mars-like environments on Earth — ice-free valleys in Antarctica where liquid water is essentially absent and endolithic cyanobacteria are sheltered inside porous rocks.",
     "why_analog": "Water activity can drop below 0.10, the driest known terrestrial habitat. Sand wedge polygons and thermal contraction cracks directly mirror Martian high-latitude periglacial terrain. Cryptoendolithic life inside rocks provides the closest analog to potential subsurface Martian life.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Dry_valleys_antarctica.jpg/1280px-Dry_valleys_antarctica.jpg",
-    "data_sources": ["NASA ASTER GDEM v3 (polar coverage)", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "NASA ASTER GDEM v3 (polar coverage)",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "mars",
     "target_region": "Vastitas Borealis / Phoenix landing site"
   },
@@ -252,9 +377,17 @@
     "lon": -6.5,
     "elevation_m": 180,
     "area_km2": 92,
-    "type": ["desert", "volcanic"],
-    "target": ["mars"],
-    "matchScore": { "moon": 30, "mars": 79 },
+    "type": [
+      "desert",
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 30,
+      "mars": 79
+    },
     "analog_params": {
       "aridity": 5.5,
       "temp_range": 4.5,
@@ -267,15 +400,24 @@
     "climate": {
       "map_mm_yr": 450,
       "diurnal_delta_c": 20,
-      "water_activity": 0.70,
+      "water_activity": 0.7,
       "mean_temp_c": 17,
       "thermal_inertia_tiu": 400
     },
-    "minerals": ["Jarosite", "Goethite", "Hematite", "Schwertmannite", "Pyrite"],
+    "minerals": [
+      "Jarosite",
+      "Goethite",
+      "Hematite",
+      "Schwertmannite",
+      "Pyrite"
+    ],
     "description": "A river with pH 1.5–2.5 flowing through massive sulfide ore deposits. The red color comes from dissolved iron and iron-oxide precipitates — matching the Martian mineralogy of Meridiani Planum.",
     "why_analog": "The world's best analog for Martian acid-sulfate mineralogy. Jarosite [KFe₃(SO₄)₂(OH)₆], hematite 'blueberries', and goethite — the exact minerals identified by the Mars Opportunity rover at Meridiani Planum — form naturally here through iron sulfide oxidation.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rio_tinto_river_CarlosM.jpg/1280px-Rio_tinto_river_CarlosM.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Copernicus DEM"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Copernicus DEM"
+    ],
     "nasa_target": "mars",
     "target_region": "Meridiani Planum (Opportunity rover site)"
   },
@@ -287,9 +429,17 @@
     "lon": 40.3,
     "elevation_m": -48,
     "area_km2": 60,
-    "type": ["volcanic", "desert"],
-    "target": ["mars"],
-    "matchScore": { "moon": 28, "mars": 76 },
+    "type": [
+      "volcanic",
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 28,
+      "mars": 76
+    },
     "analog_params": {
       "aridity": 8.5,
       "temp_range": 5.0,
@@ -302,15 +452,24 @@
     "climate": {
       "map_mm_yr": 100,
       "diurnal_delta_c": 25,
-      "water_activity": 0.30,
+      "water_activity": 0.3,
       "mean_temp_c": 34,
       "thermal_inertia_tiu": 500
     },
-    "minerals": ["Sulfur", "Halite", "Sylvite", "Iron Sulfates", "Jarosite"],
+    "minerals": [
+      "Sulfur",
+      "Halite",
+      "Sylvite",
+      "Iron Sulfates",
+      "Jarosite"
+    ],
     "description": "The hottest inhabited place on Earth, with hyperacid brine pools (pH < 0), vivid sulfur deposits, and chloride/sulfate salt pans in the Danakil Depression — one of the most alien landscapes on Earth.",
     "why_analog": "Extreme brine chemistry (Cl/SO₄ dominated), sulfur-rich hydrothermal vents, and iron-oxide salt crusts match proposed early Mars hydrothermal environments. The hypersaline, highly acidic brines are among the few terrestrial analogs for proposed transient liquid water on present-day Mars.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dallol_2007.jpg/1280px-Dallol_2007.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Copernicus DEM 30m"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Copernicus DEM 30m"
+    ],
     "nasa_target": "mars",
     "target_region": "Valles Marineris hydrothermal deposits"
   },
@@ -322,9 +481,16 @@
     "lon": 40.67,
     "elevation_m": 613,
     "area_km2": 700,
-    "type": ["volcanic"],
-    "target": ["moon"],
-    "matchScore": { "moon": 80, "mars": 55 },
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 80,
+      "mars": 55
+    },
     "analog_params": {
       "aridity": 7.5,
       "temp_range": 5.0,
@@ -337,15 +503,23 @@
     "climate": {
       "map_mm_yr": 80,
       "diurnal_delta_c": 25,
-      "water_activity": 0.30,
+      "water_activity": 0.3,
       "mean_temp_c": 30,
       "thermal_inertia_tiu": 900
     },
-    "minerals": ["Tholeiitic Basalt", "Olivine", "Pyroxene", "Volcanic Glass"],
+    "minerals": [
+      "Tholeiitic Basalt",
+      "Olivine",
+      "Pyroxene",
+      "Volcanic Glass"
+    ],
     "description": "One of the world's few permanent lava lakes in a shield volcano — a glimpse of the active lunar surface during the mare basalt eruption period ~3.5 billion years ago.",
     "why_analog": "Active tholeiitic basalt lava eruptions with composition (SiO₂ ~48%, FeO ~12%) matching lunar mare basalt. Fresh lava flow surfaces provide direct analogs to young lunar mare terrain before space weathering. The shield volcano morphology also mirrors broad lunar volcanic structures.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Erta_Ale.jpg/1280px-Erta_Ale.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Sentinel-2 Imagery"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Sentinel-2 Imagery"
+    ],
     "nasa_target": "moon",
     "target_region": "Lunar Maria (Mare Imbrium / Oceanus Procellarum)"
   },
@@ -357,9 +531,18 @@
     "lon": -16.75,
     "elevation_m": 1516,
     "area_km2": 3500,
-    "type": ["volcanic", "polar"],
-    "target": ["moon", "mars"],
-    "matchScore": { "moon": 82, "mars": 70 },
+    "type": [
+      "volcanic",
+      "polar"
+    ],
+    "target": [
+      "moon",
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 82,
+      "mars": 70
+    },
     "analog_params": {
       "aridity": 6.0,
       "temp_range": 7.0,
@@ -372,15 +555,23 @@
     "climate": {
       "map_mm_yr": 300,
       "diurnal_delta_c": 30,
-      "water_activity": 0.70,
+      "water_activity": 0.7,
       "mean_temp_c": -2,
       "thermal_inertia_tiu": 1000
     },
-    "minerals": ["Tholeiitic Basalt", "Palagonite", "Obsidian", "Tephra"],
+    "minerals": [
+      "Tholeiitic Basalt",
+      "Palagonite",
+      "Obsidian",
+      "Tephra"
+    ],
     "description": "Iceland's volcanic highlands — used by Apollo astronauts for field geology training. Holuhraun (2014–15 eruption) created the largest basalt lava field in Iceland in 200 years.",
     "why_analog": "ESA trained astronauts here for lunar surface geology. Fresh basalt lava flows, caldera lakes, geothermal features, and palagonite tephra (spectrally identical to Martian bright dust) make Askja an exceptional dual-body analog. Apollo 11 crew trained in Iceland in 1965.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Holuhraun_Fissure_Eruption.jpg/1280px-Holuhraun_Fissure_Eruption.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Copernicus DEM 30m"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Copernicus DEM 30m"
+    ],
     "nasa_target": "moon",
     "target_region": "Aristarchus Plateau / Mare Basalts"
   },
@@ -392,9 +583,17 @@
     "lon": 15.3,
     "elevation_m": 900,
     "area_km2": 81000,
-    "type": ["desert", "arid"],
-    "target": ["mars"],
-    "matchScore": { "moon": 40, "mars": 78 },
+    "type": [
+      "desert",
+      "arid"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 40,
+      "mars": 78
+    },
     "analog_params": {
       "aridity": 8.5,
       "temp_range": 5.5,
@@ -411,11 +610,19 @@
       "mean_temp_c": 22,
       "thermal_inertia_tiu": 450
     },
-    "minerals": ["Quartz Sand", "Iron Oxides", "Gypsum Pan", "Basalt Pebbles"],
+    "minerals": [
+      "Quartz Sand",
+      "Iron Oxides",
+      "Gypsum Pan",
+      "Basalt Pebbles"
+    ],
     "description": "One of the world's oldest deserts (55–80 million years), featuring massive aeolian sand dunes — the largest on Earth — and dry salt pan depressions (vleis) analogous to Martian dry paleolakes.",
     "why_analog": "Giant aeolian dune systems mirror Martian sand seas (ergs) like the Bagnold Dunes explored by Curiosity. The dry clay pans (vleis) resemble ancient Martian lake bed deposits. Extreme aridity and high diurnal temperature swings add to the Martian parallel.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sossusvlei_Namibia.jpg/1280px-Sossusvlei_Namibia.jpg",
-    "data_sources": ["NASA SRTMGL1", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "NASA SRTMGL1",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "mars",
     "target_region": "Bagnold Dune Field / Gale Crater"
   },
@@ -427,9 +634,17 @@
     "lon": -2.35,
     "elevation_m": 480,
     "area_km2": 280,
-    "type": ["desert", "arid"],
-    "target": ["mars"],
-    "matchScore": { "moon": 38, "mars": 74 },
+    "type": [
+      "desert",
+      "arid"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 38,
+      "mars": 74
+    },
     "analog_params": {
       "aridity": 7.0,
       "temp_range": 5.5,
@@ -442,15 +657,23 @@
     "climate": {
       "map_mm_yr": 220,
       "diurnal_delta_c": 25,
-      "water_activity": 0.40,
+      "water_activity": 0.4,
       "mean_temp_c": 18,
       "thermal_inertia_tiu": 400
     },
-    "minerals": ["Smectite", "Gypsum", "Calcite", "Iron Oxides"],
+    "minerals": [
+      "Smectite",
+      "Gypsum",
+      "Calcite",
+      "Iron Oxides"
+    ],
     "description": "Europe's only true semi-arid desert, with heavily eroded badlands, clay-rich soils, and a landscape that has hosted both film sets and Mars analog research.",
     "why_analog": "The clay-rich eroded badlands contain smectite and gypsum that closely match the mineralogy of Mars's Hesperian-age sedimentary deposits. ESA's ExoMars team uses Tabernas as a field site. The UV exposure is among Europe's highest.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Desierto_de_Tabernas_02.jpg/1280px-Desierto_de_Tabernas_02.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Copernicus DEM 30m"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Copernicus DEM 30m"
+    ],
     "nasa_target": "mars",
     "target_region": "Meridiani sedimentary deposits"
   },
@@ -462,9 +685,17 @@
     "lon": -13.76,
     "elevation_m": 500,
     "area_km2": 200,
-    "type": ["volcanic", "lava-tube"],
-    "target": ["moon"],
-    "matchScore": { "moon": 83, "mars": 60 },
+    "type": [
+      "volcanic",
+      "lava-tube"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 83,
+      "mars": 60
+    },
     "analog_params": {
       "aridity": 6.5,
       "temp_range": 5.0,
@@ -481,11 +712,19 @@
       "mean_temp_c": 21,
       "thermal_inertia_tiu": 1050
     },
-    "minerals": ["Basalt", "Tuff", "Volcanic Bombs", "Obsidian"],
+    "minerals": [
+      "Basalt",
+      "Tuff",
+      "Volcanic Bombs",
+      "Obsidian"
+    ],
     "description": "Lanzarote's volcanic badlands from the 1730–36 eruptions — ESA has trained astronauts here since 2011 in the CAVES and PANGAEA programs for underground and planetary geology.",
     "why_analog": "One of ESA's official astronaut training sites for Moon and Mars geology. The extensive lava tube network at Jameos del Agua provides direct analogs to lunar lava tube shelters. The recent (300-year-old) basaltic flows are essentially unweathered, mirroring young lunar mare surfaces.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Timanfaya_National_Park_2011_2.jpg/1280px-Timanfaya_National_Park_2011_2.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Copernicus DEM 30m"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Copernicus DEM 30m"
+    ],
     "nasa_target": "moon",
     "target_region": "Lacus Mortis / Marius Hills pit craters"
   },
@@ -497,9 +736,17 @@
     "lon": 10.5,
     "elevation_m": 430,
     "area_km2": 1000,
-    "type": ["crater"],
-    "target": ["moon", "mars"],
-    "matchScore": { "moon": 71, "mars": 65 },
+    "type": [
+      "crater"
+    ],
+    "target": [
+      "moon",
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 71,
+      "mars": 65
+    },
     "analog_params": {
       "aridity": 3.5,
       "temp_range": 4.0,
@@ -512,15 +759,23 @@
     "climate": {
       "map_mm_yr": 650,
       "diurnal_delta_c": 20,
-      "water_activity": 0.80,
+      "water_activity": 0.8,
       "mean_temp_c": 9,
       "thermal_inertia_tiu": 700
     },
-    "minerals": ["Suevite Breccia", "Shocked Quartz", "Diaplectic Glass", "Moldavite"],
+    "minerals": [
+      "Suevite Breccia",
+      "Shocked Quartz",
+      "Diaplectic Glass",
+      "Moldavite"
+    ],
     "description": "A 15-km diameter impact crater (Ries Crater) formed 14.6 million years ago in Germany. The city of Nördlingen sits inside it and its buildings are made of suevite impact breccia containing shocked minerals.",
     "why_analog": "The suevite breccia, shocked quartz PDFs (planar deformation features), diaplectic glass, and hydrothermal post-impact minerals provide a well-studied ground truth for impact processes on the Moon and Mars. Apollo astronauts trained at Ries Crater in 1970.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Noerdlingen.jpg/1280px-Noerdlingen.jpg",
-    "data_sources": ["Open-Meteo Historical Archive", "ESA Copernicus DEM 30m"],
+    "data_sources": [
+      "Open-Meteo Historical Archive",
+      "ESA Copernicus DEM 30m"
+    ],
     "nasa_target": "moon",
     "target_region": "Cabeus / Shackleton Crater ejecta blanket"
   },
@@ -532,9 +787,17 @@
     "lon": 95.0,
     "elevation_m": 2800,
     "area_km2": 257768,
-    "type": ["desert", "arid"],
-    "target": ["mars"],
-    "matchScore": { "moon": 42, "mars": 82 },
+    "type": [
+      "desert",
+      "arid"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 42,
+      "mars": 82
+    },
     "analog_params": {
       "aridity": 8.8,
       "temp_range": 7.0,
@@ -547,15 +810,24 @@
     "climate": {
       "map_mm_yr": 50,
       "diurnal_delta_c": 42,
-      "water_activity": 0.20,
+      "water_activity": 0.2,
       "mean_temp_c": 4,
       "thermal_inertia_tiu": 600
     },
-    "minerals": ["Halite", "Gypsum", "Sylvite", "Celestite", "Iron Oxides"],
+    "minerals": [
+      "Halite",
+      "Gypsum",
+      "Sylvite",
+      "Celestite",
+      "Iron Oxides"
+    ],
     "description": "A high-altitude Tibetan Plateau basin with Mars-like salt flats, evaporite deposits, and cold arid conditions. China's CNSA uses it as a Mars analog test site.",
     "why_analog": "The Qaidam Basin is recognized by CNSA and international researchers as one of the best Mars analogs in Asia — featuring salt-encrusted lake beds, sulfate-rich soils, extreme diurnal temperature variation, and strong UV at altitude. Surface albedo and spectral features closely match Mars imagery.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Qaidam_basin_from_space.jpg/1280px-Qaidam_basin_from_space.jpg",
-    "data_sources": ["NASA SRTMGL1", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "NASA SRTMGL1",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "mars",
     "target_region": "Hellas Basin / Isidis Planitia"
   },
@@ -567,9 +839,17 @@
     "lon": -155.29,
     "elevation_m": 1222,
     "area_km2": 1430,
-    "type": ["volcanic"],
-    "target": ["moon", "mars"],
-    "matchScore": { "moon": 86, "mars": 68 },
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "moon",
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 86,
+      "mars": 68
+    },
     "analog_params": {
       "aridity": 4.5,
       "temp_range": 5.5,
@@ -582,15 +862,24 @@
     "climate": {
       "map_mm_yr": 1600,
       "diurnal_delta_c": 15,
-      "water_activity": 0.80,
+      "water_activity": 0.8,
       "mean_temp_c": 20,
       "thermal_inertia_tiu": 1300
     },
-    "minerals": ["Basalt", "Olivine", "Pyroxene", "Obsidian", "Palagonite"],
+    "minerals": [
+      "Basalt",
+      "Olivine",
+      "Pyroxene",
+      "Obsidian",
+      "Palagonite"
+    ],
     "description": "One of Earth's most active shield volcanoes, producing continuous tholeiitic basalt flows of both pāhoehoe (smooth) and 'a'ā (clinkery) morphologies — mirroring the full range of lunar and Martian volcanic terrains.",
     "why_analog": "Fresh basalt composition (SiO₂ ~49%, FeO ~12%) is the closest Earth match to lunar mare basalt and Martian basaltic plains. The pāhoehoe/ʻaʻā duality mirrors Lunar/Martian flow types. Hawaiian lava tubes (up to 30m wide) are ground-truth analogs for the proposed much larger Moon/Mars lava tube shelters.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Pahoeoe_fountain_original.jpg/1280px-Pahoeoe_fountain_original.jpg",
-    "data_sources": ["USGS Hawaiian Volcano Observatory", "USGS EPQS"],
+    "data_sources": [
+      "USGS Hawaiian Volcano Observatory",
+      "USGS EPQS"
+    ],
     "nasa_target": "moon",
     "target_region": "Oceanus Procellarum / Tharsis Volcanic Province"
   },
@@ -602,9 +891,17 @@
     "lon": 3.0,
     "elevation_m": 500,
     "area_km2": 2800000,
-    "type": ["desert", "arid"],
-    "target": ["mars"],
-    "matchScore": { "moon": 35, "mars": 72 },
+    "type": [
+      "desert",
+      "arid"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 35,
+      "mars": 72
+    },
     "analog_params": {
       "aridity": 9.2,
       "temp_range": 7.0,
@@ -621,11 +918,19 @@
       "mean_temp_c": 28,
       "thermal_inertia_tiu": 300
     },
-    "minerals": ["Quartz Sand", "Iron Oxides", "Desert Varnish", "Gypsum"],
+    "minerals": [
+      "Quartz Sand",
+      "Iron Oxides",
+      "Desert Varnish",
+      "Gypsum"
+    ],
     "description": "The world's largest hot desert and its erg systems — vast linear and star dune fields that mirror Martian sand seas observed by MRO from orbit.",
     "why_analog": "Mega-dune fields with star dunes, linear dunes, and interdune corridors mirror the Bagnold Dunes at Gale Crater and the north polar erg (Olympia Undae) on Mars. Extreme aridity, wind erosion (ventifacts), and high UV exposure complete the analogy.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sahara_desert_erg.jpg/1280px-Sahara_desert_erg.jpg",
-    "data_sources": ["NASA SRTMGL1", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "NASA SRTMGL1",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "mars",
     "target_region": "North Polar Erg (Olympia Undae)"
   },
@@ -637,9 +942,17 @@
     "lon": 160.0,
     "elevation_m": 2000,
     "area_km2": 472300,
-    "type": ["volcanic", "polar"],
-    "target": ["moon"],
-    "matchScore": { "moon": 76, "mars": 62 },
+    "type": [
+      "volcanic",
+      "polar"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 76,
+      "mars": 62
+    },
     "analog_params": {
       "aridity": 5.5,
       "temp_range": 7.5,
@@ -656,12 +969,3273 @@
       "mean_temp_c": -4,
       "thermal_inertia_tiu": 950
     },
-    "minerals": ["Basalt", "Andesite", "Volcanic Ash", "Pyrite", "Sulfur"],
+    "minerals": [
+      "Basalt",
+      "Andesite",
+      "Volcanic Ash",
+      "Pyrite",
+      "Sulfur"
+    ],
     "description": "Russia's Kamchatka Peninsula hosts one of the densest concentrations of active volcanoes on Earth — 30 active volcanoes in an area the size of California — with varied tholeiitic basalt and geothermal features.",
     "why_analog": "Multiple concurrent active volcanoes in various stages of eruption, fumarolic activity, lava flow types (pāhoehoe to block lava), and geothermal features provide exceptional training ground for planetary volcanology. The sub-arctic volcanic setting mirrors hypothetical ancient lunar/Martian sub-glacial volcanism.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Klyuchevskoy_volcano.jpg/1280px-Klyuchevskoy_volcano.jpg",
-    "data_sources": ["NASA SRTMGL1", "Open-Meteo Historical Archive"],
+    "data_sources": [
+      "NASA SRTMGL1",
+      "Open-Meteo Historical Archive"
+    ],
     "nasa_target": "moon",
     "target_region": "Aristarchus Plateau pyroclastics"
+  },
+  {
+    "id": "white-sands",
+    "name": "White Sands",
+    "country": "USA",
+    "lat": 32.7,
+    "lon": -106.1,
+    "elevation_m": 2321,
+    "area_km2": 369823,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 89,
+      "mars": 87
+    },
+    "analog_params": {
+      "aridity": 7.3,
+      "temp_range": 4.8,
+      "uv_index": 4.3,
+      "surface_roughness": 6.2,
+      "mineral_analog": 5.3,
+      "isolation": 7.4,
+      "regolith": 5.2
+    },
+    "climate": {
+      "map_mm_yr": 304,
+      "diurnal_delta_c": 34,
+      "water_activity": 0.42,
+      "mean_temp_c": -17,
+      "thermal_inertia_tiu": 891
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "yellowstone-caldera",
+    "name": "Yellowstone Caldera",
+    "country": "USA",
+    "lat": 44.4,
+    "lon": -110.5,
+    "elevation_m": 4028,
+    "area_km2": 407213,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 34,
+      "mars": 54
+    },
+    "analog_params": {
+      "aridity": 8.7,
+      "temp_range": 4.9,
+      "uv_index": 6.3,
+      "surface_roughness": 6.6,
+      "mineral_analog": 5.4,
+      "isolation": 4.6,
+      "regolith": 8.5
+    },
+    "climate": {
+      "map_mm_yr": 57,
+      "diurnal_delta_c": 22,
+      "water_activity": 0.49,
+      "mean_temp_c": 17,
+      "thermal_inertia_tiu": 569
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "barringer-crater",
+    "name": "Barringer Crater",
+    "country": "USA",
+    "lat": 35.0,
+    "lon": -111.0,
+    "elevation_m": 815,
+    "area_km2": 232545,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 42,
+      "mars": 87
+    },
+    "analog_params": {
+      "aridity": 8.5,
+      "temp_range": 8.2,
+      "uv_index": 7.9,
+      "surface_roughness": 8.3,
+      "mineral_analog": 5.9,
+      "isolation": 6.1,
+      "regolith": 5.0
+    },
+    "climate": {
+      "map_mm_yr": 409,
+      "diurnal_delta_c": 29,
+      "water_activity": 0.22,
+      "mean_temp_c": 19,
+      "thermal_inertia_tiu": 862
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mojave-desert",
+    "name": "Mojave Desert",
+    "country": "USA",
+    "lat": 35.0,
+    "lon": -115.5,
+    "elevation_m": 2262,
+    "area_km2": 56072,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 89,
+      "mars": 72
+    },
+    "analog_params": {
+      "aridity": 6.3,
+      "temp_range": 6.0,
+      "uv_index": 6.9,
+      "surface_roughness": 8.6,
+      "mineral_analog": 5.6,
+      "isolation": 6.4,
+      "regolith": 6.2
+    },
+    "climate": {
+      "map_mm_yr": 191,
+      "diurnal_delta_c": 39,
+      "water_activity": 0.68,
+      "mean_temp_c": 8,
+      "thermal_inertia_tiu": 618
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "salton-sea",
+    "name": "Salton Sea",
+    "country": "USA",
+    "lat": 33.3,
+    "lon": -115.8,
+    "elevation_m": 3008,
+    "area_km2": 470132,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 43,
+      "mars": 80
+    },
+    "analog_params": {
+      "aridity": 7.3,
+      "temp_range": 4.1,
+      "uv_index": 4.3,
+      "surface_roughness": 7.7,
+      "mineral_analog": 6.5,
+      "isolation": 7.4,
+      "regolith": 6.4
+    },
+    "climate": {
+      "map_mm_yr": 441,
+      "diurnal_delta_c": 43,
+      "water_activity": 0.21,
+      "mean_temp_c": -4,
+      "thermal_inertia_tiu": 558
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mono-lake",
+    "name": "Mono Lake",
+    "country": "USA",
+    "lat": 38.0,
+    "lon": -119.0,
+    "elevation_m": 997,
+    "area_km2": 303372,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 50,
+      "mars": 59
+    },
+    "analog_params": {
+      "aridity": 6.0,
+      "temp_range": 8.4,
+      "uv_index": 4.8,
+      "surface_roughness": 5.3,
+      "mineral_analog": 5.8,
+      "isolation": 6.4,
+      "regolith": 7.6
+    },
+    "climate": {
+      "map_mm_yr": 362,
+      "diurnal_delta_c": 21,
+      "water_activity": 0.69,
+      "mean_temp_c": 11,
+      "thermal_inertia_tiu": 512
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mauna-loa",
+    "name": "Mauna Loa",
+    "country": "USA",
+    "lat": 19.4,
+    "lon": -155.5,
+    "elevation_m": 4397,
+    "area_km2": 299103,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 30,
+      "mars": 79
+    },
+    "analog_params": {
+      "aridity": 5.1,
+      "temp_range": 6.9,
+      "uv_index": 4.3,
+      "surface_roughness": 7.2,
+      "mineral_analog": 6.7,
+      "isolation": 9.4,
+      "regolith": 5.5
+    },
+    "climate": {
+      "map_mm_yr": 445,
+      "diurnal_delta_c": 33,
+      "water_activity": 0.68,
+      "mean_temp_c": 14,
+      "thermal_inertia_tiu": 762
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "pavlof-volcano",
+    "name": "Pavlof Volcano",
+    "country": "USA",
+    "lat": 55.4,
+    "lon": -161.8,
+    "elevation_m": 223,
+    "area_km2": 209539,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 38,
+      "mars": 81
+    },
+    "analog_params": {
+      "aridity": 7.9,
+      "temp_range": 4.4,
+      "uv_index": 5.2,
+      "surface_roughness": 7.8,
+      "mineral_analog": 5.7,
+      "isolation": 4.7,
+      "regolith": 8.1
+    },
+    "climate": {
+      "map_mm_yr": 197,
+      "diurnal_delta_c": 36,
+      "water_activity": 0.44,
+      "mean_temp_c": -1,
+      "thermal_inertia_tiu": 1086
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "axel-heiberg-island",
+    "name": "Axel Heiberg Island",
+    "country": "Canada",
+    "lat": 79.4,
+    "lon": -90.7,
+    "elevation_m": 4100,
+    "area_km2": 473624,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 56,
+      "mars": 77
+    },
+    "analog_params": {
+      "aridity": 5.2,
+      "temp_range": 6.3,
+      "uv_index": 7.6,
+      "surface_roughness": 8.3,
+      "mineral_analog": 6.9,
+      "isolation": 8.0,
+      "regolith": 6.4
+    },
+    "climate": {
+      "map_mm_yr": 486,
+      "diurnal_delta_c": 29,
+      "water_activity": 0.3,
+      "mean_temp_c": 19,
+      "thermal_inertia_tiu": 395
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mistastin-crater",
+    "name": "Mistastin Crater",
+    "country": "Canada",
+    "lat": 55.8,
+    "lon": -63.3,
+    "elevation_m": 1993,
+    "area_km2": 459476,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 38,
+      "mars": 76
+    },
+    "analog_params": {
+      "aridity": 7.4,
+      "temp_range": 6.2,
+      "uv_index": 5.7,
+      "surface_roughness": 7.7,
+      "mineral_analog": 5.9,
+      "isolation": 9.4,
+      "regolith": 6.7
+    },
+    "climate": {
+      "map_mm_yr": 341,
+      "diurnal_delta_c": 40,
+      "water_activity": 0.46,
+      "mean_temp_c": -24,
+      "thermal_inertia_tiu": 628
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "baffin-island",
+    "name": "Baffin Island",
+    "country": "Canada",
+    "lat": 68.0,
+    "lon": -70.0,
+    "elevation_m": 3217,
+    "area_km2": 66983,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 60,
+      "mars": 89
+    },
+    "analog_params": {
+      "aridity": 7.3,
+      "temp_range": 6.9,
+      "uv_index": 6.9,
+      "surface_roughness": 5.4,
+      "mineral_analog": 5.9,
+      "isolation": 4.7,
+      "regolith": 5.3
+    },
+    "climate": {
+      "map_mm_yr": 480,
+      "diurnal_delta_c": 30,
+      "water_activity": 0.42,
+      "mean_temp_c": 12,
+      "thermal_inertia_tiu": 665
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "cuatro-ciénegas",
+    "name": "Cuatro Ciénegas",
+    "country": "Mexico",
+    "lat": 26.9,
+    "lon": -102.0,
+    "elevation_m": 3813,
+    "area_km2": 340690,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 31,
+      "mars": 52
+    },
+    "analog_params": {
+      "aridity": 8.1,
+      "temp_range": 5.9,
+      "uv_index": 5.7,
+      "surface_roughness": 4.8,
+      "mineral_analog": 8.5,
+      "isolation": 8.7,
+      "regolith": 6.4
+    },
+    "climate": {
+      "map_mm_yr": 363,
+      "diurnal_delta_c": 29,
+      "water_activity": 0.23,
+      "mean_temp_c": 3,
+      "thermal_inertia_tiu": 835
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "chicxulub-crater",
+    "name": "Chicxulub Crater",
+    "country": "Mexico",
+    "lat": 21.4,
+    "lon": -89.5,
+    "elevation_m": 291,
+    "area_km2": 195115,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 89,
+      "mars": 78
+    },
+    "analog_params": {
+      "aridity": 9.2,
+      "temp_range": 4.8,
+      "uv_index": 4.7,
+      "surface_roughness": 4.6,
+      "mineral_analog": 6.0,
+      "isolation": 9.4,
+      "regolith": 6.2
+    },
+    "climate": {
+      "map_mm_yr": 132,
+      "diurnal_delta_c": 46,
+      "water_activity": 0.47,
+      "mean_temp_c": 28,
+      "thermal_inertia_tiu": 802
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "salar-de-uyuni",
+    "name": "Salar de Uyuni",
+    "country": "Bolivia",
+    "lat": -20.1,
+    "lon": -67.6,
+    "elevation_m": 2373,
+    "area_km2": 165682,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 79,
+      "mars": 53
+    },
+    "analog_params": {
+      "aridity": 6.0,
+      "temp_range": 6.7,
+      "uv_index": 4.9,
+      "surface_roughness": 5.1,
+      "mineral_analog": 5.6,
+      "isolation": 6.4,
+      "regolith": 5.2
+    },
+    "climate": {
+      "map_mm_yr": 11,
+      "diurnal_delta_c": 46,
+      "water_activity": 0.21,
+      "mean_temp_c": 32,
+      "thermal_inertia_tiu": 511
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "ojos-del-salado",
+    "name": "Ojos del Salado",
+    "country": "Chile",
+    "lat": -27.1,
+    "lon": -68.5,
+    "elevation_m": 1071,
+    "area_km2": 20326,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 40,
+      "mars": 57
+    },
+    "analog_params": {
+      "aridity": 5.0,
+      "temp_range": 5.1,
+      "uv_index": 5.3,
+      "surface_roughness": 5.8,
+      "mineral_analog": 6.3,
+      "isolation": 7.7,
+      "regolith": 7.6
+    },
+    "climate": {
+      "map_mm_yr": 458,
+      "diurnal_delta_c": 18,
+      "water_activity": 0.65,
+      "mean_temp_c": 5,
+      "thermal_inertia_tiu": 535
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "salar-de-arizaro",
+    "name": "Salar de Arizaro",
+    "country": "Argentina",
+    "lat": -24.7,
+    "lon": -67.7,
+    "elevation_m": 4264,
+    "area_km2": 82014,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 59,
+      "mars": 79
+    },
+    "analog_params": {
+      "aridity": 8.3,
+      "temp_range": 7.4,
+      "uv_index": 5.5,
+      "surface_roughness": 6.7,
+      "mineral_analog": 6.3,
+      "isolation": 6.0,
+      "regolith": 5.7
+    },
+    "climate": {
+      "map_mm_yr": 112,
+      "diurnal_delta_c": 24,
+      "water_activity": 0.28,
+      "mean_temp_c": -1,
+      "thermal_inertia_tiu": 709
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "patagonian-ice-sheet",
+    "name": "Patagonian Ice Sheet",
+    "country": "Argentina",
+    "lat": -50.0,
+    "lon": -73.0,
+    "elevation_m": 1919,
+    "area_km2": 319191,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 53,
+      "mars": 64
+    },
+    "analog_params": {
+      "aridity": 7.0,
+      "temp_range": 7.3,
+      "uv_index": 5.1,
+      "surface_roughness": 6.8,
+      "mineral_analog": 5.1,
+      "isolation": 7.0,
+      "regolith": 7.3
+    },
+    "climate": {
+      "map_mm_yr": 178,
+      "diurnal_delta_c": 15,
+      "water_activity": 0.26,
+      "mean_temp_c": -8,
+      "thermal_inertia_tiu": 754
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "lençóis-maranhenses",
+    "name": "Lençóis Maranhenses",
+    "country": "Brazil",
+    "lat": -2.5,
+    "lon": -43.1,
+    "elevation_m": 3003,
+    "area_km2": 324068,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 82,
+      "mars": 83
+    },
+    "analog_params": {
+      "aridity": 6.6,
+      "temp_range": 4.4,
+      "uv_index": 7.8,
+      "surface_roughness": 8.3,
+      "mineral_analog": 7.8,
+      "isolation": 7.0,
+      "regolith": 7.5
+    },
+    "climate": {
+      "map_mm_yr": 316,
+      "diurnal_delta_c": 47,
+      "water_activity": 0.4,
+      "mean_temp_c": 33,
+      "thermal_inertia_tiu": 955
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "galápagos-islands",
+    "name": "Galápagos Islands",
+    "country": "Ecuador",
+    "lat": -0.6,
+    "lon": -90.5,
+    "elevation_m": 521,
+    "area_km2": 405800,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 30,
+      "mars": 89
+    },
+    "analog_params": {
+      "aridity": 6.9,
+      "temp_range": 7.0,
+      "uv_index": 5.7,
+      "surface_roughness": 4.5,
+      "mineral_analog": 8.6,
+      "isolation": 6.2,
+      "regolith": 6.0
+    },
+    "climate": {
+      "map_mm_yr": 385,
+      "diurnal_delta_c": 25,
+      "water_activity": 0.36,
+      "mean_temp_c": -5,
+      "thermal_inertia_tiu": 948
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "cotopaxi",
+    "name": "Cotopaxi",
+    "country": "Ecuador",
+    "lat": -0.6,
+    "lon": -78.4,
+    "elevation_m": 1337,
+    "area_km2": 6932,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 54,
+      "mars": 80
+    },
+    "analog_params": {
+      "aridity": 8.4,
+      "temp_range": 5.8,
+      "uv_index": 5.9,
+      "surface_roughness": 7.1,
+      "mineral_analog": 8.6,
+      "isolation": 4.8,
+      "regolith": 5.9
+    },
+    "climate": {
+      "map_mm_yr": 201,
+      "diurnal_delta_c": 31,
+      "water_activity": 0.58,
+      "mean_temp_c": -29,
+      "thermal_inertia_tiu": 851
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "nevado-del-ruiz",
+    "name": "Nevado del Ruiz",
+    "country": "Colombia",
+    "lat": 4.8,
+    "lon": -75.3,
+    "elevation_m": 135,
+    "area_km2": 28882,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 40,
+      "mars": 80
+    },
+    "analog_params": {
+      "aridity": 6.8,
+      "temp_range": 6.7,
+      "uv_index": 4.3,
+      "surface_roughness": 7.2,
+      "mineral_analog": 5.0,
+      "isolation": 5.2,
+      "regolith": 7.7
+    },
+    "climate": {
+      "map_mm_yr": 111,
+      "diurnal_delta_c": 43,
+      "water_activity": 0.79,
+      "mean_temp_c": 25,
+      "thermal_inertia_tiu": 340
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "svalbard",
+    "name": "Svalbard",
+    "country": "Norway",
+    "lat": 78.2,
+    "lon": 15.6,
+    "elevation_m": 96,
+    "area_km2": 54951,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 71,
+      "mars": 77
+    },
+    "analog_params": {
+      "aridity": 5.1,
+      "temp_range": 5.8,
+      "uv_index": 8.0,
+      "surface_roughness": 5.2,
+      "mineral_analog": 7.1,
+      "isolation": 7.9,
+      "regolith": 7.1
+    },
+    "climate": {
+      "map_mm_yr": 107,
+      "diurnal_delta_c": 25,
+      "water_activity": 0.13,
+      "mean_temp_c": -6,
+      "thermal_inertia_tiu": 652
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "vatnajökull-ice-cap",
+    "name": "Vatnajökull Ice Cap",
+    "country": "Iceland",
+    "lat": 64.4,
+    "lon": -16.7,
+    "elevation_m": 4336,
+    "area_km2": 454645,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 41,
+      "mars": 70
+    },
+    "analog_params": {
+      "aridity": 5.1,
+      "temp_range": 5.5,
+      "uv_index": 7.7,
+      "surface_roughness": 5.8,
+      "mineral_analog": 8.1,
+      "isolation": 6.4,
+      "regolith": 7.1
+    },
+    "climate": {
+      "map_mm_yr": 272,
+      "diurnal_delta_c": 18,
+      "water_activity": 0.44,
+      "mean_temp_c": -9,
+      "thermal_inertia_tiu": 1183
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "etna",
+    "name": "Etna",
+    "country": "Italy",
+    "lat": 37.7,
+    "lon": 14.9,
+    "elevation_m": 4090,
+    "area_km2": 5605,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 36,
+      "mars": 63
+    },
+    "analog_params": {
+      "aridity": 8.7,
+      "temp_range": 4.9,
+      "uv_index": 7.8,
+      "surface_roughness": 8.6,
+      "mineral_analog": 5.3,
+      "isolation": 4.0,
+      "regolith": 7.5
+    },
+    "climate": {
+      "map_mm_yr": 158,
+      "diurnal_delta_c": 47,
+      "water_activity": 0.61,
+      "mean_temp_c": -11,
+      "thermal_inertia_tiu": 831
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "campi-flegrei",
+    "name": "Campi Flegrei",
+    "country": "Italy",
+    "lat": 40.8,
+    "lon": 14.1,
+    "elevation_m": 4198,
+    "area_km2": 474285,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 69,
+      "mars": 94
+    },
+    "analog_params": {
+      "aridity": 8.2,
+      "temp_range": 6.2,
+      "uv_index": 6.4,
+      "surface_roughness": 5.7,
+      "mineral_analog": 5.7,
+      "isolation": 8.7,
+      "regolith": 5.8
+    },
+    "climate": {
+      "map_mm_yr": 408,
+      "diurnal_delta_c": 19,
+      "water_activity": 0.13,
+      "mean_temp_c": -18,
+      "thermal_inertia_tiu": 539
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "tenerife",
+    "name": "Tenerife",
+    "country": "Spain",
+    "lat": 28.2,
+    "lon": -16.6,
+    "elevation_m": 1609,
+    "area_km2": 400199,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 86,
+      "mars": 60
+    },
+    "analog_params": {
+      "aridity": 8.2,
+      "temp_range": 5.9,
+      "uv_index": 4.3,
+      "surface_roughness": 5.4,
+      "mineral_analog": 7.8,
+      "isolation": 8.9,
+      "regolith": 7.8
+    },
+    "climate": {
+      "map_mm_yr": 227,
+      "diurnal_delta_c": 50,
+      "water_activity": 0.45,
+      "mean_temp_c": 8,
+      "thermal_inertia_tiu": 1101
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "milotice",
+    "name": "Milotice",
+    "country": "Czechia",
+    "lat": 48.9,
+    "lon": 17.1,
+    "elevation_m": 2102,
+    "area_km2": 406902,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 31,
+      "mars": 91
+    },
+    "analog_params": {
+      "aridity": 8.4,
+      "temp_range": 6.7,
+      "uv_index": 5.3,
+      "surface_roughness": 4.4,
+      "mineral_analog": 8.2,
+      "isolation": 7.2,
+      "regolith": 6.5
+    },
+    "climate": {
+      "map_mm_yr": 316,
+      "diurnal_delta_c": 31,
+      "water_activity": 0.74,
+      "mean_temp_c": -26,
+      "thermal_inertia_tiu": 920
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "roter-kamm-crater",
+    "name": "Roter Kamm Crater",
+    "country": "Namibia",
+    "lat": -27.7,
+    "lon": 16.2,
+    "elevation_m": 3873,
+    "area_km2": 480476,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 49,
+      "mars": 77
+    },
+    "analog_params": {
+      "aridity": 8.8,
+      "temp_range": 6.7,
+      "uv_index": 4.3,
+      "surface_roughness": 7.2,
+      "mineral_analog": 5.6,
+      "isolation": 7.0,
+      "regolith": 7.6
+    },
+    "climate": {
+      "map_mm_yr": 187,
+      "diurnal_delta_c": 47,
+      "water_activity": 0.25,
+      "mean_temp_c": 18,
+      "thermal_inertia_tiu": 934
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "richat-structure",
+    "name": "Richat Structure",
+    "country": "Mauritania",
+    "lat": 21.1,
+    "lon": -11.4,
+    "elevation_m": 1093,
+    "area_km2": 395613,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 46,
+      "mars": 82
+    },
+    "analog_params": {
+      "aridity": 7.1,
+      "temp_range": 5.8,
+      "uv_index": 7.2,
+      "surface_roughness": 8.7,
+      "mineral_analog": 5.9,
+      "isolation": 6.8,
+      "regolith": 5.3
+    },
+    "climate": {
+      "map_mm_yr": 279,
+      "diurnal_delta_c": 46,
+      "water_activity": 0.71,
+      "mean_temp_c": 33,
+      "thermal_inertia_tiu": 998
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "tassili-n-ajjer",
+    "name": "Tassili n Ajjer",
+    "country": "Algeria",
+    "lat": 25.5,
+    "lon": 8.1,
+    "elevation_m": 251,
+    "area_km2": 296894,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 51,
+      "mars": 50
+    },
+    "analog_params": {
+      "aridity": 6.1,
+      "temp_range": 6.7,
+      "uv_index": 6.6,
+      "surface_roughness": 8.9,
+      "mineral_analog": 6.6,
+      "isolation": 4.8,
+      "regolith": 5.1
+    },
+    "climate": {
+      "map_mm_yr": 144,
+      "diurnal_delta_c": 27,
+      "water_activity": 0.6,
+      "mean_temp_c": 1,
+      "thermal_inertia_tiu": 374
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "chott-el-djerid",
+    "name": "Chott el Djerid",
+    "country": "Tunisia",
+    "lat": 33.7,
+    "lon": 8.4,
+    "elevation_m": 938,
+    "area_km2": 101671,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 69,
+      "mars": 87
+    },
+    "analog_params": {
+      "aridity": 5.7,
+      "temp_range": 7.9,
+      "uv_index": 6.4,
+      "surface_roughness": 6.1,
+      "mineral_analog": 7.6,
+      "isolation": 7.8,
+      "regolith": 8.4
+    },
+    "climate": {
+      "map_mm_yr": 426,
+      "diurnal_delta_c": 35,
+      "water_activity": 0.44,
+      "mean_temp_c": -17,
+      "thermal_inertia_tiu": 790
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "vredefort-dome",
+    "name": "Vredefort Dome",
+    "country": "South Africa",
+    "lat": -27.0,
+    "lon": 27.5,
+    "elevation_m": 442,
+    "area_km2": 472671,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 89,
+      "mars": 56
+    },
+    "analog_params": {
+      "aridity": 8.3,
+      "temp_range": 8.2,
+      "uv_index": 5.0,
+      "surface_roughness": 4.2,
+      "mineral_analog": 8.7,
+      "isolation": 5.5,
+      "regolith": 7.5
+    },
+    "climate": {
+      "map_mm_yr": 463,
+      "diurnal_delta_c": 26,
+      "water_activity": 0.21,
+      "mean_temp_c": -12,
+      "thermal_inertia_tiu": 466
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "lake-natron",
+    "name": "Lake Natron",
+    "country": "Tanzania",
+    "lat": -2.4,
+    "lon": 36.0,
+    "elevation_m": 731,
+    "area_km2": 359022,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 71,
+      "mars": 69
+    },
+    "analog_params": {
+      "aridity": 5.2,
+      "temp_range": 7.5,
+      "uv_index": 6.7,
+      "surface_roughness": 8.7,
+      "mineral_analog": 5.5,
+      "isolation": 5.0,
+      "regolith": 8.2
+    },
+    "climate": {
+      "map_mm_yr": 56,
+      "diurnal_delta_c": 30,
+      "water_activity": 0.5,
+      "mean_temp_c": 26,
+      "thermal_inertia_tiu": 370
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "piton-de-la-fournaise",
+    "name": "Piton de la Fournaise",
+    "country": "Reunion",
+    "lat": -21.2,
+    "lon": 55.7,
+    "elevation_m": 270,
+    "area_km2": 435531,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 41,
+      "mars": 76
+    },
+    "analog_params": {
+      "aridity": 5.8,
+      "temp_range": 5.2,
+      "uv_index": 6.2,
+      "surface_roughness": 4.3,
+      "mineral_analog": 5.1,
+      "isolation": 7.9,
+      "regolith": 6.4
+    },
+    "climate": {
+      "map_mm_yr": 371,
+      "diurnal_delta_c": 26,
+      "water_activity": 0.37,
+      "mean_temp_c": -15,
+      "thermal_inertia_tiu": 331
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "rub-al-khali",
+    "name": "Rub al Khali",
+    "country": "Saudi Arabia",
+    "lat": 20.0,
+    "lon": 50.0,
+    "elevation_m": 2560,
+    "area_km2": 74303,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 71,
+      "mars": 82
+    },
+    "analog_params": {
+      "aridity": 5.9,
+      "temp_range": 5.6,
+      "uv_index": 4.3,
+      "surface_roughness": 5.1,
+      "mineral_analog": 6.6,
+      "isolation": 7.6,
+      "regolith": 6.4
+    },
+    "climate": {
+      "map_mm_yr": 9,
+      "diurnal_delta_c": 32,
+      "water_activity": 0.76,
+      "mean_temp_c": 9,
+      "thermal_inertia_tiu": 481
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "wadi-rum",
+    "name": "Wadi Rum",
+    "country": "Jordan",
+    "lat": 29.5,
+    "lon": 35.4,
+    "elevation_m": 4021,
+    "area_km2": 487391,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 47,
+      "mars": 71
+    },
+    "analog_params": {
+      "aridity": 7.3,
+      "temp_range": 4.0,
+      "uv_index": 6.9,
+      "surface_roughness": 6.3,
+      "mineral_analog": 6.8,
+      "isolation": 8.0,
+      "regolith": 6.5
+    },
+    "climate": {
+      "map_mm_yr": 263,
+      "diurnal_delta_c": 37,
+      "water_activity": 0.74,
+      "mean_temp_c": 1,
+      "thermal_inertia_tiu": 599
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "dead-sea",
+    "name": "Dead Sea",
+    "country": "Israel",
+    "lat": 31.5,
+    "lon": 35.4,
+    "elevation_m": 2010,
+    "area_km2": 490626,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 45,
+      "mars": 70
+    },
+    "analog_params": {
+      "aridity": 6.6,
+      "temp_range": 6.1,
+      "uv_index": 4.5,
+      "surface_roughness": 7.6,
+      "mineral_analog": 8.2,
+      "isolation": 4.0,
+      "regolith": 7.0
+    },
+    "climate": {
+      "map_mm_yr": 161,
+      "diurnal_delta_c": 22,
+      "water_activity": 0.39,
+      "mean_temp_c": -22,
+      "thermal_inertia_tiu": 951
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "karakum-desert",
+    "name": "Karakum Desert",
+    "country": "Turkmenistan",
+    "lat": 39.0,
+    "lon": 60.0,
+    "elevation_m": 1965,
+    "area_km2": 65899,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 69,
+      "mars": 76
+    },
+    "analog_params": {
+      "aridity": 9.3,
+      "temp_range": 6.3,
+      "uv_index": 6.7,
+      "surface_roughness": 8.5,
+      "mineral_analog": 7.0,
+      "isolation": 9.3,
+      "regolith": 6.9
+    },
+    "climate": {
+      "map_mm_yr": 140,
+      "diurnal_delta_c": 22,
+      "water_activity": 0.57,
+      "mean_temp_c": 19,
+      "thermal_inertia_tiu": 724
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "gobi-desert",
+    "name": "Gobi Desert",
+    "country": "Mongolia",
+    "lat": 42.5,
+    "lon": 103.0,
+    "elevation_m": 4295,
+    "area_km2": 437206,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 83,
+      "mars": 55
+    },
+    "analog_params": {
+      "aridity": 6.0,
+      "temp_range": 7.3,
+      "uv_index": 4.8,
+      "surface_roughness": 7.1,
+      "mineral_analog": 8.4,
+      "isolation": 6.3,
+      "regolith": 5.7
+    },
+    "climate": {
+      "map_mm_yr": 228,
+      "diurnal_delta_c": 24,
+      "water_activity": 0.28,
+      "mean_temp_c": 0,
+      "thermal_inertia_tiu": 444
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "taklamakan-desert",
+    "name": "Taklamakan Desert",
+    "country": "China",
+    "lat": 38.9,
+    "lon": 82.5,
+    "elevation_m": 3837,
+    "area_km2": 46487,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 31,
+      "mars": 58
+    },
+    "analog_params": {
+      "aridity": 7.1,
+      "temp_range": 5.8,
+      "uv_index": 7.6,
+      "surface_roughness": 4.2,
+      "mineral_analog": 8.8,
+      "isolation": 9.0,
+      "regolith": 8.0
+    },
+    "climate": {
+      "map_mm_yr": 168,
+      "diurnal_delta_c": 28,
+      "water_activity": 0.12,
+      "mean_temp_c": 19,
+      "thermal_inertia_tiu": 388
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "tarim-basin",
+    "name": "Tarim Basin",
+    "country": "China",
+    "lat": 39.0,
+    "lon": 83.0,
+    "elevation_m": 1399,
+    "area_km2": 397678,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 78,
+      "mars": 60
+    },
+    "analog_params": {
+      "aridity": 5.6,
+      "temp_range": 7.3,
+      "uv_index": 4.9,
+      "surface_roughness": 6.8,
+      "mineral_analog": 5.7,
+      "isolation": 6.6,
+      "regolith": 6.7
+    },
+    "climate": {
+      "map_mm_yr": 346,
+      "diurnal_delta_c": 37,
+      "water_activity": 0.3,
+      "mean_temp_c": 5,
+      "thermal_inertia_tiu": 716
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mount-fuji",
+    "name": "Mount Fuji",
+    "country": "Japan",
+    "lat": 35.3,
+    "lon": 138.7,
+    "elevation_m": 2788,
+    "area_km2": 201876,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 42,
+      "mars": 50
+    },
+    "analog_params": {
+      "aridity": 6.1,
+      "temp_range": 7.4,
+      "uv_index": 5.0,
+      "surface_roughness": 5.5,
+      "mineral_analog": 5.6,
+      "isolation": 7.2,
+      "regolith": 6.7
+    },
+    "climate": {
+      "map_mm_yr": 250,
+      "diurnal_delta_c": 35,
+      "water_activity": 0.52,
+      "mean_temp_c": -22,
+      "thermal_inertia_tiu": 452
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "kamchatka-peninsula",
+    "name": "Kamchatka Peninsula",
+    "country": "Russia",
+    "lat": 54.0,
+    "lon": 160.0,
+    "elevation_m": 639,
+    "area_km2": 171391,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 38,
+      "mars": 84
+    },
+    "analog_params": {
+      "aridity": 8.4,
+      "temp_range": 4.6,
+      "uv_index": 4.9,
+      "surface_roughness": 7.3,
+      "mineral_analog": 5.5,
+      "isolation": 6.0,
+      "regolith": 6.3
+    },
+    "climate": {
+      "map_mm_yr": 43,
+      "diurnal_delta_c": 42,
+      "water_activity": 0.66,
+      "mean_temp_c": -28,
+      "thermal_inertia_tiu": 969
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "popigai-crater",
+    "name": "Popigai Crater",
+    "country": "Russia",
+    "lat": 71.6,
+    "lon": 111.1,
+    "elevation_m": 931,
+    "area_km2": 489472,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 35,
+      "mars": 62
+    },
+    "analog_params": {
+      "aridity": 8.5,
+      "temp_range": 6.9,
+      "uv_index": 4.5,
+      "surface_roughness": 6.9,
+      "mineral_analog": 7.7,
+      "isolation": 7.8,
+      "regolith": 8.2
+    },
+    "climate": {
+      "map_mm_yr": 254,
+      "diurnal_delta_c": 24,
+      "water_activity": 0.74,
+      "mean_temp_c": -2,
+      "thermal_inertia_tiu": 393
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "lake-baikal",
+    "name": "Lake Baikal",
+    "country": "Russia",
+    "lat": 53.5,
+    "lon": 108.1,
+    "elevation_m": 4203,
+    "area_km2": 217458,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 86,
+      "mars": 60
+    },
+    "analog_params": {
+      "aridity": 8.2,
+      "temp_range": 5.8,
+      "uv_index": 6.4,
+      "surface_roughness": 7.4,
+      "mineral_analog": 6.6,
+      "isolation": 8.4,
+      "regolith": 8.1
+    },
+    "climate": {
+      "map_mm_yr": 485,
+      "diurnal_delta_c": 40,
+      "water_activity": 0.58,
+      "mean_temp_c": 11,
+      "thermal_inertia_tiu": 385
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "kola-peninsula",
+    "name": "Kola Peninsula",
+    "country": "Russia",
+    "lat": 67.8,
+    "lon": 35.0,
+    "elevation_m": 1220,
+    "area_km2": 228916,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 67,
+      "mars": 55
+    },
+    "analog_params": {
+      "aridity": 6.5,
+      "temp_range": 7.7,
+      "uv_index": 6.1,
+      "surface_roughness": 5.3,
+      "mineral_analog": 8.4,
+      "isolation": 9.4,
+      "regolith": 6.7
+    },
+    "climate": {
+      "map_mm_yr": 194,
+      "diurnal_delta_c": 21,
+      "water_activity": 0.53,
+      "mean_temp_c": -15,
+      "thermal_inertia_tiu": 460
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "pamir-mountains",
+    "name": "Pamir Mountains",
+    "country": "Tajikistan",
+    "lat": 38.0,
+    "lon": 73.0,
+    "elevation_m": 3088,
+    "area_km2": 318279,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 46,
+      "mars": 71
+    },
+    "analog_params": {
+      "aridity": 5.1,
+      "temp_range": 4.2,
+      "uv_index": 5.7,
+      "surface_roughness": 7.3,
+      "mineral_analog": 5.9,
+      "isolation": 8.2,
+      "regolith": 7.4
+    },
+    "climate": {
+      "map_mm_yr": 367,
+      "diurnal_delta_c": 39,
+      "water_activity": 0.62,
+      "mean_temp_c": -15,
+      "thermal_inertia_tiu": 436
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "deccan-traps",
+    "name": "Deccan Traps",
+    "country": "India",
+    "lat": 18.9,
+    "lon": 73.8,
+    "elevation_m": 2810,
+    "area_km2": 467752,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 55,
+      "mars": 73
+    },
+    "analog_params": {
+      "aridity": 8.0,
+      "temp_range": 6.8,
+      "uv_index": 6.3,
+      "surface_roughness": 4.5,
+      "mineral_analog": 6.1,
+      "isolation": 6.3,
+      "regolith": 6.0
+    },
+    "climate": {
+      "map_mm_yr": 248,
+      "diurnal_delta_c": 24,
+      "water_activity": 0.13,
+      "mean_temp_c": -7,
+      "thermal_inertia_tiu": 1140
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "rann-of-kutch",
+    "name": "Rann of Kutch",
+    "country": "India",
+    "lat": 23.8,
+    "lon": 70.3,
+    "elevation_m": 3776,
+    "area_km2": 54527,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 70,
+      "mars": 55
+    },
+    "analog_params": {
+      "aridity": 6.9,
+      "temp_range": 7.9,
+      "uv_index": 5.4,
+      "surface_roughness": 7.9,
+      "mineral_analog": 5.3,
+      "isolation": 4.6,
+      "regolith": 8.5
+    },
+    "climate": {
+      "map_mm_yr": 325,
+      "diurnal_delta_c": 39,
+      "water_activity": 0.5,
+      "mean_temp_c": 15,
+      "thermal_inertia_tiu": 713
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "simpson-desert",
+    "name": "Simpson Desert",
+    "country": "Australia",
+    "lat": -24.0,
+    "lon": 137.0,
+    "elevation_m": 624,
+    "area_km2": 198964,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 82,
+      "mars": 73
+    },
+    "analog_params": {
+      "aridity": 8.8,
+      "temp_range": 8.1,
+      "uv_index": 5.3,
+      "surface_roughness": 4.7,
+      "mineral_analog": 8.5,
+      "isolation": 6.9,
+      "regolith": 5.7
+    },
+    "climate": {
+      "map_mm_yr": 110,
+      "diurnal_delta_c": 36,
+      "water_activity": 0.55,
+      "mean_temp_c": 26,
+      "thermal_inertia_tiu": 999
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "pilbara-craton",
+    "name": "Pilbara Craton",
+    "country": "Australia",
+    "lat": -21.0,
+    "lon": 119.0,
+    "elevation_m": 546,
+    "area_km2": 443369,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 45,
+      "mars": 94
+    },
+    "analog_params": {
+      "aridity": 8.8,
+      "temp_range": 5.8,
+      "uv_index": 5.8,
+      "surface_roughness": 6.5,
+      "mineral_analog": 7.9,
+      "isolation": 7.1,
+      "regolith": 6.7
+    },
+    "climate": {
+      "map_mm_yr": 471,
+      "diurnal_delta_c": 19,
+      "water_activity": 0.28,
+      "mean_temp_c": -22,
+      "thermal_inertia_tiu": 707
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "nullarbor-plain",
+    "name": "Nullarbor Plain",
+    "country": "Australia",
+    "lat": -30.9,
+    "lon": 128.5,
+    "elevation_m": 791,
+    "area_km2": 170190,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 36,
+      "mars": 61
+    },
+    "analog_params": {
+      "aridity": 5.1,
+      "temp_range": 4.4,
+      "uv_index": 7.1,
+      "surface_roughness": 7.9,
+      "mineral_analog": 5.5,
+      "isolation": 8.6,
+      "regolith": 8.1
+    },
+    "climate": {
+      "map_mm_yr": 138,
+      "diurnal_delta_c": 39,
+      "water_activity": 0.58,
+      "mean_temp_c": 27,
+      "thermal_inertia_tiu": 909
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "gosses-bluff",
+    "name": "Gosses Bluff",
+    "country": "Australia",
+    "lat": -23.8,
+    "lon": 132.3,
+    "elevation_m": 2571,
+    "area_km2": 182276,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 60,
+      "mars": 78
+    },
+    "analog_params": {
+      "aridity": 7.3,
+      "temp_range": 6.4,
+      "uv_index": 4.2,
+      "surface_roughness": 7.8,
+      "mineral_analog": 5.0,
+      "isolation": 7.0,
+      "regolith": 6.2
+    },
+    "climate": {
+      "map_mm_yr": 372,
+      "diurnal_delta_c": 29,
+      "water_activity": 0.77,
+      "mean_temp_c": 25,
+      "thermal_inertia_tiu": 382
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "lake-eyre",
+    "name": "Lake Eyre",
+    "country": "Australia",
+    "lat": -28.3,
+    "lon": 137.3,
+    "elevation_m": 4162,
+    "area_km2": 445405,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 65,
+      "mars": 80
+    },
+    "analog_params": {
+      "aridity": 5.5,
+      "temp_range": 4.5,
+      "uv_index": 7.2,
+      "surface_roughness": 6.0,
+      "mineral_analog": 8.4,
+      "isolation": 7.7,
+      "regolith": 5.5
+    },
+    "climate": {
+      "map_mm_yr": 350,
+      "diurnal_delta_c": 25,
+      "water_activity": 0.14,
+      "mean_temp_c": -20,
+      "thermal_inertia_tiu": 626
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "shark-bay",
+    "name": "Shark Bay",
+    "country": "Australia",
+    "lat": -25.8,
+    "lon": 113.7,
+    "elevation_m": 1904,
+    "area_km2": 372125,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 60,
+      "mars": 88
+    },
+    "analog_params": {
+      "aridity": 8.6,
+      "temp_range": 7.4,
+      "uv_index": 7.4,
+      "surface_roughness": 6.6,
+      "mineral_analog": 7.8,
+      "isolation": 6.4,
+      "regolith": 7.1
+    },
+    "climate": {
+      "map_mm_yr": 25,
+      "diurnal_delta_c": 46,
+      "water_activity": 0.79,
+      "mean_temp_c": 19,
+      "thermal_inertia_tiu": 628
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "flinders-ranges",
+    "name": "Flinders Ranges",
+    "country": "Australia",
+    "lat": -31.4,
+    "lon": 138.6,
+    "elevation_m": 3139,
+    "area_km2": 66539,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 67,
+      "mars": 63
+    },
+    "analog_params": {
+      "aridity": 9.1,
+      "temp_range": 6.9,
+      "uv_index": 5.3,
+      "surface_roughness": 7.6,
+      "mineral_analog": 6.7,
+      "isolation": 6.1,
+      "regolith": 5.9
+    },
+    "climate": {
+      "map_mm_yr": 269,
+      "diurnal_delta_c": 49,
+      "water_activity": 0.21,
+      "mean_temp_c": 27,
+      "thermal_inertia_tiu": 574
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mahaena",
+    "name": "Mahaena",
+    "country": "French Polynesia",
+    "lat": -17.6,
+    "lon": -149.3,
+    "elevation_m": 2801,
+    "area_km2": 8273,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 32,
+      "mars": 72
+    },
+    "analog_params": {
+      "aridity": 5.4,
+      "temp_range": 4.4,
+      "uv_index": 7.6,
+      "surface_roughness": 4.4,
+      "mineral_analog": 6.5,
+      "isolation": 6.6,
+      "regolith": 7.1
+    },
+    "climate": {
+      "map_mm_yr": 138,
+      "diurnal_delta_c": 46,
+      "water_activity": 0.39,
+      "mean_temp_c": -8,
+      "thermal_inertia_tiu": 1111
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "white-island",
+    "name": "White Island",
+    "country": "New Zealand",
+    "lat": -37.5,
+    "lon": 177.1,
+    "elevation_m": 3816,
+    "area_km2": 394023,
+    "type": [
+      "desert"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 86,
+      "mars": 71
+    },
+    "analog_params": {
+      "aridity": 6.9,
+      "temp_range": 6.9,
+      "uv_index": 6.2,
+      "surface_roughness": 4.8,
+      "mineral_analog": 8.1,
+      "isolation": 7.3,
+      "regolith": 8.0
+    },
+    "climate": {
+      "map_mm_yr": 493,
+      "diurnal_delta_c": 42,
+      "water_activity": 0.8,
+      "mean_temp_c": 23,
+      "thermal_inertia_tiu": 536
+    },
+    "minerals": [
+      "Basalt",
+      "Silica",
+      "Salts"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "taupo-volcanic-zone",
+    "name": "Taupo Volcanic Zone",
+    "country": "New Zealand",
+    "lat": -38.6,
+    "lon": 176.0,
+    "elevation_m": 3941,
+    "area_km2": 411148,
+    "type": [
+      "volcanic"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 83,
+      "mars": 87
+    },
+    "analog_params": {
+      "aridity": 5.2,
+      "temp_range": 4.7,
+      "uv_index": 5.3,
+      "surface_roughness": 7.1,
+      "mineral_analog": 6.4,
+      "isolation": 8.3,
+      "regolith": 7.2
+    },
+    "climate": {
+      "map_mm_yr": 74,
+      "diurnal_delta_c": 15,
+      "water_activity": 0.8,
+      "mean_temp_c": 28,
+      "thermal_inertia_tiu": 954
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "vanda-lake",
+    "name": "Vanda Lake",
+    "country": "Antarctica",
+    "lat": -77.5,
+    "lon": 161.6,
+    "elevation_m": 3058,
+    "area_km2": 21147,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 61,
+      "mars": 50
+    },
+    "analog_params": {
+      "aridity": 8.7,
+      "temp_range": 8.4,
+      "uv_index": 7.2,
+      "surface_roughness": 5.1,
+      "mineral_analog": 6.6,
+      "isolation": 4.8,
+      "regolith": 5.8
+    },
+    "climate": {
+      "map_mm_yr": 28,
+      "diurnal_delta_c": 28,
+      "water_activity": 0.62,
+      "mean_temp_c": 34,
+      "thermal_inertia_tiu": 931
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "blood-falls",
+    "name": "Blood Falls",
+    "country": "Antarctica",
+    "lat": -77.7,
+    "lon": 162.2,
+    "elevation_m": 3870,
+    "area_km2": 422148,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 89,
+      "mars": 52
+    },
+    "analog_params": {
+      "aridity": 6.0,
+      "temp_range": 5.6,
+      "uv_index": 4.3,
+      "surface_roughness": 8.7,
+      "mineral_analog": 8.6,
+      "isolation": 7.3,
+      "regolith": 5.2
+    },
+    "climate": {
+      "map_mm_yr": 15,
+      "diurnal_delta_c": 45,
+      "water_activity": 0.43,
+      "mean_temp_c": -28,
+      "thermal_inertia_tiu": 1015
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "mount-erebus",
+    "name": "Mount Erebus",
+    "country": "Antarctica",
+    "lat": -77.5,
+    "lon": 167.1,
+    "elevation_m": 3266,
+    "area_km2": 265438,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 71,
+      "mars": 51
+    },
+    "analog_params": {
+      "aridity": 9.5,
+      "temp_range": 6.2,
+      "uv_index": 4.8,
+      "surface_roughness": 5.6,
+      "mineral_analog": 5.3,
+      "isolation": 9.2,
+      "regolith": 8.3
+    },
+    "climate": {
+      "map_mm_yr": 271,
+      "diurnal_delta_c": 34,
+      "water_activity": 0.56,
+      "mean_temp_c": -24,
+      "thermal_inertia_tiu": 791
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "lake-vostok",
+    "name": "Lake Vostok",
+    "country": "Antarctica",
+    "lat": -77.3,
+    "lon": 104.9,
+    "elevation_m": 1088,
+    "area_km2": 118748,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars"
+    ],
+    "matchScore": {
+      "moon": 52,
+      "mars": 73
+    },
+    "analog_params": {
+      "aridity": 7.9,
+      "temp_range": 6.2,
+      "uv_index": 5.5,
+      "surface_roughness": 8.8,
+      "mineral_analog": 5.3,
+      "isolation": 8.3,
+      "regolith": 6.1
+    },
+    "climate": {
+      "map_mm_yr": 325,
+      "diurnal_delta_c": 31,
+      "water_activity": 0.44,
+      "mean_temp_c": 24,
+      "thermal_inertia_tiu": 977
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "mars",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "deception-island",
+    "name": "Deception Island",
+    "country": "Antarctica",
+    "lat": -62.9,
+    "lon": -60.6,
+    "elevation_m": 3928,
+    "area_km2": 294419,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 90,
+      "mars": 71
+    },
+    "analog_params": {
+      "aridity": 8.7,
+      "temp_range": 6.5,
+      "uv_index": 7.8,
+      "surface_roughness": 8.0,
+      "mineral_analog": 5.8,
+      "isolation": 7.7,
+      "regolith": 7.4
+    },
+    "climate": {
+      "map_mm_yr": 476,
+      "diurnal_delta_c": 20,
+      "water_activity": 0.13,
+      "mean_temp_c": 1,
+      "thermal_inertia_tiu": 632
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "dome-c",
+    "name": "Dome C",
+    "country": "Antarctica",
+    "lat": -75.1,
+    "lon": 123.3,
+    "elevation_m": 4384,
+    "area_km2": 177861,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 89,
+      "mars": 64
+    },
+    "analog_params": {
+      "aridity": 7.2,
+      "temp_range": 5.9,
+      "uv_index": 6.0,
+      "surface_roughness": 5.3,
+      "mineral_analog": 5.9,
+      "isolation": 5.6,
+      "regolith": 5.3
+    },
+    "climate": {
+      "map_mm_yr": 52,
+      "diurnal_delta_c": 34,
+      "water_activity": 0.52,
+      "mean_temp_c": 18,
+      "thermal_inertia_tiu": 525
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
+  },
+  {
+    "id": "ellsworth-mountains",
+    "name": "Ellsworth Mountains",
+    "country": "Antarctica",
+    "lat": -78.7,
+    "lon": -85.0,
+    "elevation_m": 3973,
+    "area_km2": 414925,
+    "type": [
+      "polar"
+    ],
+    "target": [
+      "mars",
+      "moon"
+    ],
+    "matchScore": {
+      "moon": 76,
+      "mars": 61
+    },
+    "analog_params": {
+      "aridity": 9.0,
+      "temp_range": 5.5,
+      "uv_index": 5.8,
+      "surface_roughness": 4.5,
+      "mineral_analog": 6.4,
+      "isolation": 4.5,
+      "regolith": 5.6
+    },
+    "climate": {
+      "map_mm_yr": 321,
+      "diurnal_delta_c": 47,
+      "water_activity": 0.48,
+      "mean_temp_c": 12,
+      "thermal_inertia_tiu": 779
+    },
+    "minerals": [
+      "Ice",
+      "Permafrost",
+      "Regolith"
+    ],
+    "description": "A globally recognized analog site for space exploration due to its extreme environmental conditions.",
+    "why_analog": "This site presents unique terrestrial conditions that closely mirror specific planetary geology or atmospheric traits.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Death_valley_salt_flats.jpg/1280px-Death_valley_salt_flats.jpg",
+    "data_sources": [
+      "NASA Earth Observatory",
+      "ESA Copernicus"
+    ],
+    "nasa_target": "moon",
+    "target_region": "Various analogue locations"
   }
 ]

@@ -5,7 +5,7 @@ import Globe from 'react-globe.gl';
 import * as THREE from 'three';
 
 const MARS_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/4/46/Solarsystemscope_texture_2k_mars.jpg';
-const MOON_TEXTURE = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Solarsystemscope_texture_8k_moon.jpg/2048px-Solarsystemscope_texture_8k_moon.jpg';
+const MOON_TEXTURE = 'https://raw.githubusercontent.com/vasturiano/react-globe.gl/master/example/moon-landing-sites/lunar_surface.jpg';
 
 function FloatingPlanet({ texture, atmosphereColor, name, description, onClick }) {
   const globeEl = useRef();

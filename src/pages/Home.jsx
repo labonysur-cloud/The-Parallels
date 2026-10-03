@@ -17,6 +17,8 @@ function FloatingPlanet({ texture, atmosphereColor, name, description, onClick }
       globeEl.current.controls().autoRotate = true;
       globeEl.current.controls().autoRotateSpeed = hovered ? 4.0 : 1.5;
       globeEl.current.controls().enableZoom = false;
+      globeEl.current.controls().enablePan = false;
+      globeEl.current.controls().enableRotate = false;
 
       // Fully illuminate the globe to remove the dark shadow
       const scene = globeEl.current.scene();

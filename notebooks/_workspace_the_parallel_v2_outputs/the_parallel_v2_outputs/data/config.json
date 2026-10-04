@@ -1,0 +1,64 @@
+{
+  "project": "The Parallel v2",
+  "challenge": "NASA Space Apps Challenge 2026",
+  "team": "Team Astrophel, Bangladesh",
+  "feature_columns": [
+    "annual_precip_mm",
+    "diurnal_range_c",
+    "mean_temp_c",
+    "rh_pct",
+    "wind_ms",
+    "uv_index",
+    "solar_mj_m2_day",
+    "elevation_m",
+    "terrain_roughness_m",
+    "remoteness_km"
+  ],
+  "feature_labels": [
+    "Annual Precip",
+    "Diurnal Range",
+    "Mean Temp",
+    "Rel. Humidity",
+    "Wind Speed",
+    "UV Index",
+    "Solar (MJ/m2/day)",
+    "Elevation",
+    "Terrain Roughness",
+    "Remoteness"
+  ],
+  "best_mars_model": "GradientBoost",
+  "best_moon_model": "XGBoost",
+  "target": "Analog Suitability Index (transparent, physical) \u2014 NOT hand-assigned",
+  "planetary_references": {
+    "mars": {
+      "annual_precip_mm": 0.0,
+      "diurnal_range_c": 60.0,
+      "mean_temp_c": -63.0,
+      "rh_pct": 0.0,
+      "wind_ms": 5.0
+    },
+    "moon": {
+      "annual_precip_mm": 0.0,
+      "diurnal_range_c": 300.0,
+      "mean_temp_c": -20.0,
+      "rh_pct": 0.0,
+      "wind_ms": 0.0
+    }
+  },
+  "asi_weights": {
+    "annual_precip_mm": 0.3,
+    "diurnal_range_c": 0.25,
+    "rh_pct": 0.2,
+    "mean_temp_c": 0.15,
+    "wind_ms": 0.1
+  },
+  "real_data_sources": [
+    "NASA POWER (MERRA-2)",
+    "Open-Meteo Elevation (Copernicus DEM)",
+    "ISRIC SoilGrids v2",
+    "NASA EONET v3",
+    "GeoNames cities15000"
+  ],
+  "no_hardcoded_features": true,
+  "no_fabricated_fallbacks": true
+}

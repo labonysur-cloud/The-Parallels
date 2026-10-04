@@ -1,0 +1,41 @@
+id,name,type,asi_mars,asi_moon
+atacama,Atacama Desert (Yungay),desert,75.5,39.65
+haughton,Haughton Impact Crater,crater,44.51,17.49
+death_valley,Death Valley (Badwater),desert,75.99,39.92
+mcmurdo,McMurdo Dry Valleys,polar,64.79,25.56
+mauna_kea,Mauna Kea Lava Fields,volcanic,0.95,0.38
+kilauea,Kilauea Active Lava,volcanic,0.93,0.35
+devon_island,Devon Island Polar Desert,polar,44.61,17.65
+askja,Askja Caldera Iceland,volcanic,27.22,10.19
+rio_tinto,Rio Tinto Acid River,hydrothermal,58.23,29.86
+dallol,Dallol Hydrothermal,hydrothermal,59.14,29.63
+qaidam,Qaidam Basin,desert,79.23,39.85
+namib,Namib Desert Sossusvlei,desert,73.68,38.37
+lanzarote,Lanzarote Timanfaya,volcanic,59.27,19.7
+erta_ale,Erta Ale Lava Lake,volcanic,65.82,33.63
+wadi_rum,Wadi Rum Desert,desert,75.49,40.29
+sahara,Sahara Great Ergs,desert,79.38,42.28
+uyuni,Salar de Uyuni,salt_flat,69.18,37.17
+tabernas,Tabernas Desert,desert,64.44,30.47
+nordlingen,Nordlingen Ries Crater,crater,40.4,18.6
+kamchatka,Kamchatka Volcanoes,volcanic,0.92,0.36
+svalbard,Svalbard Arctic,polar,36.65,13.57
+pilbara,Pilbara Craton,desert,64.66,34.37
+rub_al_khali,Rub al Khali,desert,78.1,40.94
+ojos_del_salado,Ojos del Salado,volcanic,75.2,38.06
+deception_island,Deception Island,volcanic,0.88,0.28
+barringer,Barringer Meteor Crater,crater,64.23,33.22
+craters_moon,Craters of the Moon,volcanic,61.75,30.75
+yellowstone,Yellowstone Caldera,hydrothermal,38.6,19.05
+lake_natron,Lake Natron,hydrothermal,53.54,27.47
+qaidam_north,Qaidam North Salt Flats,salt_flat,80.22,40.24
+simpson_desert,Simpson Desert,desert,70.74,37.25
+gobi_desert,Gobi Desert,desert,77.68,39.4
+danakil,Danakil Depression,hydrothermal,59.14,29.63
+iceland_highlands,Iceland Highlands,volcanic,20.17,7.66
+axel_heiberg,Axel Heiberg Island,polar,47.13,17.87
+lake_vostok,Lake Vostok Surface,polar,60.14,22.25
+mount_erebus,Mount Erebus,volcanic,59.12,22.43
+richat,Richat Structure,crater,77.45,40.4
+rann_kutch,Rann of Kutch Salt Desert,salt_flat,62.01,32.29
+nullarbor,Nullarbor Plain,desert,66.67,34.48

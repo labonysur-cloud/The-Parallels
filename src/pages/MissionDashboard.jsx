@@ -6,7 +6,7 @@ import PlanetGlobe from '../components/PlanetGlobe';
 import AnalogReport from '../components/AnalogReport';
 import DetailedMapModal from '../components/DetailedMapModal';
 import AstrophelChat from '../components/AstrophelChat';
-import { ChevronLeft, SlidersHorizontal, Rocket, Globe, Satellite } from 'lucide-react';
+import { ChevronLeft, Rocket, Globe, Satellite } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function MissionDashboard() {
@@ -67,7 +67,7 @@ export default function MissionDashboard() {
 
           <div className="p-6 border-b border-white/10 bg-black/20">
             <h2 className="text-[10px] uppercase tracking-widest text-nasa-light mb-2 flex items-center justify-between font-bold">
-              Mission Profile <SlidersHorizontal size={14} />
+              Mission Profile
             </h2>
             <div className="font-bold text-2xl font-heading">
               {target === 'mars' ? 'Human Mars EVA' : 'Lunar Base Camp'}

@@ -1,97 +1,111 @@
 /**
- * Weighted multi-parameter analog similarity scoring engine.
- *
- * Each parameter is scored 0–10 (10 = most extreme / most analog to target body).
- * Score = Σ(weight_i × (1 - |param_i_earth − param_i_target| / 10)) / Σ(weight_i) × 100
+ * Honest, Real-Data Analog Suitability Index (ASI) Scoring Engine
+ * Directly mapped from the scientifically grounded v2 Python Notebook.
  */
 
-// Baseline parameters for target bodies (derived from published literature)
+function clip(val, min, max) {
+  return Math.max(min, Math.min(val, max));
+}
+
+// Baseline parameters for target bodies (derived from published NASA literature)
 export const BODY_BASELINES = {
-  moon: {
-    aridity: 10,
-    temp_range: 10,
-    uv_index: 10,
-    surface_roughness: 8,
-    mineral_analog: 8,
-    isolation: 10,
-    regolith: 9,
-  },
-  mars: {
-    aridity: 9,
-    temp_range: 8,
-    uv_index: 8,
-    surface_roughness: 5,
-    mineral_analog: 8,
-    isolation: 9,
-    regolith: 7,
-  },
+  mars: { annual_precip_mm: 0.0, diurnal_range_c: 60.0, mean_temp_c: -63.0, rh_pct: 0.0, wind_ms: 5.0 },
+  moon: { annual_precip_mm: 0.0, diurnal_range_c: 300.0, mean_temp_c: -20.0, rh_pct: 0.0, wind_ms: 0.0 },
+};
+
+// Physical bounds used to normalize features to [0,1]
+export const FEATURE_BOUNDS = {
+  annual_precip_mm: [0.0, 1000.0],
+  diurnal_range_c:  [0.0, 300.0],
+  mean_temp_c:      [-90.0, 60.0],
+  rh_pct:           [0.0, 100.0],
+  wind_ms:          [0.0, 30.0],
+};
+
+export const ASI_WEIGHTS = {
+  annual_precip_mm: 0.30,
+  diurnal_range_c: 0.25,
+  rh_pct: 0.20,
+  mean_temp_c: 0.15,
+  wind_ms: 0.10,
 };
 
 export const PARAM_LABELS = {
-  aridity: 'Aridity',
-  temp_range: 'Temp. Range',
-  uv_index: 'UV / Radiation',
-  surface_roughness: 'Roughness',
-  mineral_analog: 'Mineralogy',
-  isolation: 'Isolation',
-  regolith: 'Regolith',
+  annual_precip_mm: 'Annual Precip (mm)',
+  diurnal_range_c: 'Diurnal Range (°C)',
+  mean_temp_c: 'Mean Temp (°C)',
+  rh_pct: 'Rel. Humidity (%)',
+  wind_ms: 'Wind Speed (m/s)',
 };
 
-export const DEFAULT_WEIGHTS = {
-  aridity: 7,
-  temp_range: 6,
-  uv_index: 5,
-  surface_roughness: 6,
-  mineral_analog: 8,
-  isolation: 4,
-  regolith: 6,
-};
+// Map old default weights backward compatibility if needed, but not used in math
+export const DEFAULT_WEIGHTS = ASI_WEIGHTS;
 
-export function scoreAnalog(site, targetBody, weights = DEFAULT_WEIGHTS) {
-  const baseline = BODY_BASELINES[targetBody];
+/**
+ * Computes the ASI score (0-100) using a weighted geometric mean of similarities.
+ * @param {Object} site - Site object containing analog_params
+ * @param {String} targetBody - 'mars' or 'moon'
+ * @param {Object} customWeights - Custom weights from user (optional)
+ */
+export function scoreAnalog(site, targetBody, customWeights = ASI_WEIGHTS) {
+  const ref = BODY_BASELINES[targetBody];
   const params = site.analog_params;
-  if (!baseline || !params) return 0;
-
-  let totalScore = 0;
-  let totalWeight = 0;
-
-  for (const key of Object.keys(baseline)) {
-    const w = weights[key] ?? DEFAULT_WEIGHTS[key] ?? 5;
-    const diff = Math.abs((params[key] ?? 5) - baseline[key]) / 10;
-    totalScore += w * (1 - diff);
-    totalWeight += w;
+  if (!ref || !params) return 0;
+  
+  let logSum = 0;
+  let weightSum = 0;
+  
+  for (const feat in ASI_WEIGHTS) {
+    const w = customWeights[feat] !== undefined ? customWeights[feat] : ASI_WEIGHTS[feat];
+    const [lo, hi] = FEATURE_BOUNDS[feat];
+    
+    // Default to a middle value if data is missing
+    const val = params[feat] !== undefined ? params[feat] : ((lo + hi) / 2);
+    
+    const xNorm = clip((val - lo) / (hi - lo), 0, 1);
+    const rNorm = clip((ref[feat] - lo) / (hi - lo), 0, 1);
+    
+    // Similarity is 1 - absolute difference in normalized space
+    let sim = clip(1.0 - Math.abs(xNorm - rNorm), 1e-6, 1.0);
+    
+    logSum += w * Math.log(sim);
+    weightSum += w;
   }
-
-  return totalWeight > 0 ? Math.round((totalScore / totalWeight) * 100) : 0;
+  
+  return weightSum > 0 ? Math.round(100.0 * Math.exp(logSum / weightSum)) : 0;
 }
 
-export function rankAllSites(sites, targetBody, weights = DEFAULT_WEIGHTS) {
+export function rankAllSites(sites, targetBody, customWeights = ASI_WEIGHTS) {
   return sites
     .map((site) => ({
       ...site,
-      computedScore: scoreAnalog(site, targetBody, weights),
+      computedScore: scoreAnalog(site, targetBody, customWeights),
     }))
     .sort((a, b) => b.computedScore - a.computedScore);
 }
 
-export function getScoreBreakdown(site, targetBody, weights = DEFAULT_WEIGHTS) {
-  const baseline = BODY_BASELINES[targetBody];
+export function getScoreBreakdown(site, targetBody, customWeights = ASI_WEIGHTS) {
+  const ref = BODY_BASELINES[targetBody];
   const params = site.analog_params;
 
-  return Object.keys(baseline).map((key) => {
-    const earthVal = params[key] ?? 5;
-    const targetVal = baseline[key];
-    const w = weights[key] ?? 5;
-    const diff = Math.abs(earthVal - targetVal) / 10;
-    const contribution = w * (1 - diff);
+  return Object.keys(ASI_WEIGHTS).map((feat) => {
+    const earthVal = params[feat] !== undefined ? params[feat] : 0;
+    const targetVal = ref[feat];
+    const w = customWeights[feat] !== undefined ? customWeights[feat] : ASI_WEIGHTS[feat];
+    const [lo, hi] = FEATURE_BOUNDS[feat];
+    
+    const xNorm = clip((earthVal - lo) / (hi - lo), 0, 1);
+    const rNorm = clip((targetVal - lo) / (hi - lo), 0, 1);
+    let sim = clip(1.0 - Math.abs(xNorm - rNorm), 0.0, 1.0);
+
     return {
-      param: key,
-      label: PARAM_LABELS[key],
-      earthValue: earthVal,
+      param: feat,
+      label: PARAM_LABELS[feat] || feat,
+      earthValue: Math.round(earthVal * 10) / 10,
       targetValue: targetVal,
       weight: w,
-      contribution: Math.round(contribution * 10) / 10,
-      similarity: Math.round((1 - diff) * 100),
+      contribution: Math.round(w * sim * 10) / 10,
+      similarity: Math.round(sim * 100),
     };
   });
 }

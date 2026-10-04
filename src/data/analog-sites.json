@@ -3,7 +3,7 @@
     "id": "atacama",
     "name": "Atacama Desert (Yungay Core)",
     "country": "Chile",
-    "lat": -24.0,
+    "lat": -24,
     "lon": -69.9,
     "elevation_m": 2400,
     "area_km2": 105000,
@@ -15,17 +15,15 @@
       "mars"
     ],
     "matchScore": {
-      "moon": 52,
-      "mars": 92
+      "mars": 75.5,
+      "moon": 39.65
     },
     "analog_params": {
-      "aridity": 9.8,
-      "temp_range": 6.5,
-      "uv_index": 8.2,
-      "surface_roughness": 5.0,
-      "mineral_analog": 9.0,
-      "isolation": 7.0,
-      "regolith": 7.5
+      "annual_precip_mm": 7.305,
+      "diurnal_range_c": 14.76,
+      "mean_temp_c": 17.07,
+      "rh_pct": 44.21,
+      "wind_ms": 3.04
     },
     "climate": {
       "map_mm_yr": 1.5,
@@ -68,17 +66,15 @@
       "mars"
     ],
     "matchScore": {
-      "moon": 82,
-      "mars": 78
+      "mars": 44.51,
+      "moon": 17.49
     },
     "analog_params": {
-      "aridity": 6.5,
-      "temp_range": 8.0,
-      "uv_index": 5.5,
-      "surface_roughness": 7.5,
-      "mineral_analog": 8.0,
-      "isolation": 9.5,
-      "regolith": 7.0
+      "annual_precip_mm": 321.42,
+      "diurnal_range_c": 4.97,
+      "mean_temp_c": -14.71,
+      "rh_pct": 94.54,
+      "wind_ms": 4.2
     },
     "climate": {
       "map_mm_yr": 90,
@@ -125,13 +121,11 @@
       "mars": 81
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 5.5,
-      "uv_index": 7.0,
-      "surface_roughness": 4.5,
-      "mineral_analog": 7.5,
-      "isolation": 4.0,
-      "regolith": 6.5
+      "annual_precip_mm": 50,
+      "diurnal_range_c": 30,
+      "mean_temp_c": 25,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 50,
@@ -163,7 +157,7 @@
     "name": "Devon Island (Polar Desert)",
     "country": "Canada",
     "lat": 75.2,
-    "lon": -88.0,
+    "lon": -88,
     "elevation_m": 400,
     "area_km2": 55247,
     "type": [
@@ -179,13 +173,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 8.5,
-      "uv_index": 5.0,
-      "surface_roughness": 5.5,
-      "mineral_analog": 5.5,
-      "isolation": 9.8,
-      "regolith": 6.0
+      "annual_precip_mm": 85,
+      "diurnal_range_c": 50,
+      "mean_temp_c": -16,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 85,
@@ -233,13 +225,11 @@
       "mars": 65
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 7.0,
-      "uv_index": 7.5,
-      "surface_roughness": 8.5,
-      "mineral_analog": 8.5,
-      "isolation": 5.0,
-      "regolith": 8.0
+      "annual_precip_mm": 380,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 5,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 380,
@@ -287,13 +277,11 @@
       "mars": 58
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 6.5,
-      "uv_index": 6.0,
-      "surface_roughness": 9.0,
-      "mineral_analog": 8.0,
-      "isolation": 4.5,
-      "regolith": 7.5
+      "annual_precip_mm": 360,
+      "diurnal_range_c": 35,
+      "mean_temp_c": 8,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 360,
@@ -326,7 +314,7 @@
     "name": "McMurdo Dry Valleys",
     "country": "Antarctica",
     "lat": -77.5,
-    "lon": 162.0,
+    "lon": 162,
     "elevation_m": 500,
     "area_km2": 4500,
     "type": [
@@ -342,13 +330,11 @@
       "mars": 85
     },
     "analog_params": {
-      "aridity": 9.0,
-      "temp_range": 7.5,
-      "uv_index": 6.5,
-      "surface_roughness": 5.5,
-      "mineral_analog": 6.0,
-      "isolation": 9.0,
-      "regolith": 7.0
+      "annual_precip_mm": 10,
+      "diurnal_range_c": 45,
+      "mean_temp_c": -22,
+      "rh_pct": 10,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 10,
@@ -396,13 +382,11 @@
       "mars": 79
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 4.5,
-      "uv_index": 5.0,
-      "surface_roughness": 4.0,
-      "mineral_analog": 9.5,
-      "isolation": 3.0,
-      "regolith": 7.0
+      "annual_precip_mm": 450,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 17,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 450,
@@ -445,17 +429,15 @@
       "mars"
     ],
     "matchScore": {
-      "moon": 28,
-      "mars": 76
+      "mars": 59.14,
+      "moon": 29.63
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 5.0,
-      "uv_index": 7.5,
-      "surface_roughness": 6.0,
-      "mineral_analog": 9.0,
-      "isolation": 7.5,
-      "regolith": 6.5
+      "annual_precip_mm": 507.6975,
+      "diurnal_range_c": 11.85,
+      "mean_temp_c": 25.88,
+      "rh_pct": 47.52,
+      "wind_ms": 3.47
     },
     "climate": {
       "map_mm_yr": 100,
@@ -502,13 +484,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 5.0,
-      "uv_index": 7.5,
-      "surface_roughness": 8.0,
-      "mineral_analog": 8.5,
-      "isolation": 8.0,
-      "regolith": 7.5
+      "annual_precip_mm": 80,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 30,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 80,
@@ -558,13 +538,11 @@
       "mars": 70
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 7.0,
-      "uv_index": 4.5,
-      "surface_roughness": 8.5,
-      "mineral_analog": 8.0,
-      "isolation": 7.0,
-      "regolith": 7.5
+      "annual_precip_mm": 300,
+      "diurnal_range_c": 30,
+      "mean_temp_c": -2,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 300,
@@ -610,13 +588,11 @@
       "mars": 78
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 5.5,
-      "uv_index": 7.0,
-      "surface_roughness": 5.5,
-      "mineral_analog": 6.5,
-      "isolation": 6.0,
-      "regolith": 7.0
+      "annual_precip_mm": 20,
+      "diurnal_range_c": 35,
+      "mean_temp_c": 22,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 20,
@@ -664,13 +640,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 5.5,
-      "uv_index": 6.5,
-      "surface_roughness": 6.5,
-      "mineral_analog": 7.5,
-      "isolation": 4.0,
-      "regolith": 6.5
+      "annual_precip_mm": 220,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 18,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 220,
@@ -703,7 +677,7 @@
     "id": "lanzarote",
     "name": "Lanzarote Lava Fields (Timanfaya)",
     "country": "Spain",
-    "lat": 29.0,
+    "lat": 29,
     "lon": -13.76,
     "elevation_m": 500,
     "area_km2": 200,
@@ -715,17 +689,15 @@
       "moon"
     ],
     "matchScore": {
-      "moon": 83,
-      "mars": 60
+      "mars": 59.27,
+      "moon": 19.7
     },
     "analog_params": {
-      "aridity": 6.5,
-      "temp_range": 5.0,
-      "uv_index": 6.5,
-      "surface_roughness": 9.0,
-      "mineral_analog": 8.5,
-      "isolation": 3.5,
-      "regolith": 8.0
+      "annual_precip_mm": 124.185,
+      "diurnal_range_c": 2.37,
+      "mean_temp_c": 20.18,
+      "rh_pct": 78.1,
+      "wind_ms": 6.45
     },
     "climate": {
       "map_mm_yr": 150,
@@ -768,17 +740,15 @@
       "mars"
     ],
     "matchScore": {
-      "moon": 71,
-      "mars": 65
+      "mars": 40.4,
+      "moon": 18.6
     },
     "analog_params": {
-      "aridity": 3.5,
-      "temp_range": 4.0,
-      "uv_index": 4.0,
-      "surface_roughness": 5.5,
-      "mineral_analog": 8.5,
-      "isolation": 2.0,
-      "regolith": 8.0
+      "annual_precip_mm": 756.0675,
+      "diurnal_range_c": 8.98,
+      "mean_temp_c": 8.85,
+      "rh_pct": 81.29,
+      "wind_ms": 3.96
     },
     "climate": {
       "map_mm_yr": 650,
@@ -809,8 +779,8 @@
     "id": "qaidam-basin",
     "name": "Qaidam Basin",
     "country": "China",
-    "lat": 37.0,
-    "lon": 95.0,
+    "lat": 37,
+    "lon": 95,
     "elevation_m": 2800,
     "area_km2": 257768,
     "type": [
@@ -825,13 +795,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 8.8,
-      "temp_range": 7.0,
-      "uv_index": 7.5,
-      "surface_roughness": 5.0,
-      "mineral_analog": 8.0,
-      "isolation": 6.5,
-      "regolith": 7.0
+      "annual_precip_mm": 50,
+      "diurnal_range_c": 42,
+      "mean_temp_c": 4,
+      "rh_pct": 12,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 50,
@@ -873,17 +841,15 @@
       "mars"
     ],
     "matchScore": {
-      "moon": 86,
-      "mars": 68
+      "mars": 0.93,
+      "moon": 0.35
     },
     "analog_params": {
-      "aridity": 4.5,
-      "temp_range": 5.5,
-      "uv_index": 6.5,
-      "surface_roughness": 9.5,
-      "mineral_analog": 9.0,
-      "isolation": 4.5,
-      "regolith": 8.5
+      "annual_precip_mm": 2081.925,
+      "diurnal_range_c": 3.77,
+      "mean_temp_c": 21.32,
+      "rh_pct": 82.95,
+      "wind_ms": 5.01
     },
     "climate": {
       "map_mm_yr": 1600,
@@ -914,8 +880,8 @@
     "id": "sahara-ergs",
     "name": "Sahara Great Sand Seas (Ergs)",
     "country": "Algeria / Libya",
-    "lat": 26.0,
-    "lon": 3.0,
+    "lat": 26,
+    "lon": 3,
     "elevation_m": 500,
     "area_km2": 2800000,
     "type": [
@@ -930,13 +896,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 9.2,
-      "temp_range": 7.0,
-      "uv_index": 7.5,
-      "surface_roughness": 5.5,
-      "mineral_analog": 6.0,
-      "isolation": 8.0,
-      "regolith": 6.5
+      "annual_precip_mm": 15,
+      "diurnal_range_c": 45,
+      "mean_temp_c": 28,
+      "rh_pct": 8,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 15,
@@ -966,8 +930,8 @@
     "id": "kamchatka",
     "name": "Kamchatka Volcanoes",
     "country": "Russia",
-    "lat": 54.0,
-    "lon": 160.0,
+    "lat": 54,
+    "lon": 160,
     "elevation_m": 2000,
     "area_km2": 472300,
     "type": [
@@ -978,17 +942,15 @@
       "moon"
     ],
     "matchScore": {
-      "moon": 76,
-      "mars": 62
+      "mars": 0.92,
+      "moon": 0.36
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 7.5,
-      "uv_index": 4.5,
-      "surface_roughness": 8.5,
-      "mineral_analog": 7.5,
-      "isolation": 8.5,
-      "regolith": 7.0
+      "annual_precip_mm": 1241.85,
+      "diurnal_range_c": 4.8,
+      "mean_temp_c": 1.51,
+      "rh_pct": 86.86,
+      "wind_ms": 4.96
     },
     "climate": {
       "map_mm_yr": 600,
@@ -1036,13 +998,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 4.8,
-      "uv_index": 4.3,
-      "surface_roughness": 6.2,
-      "mineral_analog": 5.3,
-      "isolation": 7.4,
-      "regolith": 5.2
+      "annual_precip_mm": 304,
+      "diurnal_range_c": 34,
+      "mean_temp_c": -17,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 304,
@@ -1089,13 +1049,11 @@
       "mars": 54
     },
     "analog_params": {
-      "aridity": 8.7,
-      "temp_range": 4.9,
-      "uv_index": 6.3,
-      "surface_roughness": 6.6,
-      "mineral_analog": 5.4,
-      "isolation": 4.6,
-      "regolith": 8.5
+      "annual_precip_mm": 57,
+      "diurnal_range_c": 22,
+      "mean_temp_c": 17,
+      "rh_pct": 13,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 57,
@@ -1124,8 +1082,8 @@
     "id": "barringer-crater",
     "name": "Barringer Crater",
     "country": "USA",
-    "lat": 35.0,
-    "lon": -111.0,
+    "lat": 35,
+    "lon": -111,
     "elevation_m": 815,
     "area_km2": 232545,
     "type": [
@@ -1139,13 +1097,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 8.2,
-      "uv_index": 7.9,
-      "surface_roughness": 8.3,
-      "mineral_analog": 5.9,
-      "isolation": 6.1,
-      "regolith": 5.0
+      "annual_precip_mm": 409,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 19,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 409,
@@ -1174,7 +1130,7 @@
     "id": "mojave-desert",
     "name": "Mojave Desert",
     "country": "USA",
-    "lat": 35.0,
+    "lat": 35,
     "lon": -115.5,
     "elevation_m": 2262,
     "area_km2": 56072,
@@ -1190,13 +1146,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 6.3,
-      "temp_range": 6.0,
-      "uv_index": 6.9,
-      "surface_roughness": 8.6,
-      "mineral_analog": 5.6,
-      "isolation": 6.4,
-      "regolith": 6.2
+      "annual_precip_mm": 191,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 8,
+      "rh_pct": 37,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 191,
@@ -1240,13 +1194,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 4.1,
-      "uv_index": 4.3,
-      "surface_roughness": 7.7,
-      "mineral_analog": 6.5,
-      "isolation": 7.4,
-      "regolith": 6.4
+      "annual_precip_mm": 441,
+      "diurnal_range_c": 43,
+      "mean_temp_c": -4,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 441,
@@ -1276,8 +1228,8 @@
     "id": "mono-lake",
     "name": "Mono Lake",
     "country": "USA",
-    "lat": 38.0,
-    "lon": -119.0,
+    "lat": 38,
+    "lon": -119,
     "elevation_m": 997,
     "area_km2": 303372,
     "type": [
@@ -1291,13 +1243,11 @@
       "mars": 59
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 8.4,
-      "uv_index": 4.8,
-      "surface_roughness": 5.3,
-      "mineral_analog": 5.8,
-      "isolation": 6.4,
-      "regolith": 7.6
+      "annual_precip_mm": 362,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 11,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 362,
@@ -1340,13 +1290,11 @@
       "mars": 79
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 6.9,
-      "uv_index": 4.3,
-      "surface_roughness": 7.2,
-      "mineral_analog": 6.7,
-      "isolation": 9.4,
-      "regolith": 5.5
+      "annual_precip_mm": 445,
+      "diurnal_range_c": 33,
+      "mean_temp_c": 14,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 445,
@@ -1392,13 +1340,11 @@
       "mars": 81
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 4.4,
-      "uv_index": 5.2,
-      "surface_roughness": 7.8,
-      "mineral_analog": 5.7,
-      "isolation": 4.7,
-      "regolith": 8.1
+      "annual_precip_mm": 197,
+      "diurnal_range_c": 36,
+      "mean_temp_c": -1,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 197,
@@ -1442,13 +1388,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 6.3,
-      "uv_index": 7.6,
-      "surface_roughness": 8.3,
-      "mineral_analog": 6.9,
-      "isolation": 8.0,
-      "regolith": 6.4
+      "annual_precip_mm": 486,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 19,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 486,
@@ -1492,13 +1436,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 6.2,
-      "uv_index": 5.7,
-      "surface_roughness": 7.7,
-      "mineral_analog": 5.9,
-      "isolation": 9.4,
-      "regolith": 6.7
+      "annual_precip_mm": 341,
+      "diurnal_range_c": 40,
+      "mean_temp_c": -24,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 341,
@@ -1527,8 +1469,8 @@
     "id": "baffin-island",
     "name": "Baffin Island",
     "country": "Canada",
-    "lat": 68.0,
-    "lon": -70.0,
+    "lat": 68,
+    "lon": -70,
     "elevation_m": 3217,
     "area_km2": 66983,
     "type": [
@@ -1542,13 +1484,11 @@
       "mars": 89
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 6.9,
-      "uv_index": 6.9,
-      "surface_roughness": 5.4,
-      "mineral_analog": 5.9,
-      "isolation": 4.7,
-      "regolith": 5.3
+      "annual_precip_mm": 480,
+      "diurnal_range_c": 30,
+      "mean_temp_c": 12,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 480,
@@ -1577,7 +1517,7 @@
     "name": "Cuatro Ciénegas",
     "country": "Mexico",
     "lat": 26.9,
-    "lon": -102.0,
+    "lon": -102,
     "elevation_m": 3813,
     "area_km2": 340690,
     "type": [
@@ -1591,13 +1531,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 5.9,
-      "uv_index": 5.7,
-      "surface_roughness": 4.8,
-      "mineral_analog": 8.5,
-      "isolation": 8.7,
-      "regolith": 6.4
+      "annual_precip_mm": 363,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 3,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 363,
@@ -1642,13 +1580,11 @@
       "mars": 78
     },
     "analog_params": {
-      "aridity": 9.2,
-      "temp_range": 4.8,
-      "uv_index": 4.7,
-      "surface_roughness": 4.6,
-      "mineral_analog": 6.0,
-      "isolation": 9.4,
-      "regolith": 6.2
+      "annual_precip_mm": 132,
+      "diurnal_range_c": 46,
+      "mean_temp_c": 28,
+      "rh_pct": 8,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 132,
@@ -1694,13 +1630,11 @@
       "mars": 53
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 6.7,
-      "uv_index": 4.9,
-      "surface_roughness": 5.1,
-      "mineral_analog": 5.6,
-      "isolation": 6.4,
-      "regolith": 5.2
+      "annual_precip_mm": 11,
+      "diurnal_range_c": 46,
+      "mean_temp_c": 32,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 11,
@@ -1743,13 +1677,11 @@
       "mars": 57
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 5.1,
-      "uv_index": 5.3,
-      "surface_roughness": 5.8,
-      "mineral_analog": 6.3,
-      "isolation": 7.7,
-      "regolith": 7.6
+      "annual_precip_mm": 458,
+      "diurnal_range_c": 18,
+      "mean_temp_c": 5,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 458,
@@ -1792,13 +1724,11 @@
       "mars": 79
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 7.4,
-      "uv_index": 5.5,
-      "surface_roughness": 6.7,
-      "mineral_analog": 6.3,
-      "isolation": 6.0,
-      "regolith": 5.7
+      "annual_precip_mm": 112,
+      "diurnal_range_c": 24,
+      "mean_temp_c": -1,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 112,
@@ -1826,8 +1756,8 @@
     "id": "patagonian-ice-sheet",
     "name": "Patagonian Ice Sheet",
     "country": "Argentina",
-    "lat": -50.0,
-    "lon": -73.0,
+    "lat": -50,
+    "lon": -73,
     "elevation_m": 1919,
     "area_km2": 319191,
     "type": [
@@ -1841,13 +1771,11 @@
       "mars": 64
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 7.3,
-      "uv_index": 5.1,
-      "surface_roughness": 6.8,
-      "mineral_analog": 5.1,
-      "isolation": 7.0,
-      "regolith": 7.3
+      "annual_precip_mm": 178,
+      "diurnal_range_c": 15,
+      "mean_temp_c": -8,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 178,
@@ -1894,13 +1822,11 @@
       "mars": 83
     },
     "analog_params": {
-      "aridity": 6.6,
-      "temp_range": 4.4,
-      "uv_index": 7.8,
-      "surface_roughness": 8.3,
-      "mineral_analog": 7.8,
-      "isolation": 7.0,
-      "regolith": 7.5
+      "annual_precip_mm": 316,
+      "diurnal_range_c": 47,
+      "mean_temp_c": 33,
+      "rh_pct": 34,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 316,
@@ -1944,13 +1870,11 @@
       "mars": 89
     },
     "analog_params": {
-      "aridity": 6.9,
-      "temp_range": 7.0,
-      "uv_index": 5.7,
-      "surface_roughness": 4.5,
-      "mineral_analog": 8.6,
-      "isolation": 6.2,
-      "regolith": 6.0
+      "annual_precip_mm": 385,
+      "diurnal_range_c": 25,
+      "mean_temp_c": -5,
+      "rh_pct": 31,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 385,
@@ -1995,13 +1919,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 8.4,
-      "temp_range": 5.8,
-      "uv_index": 5.9,
-      "surface_roughness": 7.1,
-      "mineral_analog": 8.6,
-      "isolation": 4.8,
-      "regolith": 5.9
+      "annual_precip_mm": 201,
+      "diurnal_range_c": 31,
+      "mean_temp_c": -29,
+      "rh_pct": 16,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 201,
@@ -2044,13 +1966,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 6.8,
-      "temp_range": 6.7,
-      "uv_index": 4.3,
-      "surface_roughness": 7.2,
-      "mineral_analog": 5.0,
-      "isolation": 5.2,
-      "regolith": 7.7
+      "annual_precip_mm": 111,
+      "diurnal_range_c": 43,
+      "mean_temp_c": 25,
+      "rh_pct": 32,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 111,
@@ -2091,17 +2011,15 @@
       "moon"
     ],
     "matchScore": {
-      "moon": 71,
-      "mars": 77
+      "mars": 36.65,
+      "moon": 13.57
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 5.8,
-      "uv_index": 8.0,
-      "surface_roughness": 5.2,
-      "mineral_analog": 7.1,
-      "isolation": 7.9,
-      "regolith": 7.1
+      "annual_precip_mm": 683.0175,
+      "diurnal_range_c": 3.87,
+      "mean_temp_c": -5.95,
+      "rh_pct": 93.07,
+      "wind_ms": 4.52
     },
     "climate": {
       "map_mm_yr": 107,
@@ -2145,13 +2063,11 @@
       "mars": 70
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 5.5,
-      "uv_index": 7.7,
-      "surface_roughness": 5.8,
-      "mineral_analog": 8.1,
-      "isolation": 6.4,
-      "regolith": 7.1
+      "annual_precip_mm": 272,
+      "diurnal_range_c": 18,
+      "mean_temp_c": -9,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 272,
@@ -2197,13 +2113,11 @@
       "mars": 63
     },
     "analog_params": {
-      "aridity": 8.7,
-      "temp_range": 4.9,
-      "uv_index": 7.8,
-      "surface_roughness": 8.6,
-      "mineral_analog": 5.3,
-      "isolation": 4.0,
-      "regolith": 7.5
+      "annual_precip_mm": 158,
+      "diurnal_range_c": 47,
+      "mean_temp_c": -11,
+      "rh_pct": 13,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 158,
@@ -2249,13 +2163,11 @@
       "mars": 94
     },
     "analog_params": {
-      "aridity": 8.2,
-      "temp_range": 6.2,
-      "uv_index": 6.4,
-      "surface_roughness": 5.7,
-      "mineral_analog": 5.7,
-      "isolation": 8.7,
-      "regolith": 5.8
+      "annual_precip_mm": 408,
+      "diurnal_range_c": 19,
+      "mean_temp_c": -18,
+      "rh_pct": 18,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 408,
@@ -2298,13 +2210,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 8.2,
-      "temp_range": 5.9,
-      "uv_index": 4.3,
-      "surface_roughness": 5.4,
-      "mineral_analog": 7.8,
-      "isolation": 8.9,
-      "regolith": 7.8
+      "annual_precip_mm": 227,
+      "diurnal_range_c": 50,
+      "mean_temp_c": 8,
+      "rh_pct": 18,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 227,
@@ -2348,13 +2258,11 @@
       "mars": 91
     },
     "analog_params": {
-      "aridity": 8.4,
-      "temp_range": 6.7,
-      "uv_index": 5.3,
-      "surface_roughness": 4.4,
-      "mineral_analog": 8.2,
-      "isolation": 7.2,
-      "regolith": 6.5
+      "annual_precip_mm": 316,
+      "diurnal_range_c": 31,
+      "mean_temp_c": -26,
+      "rh_pct": 16,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 316,
@@ -2399,13 +2307,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 8.8,
-      "temp_range": 6.7,
-      "uv_index": 4.3,
-      "surface_roughness": 7.2,
-      "mineral_analog": 5.6,
-      "isolation": 7.0,
-      "regolith": 7.6
+      "annual_precip_mm": 187,
+      "diurnal_range_c": 47,
+      "mean_temp_c": 18,
+      "rh_pct": 12,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 187,
@@ -2451,13 +2357,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 5.8,
-      "uv_index": 7.2,
-      "surface_roughness": 8.7,
-      "mineral_analog": 5.9,
-      "isolation": 6.8,
-      "regolith": 5.3
+      "annual_precip_mm": 279,
+      "diurnal_range_c": 46,
+      "mean_temp_c": 33,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 279,
@@ -2502,13 +2406,11 @@
       "mars": 50
     },
     "analog_params": {
-      "aridity": 6.1,
-      "temp_range": 6.7,
-      "uv_index": 6.6,
-      "surface_roughness": 8.9,
-      "mineral_analog": 6.6,
-      "isolation": 4.8,
-      "regolith": 5.1
+      "annual_precip_mm": 144,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 1,
+      "rh_pct": 39,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 144,
@@ -2553,13 +2455,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 7.9,
-      "uv_index": 6.4,
-      "surface_roughness": 6.1,
-      "mineral_analog": 7.6,
-      "isolation": 7.8,
-      "regolith": 8.4
+      "annual_precip_mm": 426,
+      "diurnal_range_c": 35,
+      "mean_temp_c": -17,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 426,
@@ -2589,7 +2489,7 @@
     "id": "vredefort-dome",
     "name": "Vredefort Dome",
     "country": "South Africa",
-    "lat": -27.0,
+    "lat": -27,
     "lon": 27.5,
     "elevation_m": 442,
     "area_km2": 472671,
@@ -2604,13 +2504,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 8.2,
-      "uv_index": 5.0,
-      "surface_roughness": 4.2,
-      "mineral_analog": 8.7,
-      "isolation": 5.5,
-      "regolith": 7.5
+      "annual_precip_mm": 463,
+      "diurnal_range_c": 26,
+      "mean_temp_c": -12,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 463,
@@ -2641,7 +2539,7 @@
     "name": "Lake Natron",
     "country": "Tanzania",
     "lat": -2.4,
-    "lon": 36.0,
+    "lon": 36,
     "elevation_m": 731,
     "area_km2": 359022,
     "type": [
@@ -2656,13 +2554,11 @@
       "mars": 69
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 7.5,
-      "uv_index": 6.7,
-      "surface_roughness": 8.7,
-      "mineral_analog": 5.5,
-      "isolation": 5.0,
-      "regolith": 8.2
+      "annual_precip_mm": 56,
+      "diurnal_range_c": 30,
+      "mean_temp_c": 26,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 56,
@@ -2707,13 +2603,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 5.8,
-      "temp_range": 5.2,
-      "uv_index": 6.2,
-      "surface_roughness": 4.3,
-      "mineral_analog": 5.1,
-      "isolation": 7.9,
-      "regolith": 6.4
+      "annual_precip_mm": 371,
+      "diurnal_range_c": 26,
+      "mean_temp_c": -15,
+      "rh_pct": 42,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 371,
@@ -2743,8 +2637,8 @@
     "id": "rub-al-khali",
     "name": "Rub al Khali",
     "country": "Saudi Arabia",
-    "lat": 20.0,
-    "lon": 50.0,
+    "lat": 20,
+    "lon": 50,
     "elevation_m": 2560,
     "area_km2": 74303,
     "type": [
@@ -2759,13 +2653,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 5.9,
-      "temp_range": 5.6,
-      "uv_index": 4.3,
-      "surface_roughness": 5.1,
-      "mineral_analog": 6.6,
-      "isolation": 7.6,
-      "regolith": 6.4
+      "annual_precip_mm": 9,
+      "diurnal_range_c": 32,
+      "mean_temp_c": 9,
+      "rh_pct": 41,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 9,
@@ -2808,13 +2700,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 4.0,
-      "uv_index": 6.9,
-      "surface_roughness": 6.3,
-      "mineral_analog": 6.8,
-      "isolation": 8.0,
-      "regolith": 6.5
+      "annual_precip_mm": 263,
+      "diurnal_range_c": 37,
+      "mean_temp_c": 1,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 263,
@@ -2858,13 +2748,11 @@
       "mars": 70
     },
     "analog_params": {
-      "aridity": 6.6,
-      "temp_range": 6.1,
-      "uv_index": 4.5,
-      "surface_roughness": 7.6,
-      "mineral_analog": 8.2,
-      "isolation": 4.0,
-      "regolith": 7.0
+      "annual_precip_mm": 161,
+      "diurnal_range_c": 22,
+      "mean_temp_c": -22,
+      "rh_pct": 34,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 161,
@@ -2894,8 +2782,8 @@
     "id": "karakum-desert",
     "name": "Karakum Desert",
     "country": "Turkmenistan",
-    "lat": 39.0,
-    "lon": 60.0,
+    "lat": 39,
+    "lon": 60,
     "elevation_m": 1965,
     "area_km2": 65899,
     "type": [
@@ -2910,13 +2798,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 9.3,
-      "temp_range": 6.3,
-      "uv_index": 6.7,
-      "surface_roughness": 8.5,
-      "mineral_analog": 7.0,
-      "isolation": 9.3,
-      "regolith": 6.9
+      "annual_precip_mm": 140,
+      "diurnal_range_c": 22,
+      "mean_temp_c": 19,
+      "rh_pct": 7,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 140,
@@ -2946,7 +2832,7 @@
     "name": "Gobi Desert",
     "country": "Mongolia",
     "lat": 42.5,
-    "lon": 103.0,
+    "lon": 103,
     "elevation_m": 4295,
     "area_km2": 437206,
     "type": [
@@ -2960,13 +2846,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 7.3,
-      "uv_index": 4.8,
-      "surface_roughness": 7.1,
-      "mineral_analog": 8.4,
-      "isolation": 6.3,
-      "regolith": 5.7
+      "annual_precip_mm": 228,
+      "diurnal_range_c": 24,
+      "mean_temp_c": 0,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 228,
@@ -3009,13 +2893,11 @@
       "mars": 58
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 5.8,
-      "uv_index": 7.6,
-      "surface_roughness": 4.2,
-      "mineral_analog": 8.8,
-      "isolation": 9.0,
-      "regolith": 8.0
+      "annual_precip_mm": 168,
+      "diurnal_range_c": 28,
+      "mean_temp_c": 19,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 168,
@@ -3046,8 +2928,8 @@
     "id": "tarim-basin",
     "name": "Tarim Basin",
     "country": "China",
-    "lat": 39.0,
-    "lon": 83.0,
+    "lat": 39,
+    "lon": 83,
     "elevation_m": 1399,
     "area_km2": 397678,
     "type": [
@@ -3061,13 +2943,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 7.3,
-      "uv_index": 4.9,
-      "surface_roughness": 6.8,
-      "mineral_analog": 5.7,
-      "isolation": 6.6,
-      "regolith": 6.7
+      "annual_precip_mm": 346,
+      "diurnal_range_c": 37,
+      "mean_temp_c": 5,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 346,
@@ -3111,13 +2991,11 @@
       "mars": 50
     },
     "analog_params": {
-      "aridity": 6.1,
-      "temp_range": 7.4,
-      "uv_index": 5.0,
-      "surface_roughness": 5.5,
-      "mineral_analog": 5.6,
-      "isolation": 7.2,
-      "regolith": 6.7
+      "annual_precip_mm": 250,
+      "diurnal_range_c": 35,
+      "mean_temp_c": -22,
+      "rh_pct": 39,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 250,
@@ -3148,8 +3026,8 @@
     "id": "kamchatka-peninsula",
     "name": "Kamchatka Peninsula",
     "country": "Russia",
-    "lat": 54.0,
-    "lon": 160.0,
+    "lat": 54,
+    "lon": 160,
     "elevation_m": 639,
     "area_km2": 171391,
     "type": [
@@ -3163,13 +3041,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 8.4,
-      "temp_range": 4.6,
-      "uv_index": 4.9,
-      "surface_roughness": 7.3,
-      "mineral_analog": 5.5,
-      "isolation": 6.0,
-      "regolith": 6.3
+      "annual_precip_mm": 43,
+      "diurnal_range_c": 42,
+      "mean_temp_c": -28,
+      "rh_pct": 16,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 43,
@@ -3213,13 +3089,11 @@
       "mars": 62
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 6.9,
-      "uv_index": 4.5,
-      "surface_roughness": 6.9,
-      "mineral_analog": 7.7,
-      "isolation": 7.8,
-      "regolith": 8.2
+      "annual_precip_mm": 254,
+      "diurnal_range_c": 24,
+      "mean_temp_c": -2,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 254,
@@ -3264,13 +3138,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 8.2,
-      "temp_range": 5.8,
-      "uv_index": 6.4,
-      "surface_roughness": 7.4,
-      "mineral_analog": 6.6,
-      "isolation": 8.4,
-      "regolith": 8.1
+      "annual_precip_mm": 485,
+      "diurnal_range_c": 40,
+      "mean_temp_c": 11,
+      "rh_pct": 18,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 485,
@@ -3300,7 +3172,7 @@
     "name": "Kola Peninsula",
     "country": "Russia",
     "lat": 67.8,
-    "lon": 35.0,
+    "lon": 35,
     "elevation_m": 1220,
     "area_km2": 228916,
     "type": [
@@ -3314,13 +3186,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 6.5,
-      "temp_range": 7.7,
-      "uv_index": 6.1,
-      "surface_roughness": 5.3,
-      "mineral_analog": 8.4,
-      "isolation": 9.4,
-      "regolith": 6.7
+      "annual_precip_mm": 194,
+      "diurnal_range_c": 21,
+      "mean_temp_c": -15,
+      "rh_pct": 35,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 194,
@@ -3352,8 +3222,8 @@
     "id": "pamir-mountains",
     "name": "Pamir Mountains",
     "country": "Tajikistan",
-    "lat": 38.0,
-    "lon": 73.0,
+    "lat": 38,
+    "lon": 73,
     "elevation_m": 3088,
     "area_km2": 318279,
     "type": [
@@ -3367,13 +3237,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 4.2,
-      "uv_index": 5.7,
-      "surface_roughness": 7.3,
-      "mineral_analog": 5.9,
-      "isolation": 8.2,
-      "regolith": 7.4
+      "annual_precip_mm": 367,
+      "diurnal_range_c": 39,
+      "mean_temp_c": -15,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 367,
@@ -3417,13 +3285,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 8.0,
-      "temp_range": 6.8,
-      "uv_index": 6.3,
-      "surface_roughness": 4.5,
-      "mineral_analog": 6.1,
-      "isolation": 6.3,
-      "regolith": 6.0
+      "annual_precip_mm": 248,
+      "diurnal_range_c": 24,
+      "mean_temp_c": -7,
+      "rh_pct": 20,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 248,
@@ -3470,13 +3336,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 6.9,
-      "temp_range": 7.9,
-      "uv_index": 5.4,
-      "surface_roughness": 7.9,
-      "mineral_analog": 5.3,
-      "isolation": 4.6,
-      "regolith": 8.5
+      "annual_precip_mm": 325,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 15,
+      "rh_pct": 31,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 325,
@@ -3508,8 +3372,8 @@
     "id": "simpson-desert",
     "name": "Simpson Desert",
     "country": "Australia",
-    "lat": -24.0,
-    "lon": 137.0,
+    "lat": -24,
+    "lon": 137,
     "elevation_m": 624,
     "area_km2": 198964,
     "type": [
@@ -3524,13 +3388,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 8.8,
-      "temp_range": 8.1,
-      "uv_index": 5.3,
-      "surface_roughness": 4.7,
-      "mineral_analog": 8.5,
-      "isolation": 6.9,
-      "regolith": 5.7
+      "annual_precip_mm": 110,
+      "diurnal_range_c": 36,
+      "mean_temp_c": 26,
+      "rh_pct": 12,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 110,
@@ -3558,8 +3420,8 @@
     "id": "pilbara-craton",
     "name": "Pilbara Craton",
     "country": "Australia",
-    "lat": -21.0,
-    "lon": 119.0,
+    "lat": -21,
+    "lon": 119,
     "elevation_m": 546,
     "area_km2": 443369,
     "type": [
@@ -3573,13 +3435,11 @@
       "mars": 94
     },
     "analog_params": {
-      "aridity": 8.8,
-      "temp_range": 5.8,
-      "uv_index": 5.8,
-      "surface_roughness": 6.5,
-      "mineral_analog": 7.9,
-      "isolation": 7.1,
-      "regolith": 6.7
+      "annual_precip_mm": 471,
+      "diurnal_range_c": 19,
+      "mean_temp_c": -22,
+      "rh_pct": 12,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 471,
@@ -3624,13 +3484,11 @@
       "mars": 61
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 4.4,
-      "uv_index": 7.1,
-      "surface_roughness": 7.9,
-      "mineral_analog": 5.5,
-      "isolation": 8.6,
-      "regolith": 8.1
+      "annual_precip_mm": 138,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 27,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 138,
@@ -3674,13 +3532,11 @@
       "mars": 78
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 6.4,
-      "uv_index": 4.2,
-      "surface_roughness": 7.8,
-      "mineral_analog": 5.0,
-      "isolation": 7.0,
-      "regolith": 6.2
+      "annual_precip_mm": 372,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 25,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 372,
@@ -3726,13 +3582,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 4.5,
-      "uv_index": 7.2,
-      "surface_roughness": 6.0,
-      "mineral_analog": 8.4,
-      "isolation": 7.7,
-      "regolith": 5.5
+      "annual_precip_mm": 350,
+      "diurnal_range_c": 25,
+      "mean_temp_c": -20,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 350,
@@ -3775,13 +3629,11 @@
       "mars": 88
     },
     "analog_params": {
-      "aridity": 8.6,
-      "temp_range": 7.4,
-      "uv_index": 7.4,
-      "surface_roughness": 6.6,
-      "mineral_analog": 7.8,
-      "isolation": 6.4,
-      "regolith": 7.1
+      "annual_precip_mm": 25,
+      "diurnal_range_c": 46,
+      "mean_temp_c": 19,
+      "rh_pct": 14,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 25,
@@ -3827,13 +3679,11 @@
       "mars": 63
     },
     "analog_params": {
-      "aridity": 9.1,
-      "temp_range": 6.9,
-      "uv_index": 5.3,
-      "surface_roughness": 7.6,
-      "mineral_analog": 6.7,
-      "isolation": 6.1,
-      "regolith": 5.9
+      "annual_precip_mm": 269,
+      "diurnal_range_c": 49,
+      "mean_temp_c": 27,
+      "rh_pct": 9,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 269,
@@ -3876,13 +3726,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 4.4,
-      "uv_index": 7.6,
-      "surface_roughness": 4.4,
-      "mineral_analog": 6.5,
-      "isolation": 6.6,
-      "regolith": 7.1
+      "annual_precip_mm": 138,
+      "diurnal_range_c": 46,
+      "mean_temp_c": -8,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 138,
@@ -3928,13 +3776,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 6.9,
-      "temp_range": 6.9,
-      "uv_index": 6.2,
-      "surface_roughness": 4.8,
-      "mineral_analog": 8.1,
-      "isolation": 7.3,
-      "regolith": 8.0
+      "annual_precip_mm": 493,
+      "diurnal_range_c": 42,
+      "mean_temp_c": 23,
+      "rh_pct": 31,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 493,
@@ -3966,7 +3812,7 @@
     "name": "Taupo Volcanic Zone",
     "country": "New Zealand",
     "lat": -38.6,
-    "lon": 176.0,
+    "lon": 176,
     "elevation_m": 3941,
     "area_km2": 411148,
     "type": [
@@ -3981,13 +3827,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 4.7,
-      "uv_index": 5.3,
-      "surface_roughness": 7.1,
-      "mineral_analog": 6.4,
-      "isolation": 8.3,
-      "regolith": 7.2
+      "annual_precip_mm": 74,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 28,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 74,
@@ -4033,13 +3877,11 @@
       "mars": 50
     },
     "analog_params": {
-      "aridity": 8.7,
-      "temp_range": 8.4,
-      "uv_index": 7.2,
-      "surface_roughness": 5.1,
-      "mineral_analog": 6.6,
-      "isolation": 4.8,
-      "regolith": 5.8
+      "annual_precip_mm": 28,
+      "diurnal_range_c": 28,
+      "mean_temp_c": 34,
+      "rh_pct": 13,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 28,
@@ -4084,13 +3926,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 5.6,
-      "uv_index": 4.3,
-      "surface_roughness": 8.7,
-      "mineral_analog": 8.6,
-      "isolation": 7.3,
-      "regolith": 5.2
+      "annual_precip_mm": 15,
+      "diurnal_range_c": 45,
+      "mean_temp_c": -28,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 15,
@@ -4136,13 +3976,11 @@
       "mars": 51
     },
     "analog_params": {
-      "aridity": 9.5,
-      "temp_range": 6.2,
-      "uv_index": 4.8,
-      "surface_roughness": 5.6,
-      "mineral_analog": 5.3,
-      "isolation": 9.2,
-      "regolith": 8.3
+      "annual_precip_mm": 271,
+      "diurnal_range_c": 34,
+      "mean_temp_c": -24,
+      "rh_pct": 5,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 271,
@@ -4185,13 +4023,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 6.2,
-      "uv_index": 5.5,
-      "surface_roughness": 8.8,
-      "mineral_analog": 5.3,
-      "isolation": 8.3,
-      "regolith": 6.1
+      "annual_precip_mm": 325,
+      "diurnal_range_c": 31,
+      "mean_temp_c": 24,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 325,
@@ -4237,13 +4073,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 8.7,
-      "temp_range": 6.5,
-      "uv_index": 7.8,
-      "surface_roughness": 8.0,
-      "mineral_analog": 5.8,
-      "isolation": 7.7,
-      "regolith": 7.4
+      "annual_precip_mm": 476,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 1,
+      "rh_pct": 13,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 476,
@@ -4288,13 +4122,11 @@
       "mars": 64
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 5.9,
-      "uv_index": 6.0,
-      "surface_roughness": 5.3,
-      "mineral_analog": 5.9,
-      "isolation": 5.6,
-      "regolith": 5.3
+      "annual_precip_mm": 52,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 18,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 52,
@@ -4326,7 +4158,7 @@
     "name": "Ellsworth Mountains",
     "country": "Antarctica",
     "lat": -78.7,
-    "lon": -85.0,
+    "lon": -85,
     "elevation_m": 3973,
     "area_km2": 414925,
     "type": [
@@ -4341,13 +4173,11 @@
       "mars": 61
     },
     "analog_params": {
-      "aridity": 9.0,
-      "temp_range": 5.5,
-      "uv_index": 5.8,
-      "surface_roughness": 4.5,
-      "mineral_analog": 6.4,
-      "isolation": 4.5,
-      "regolith": 5.6
+      "annual_precip_mm": 321,
+      "diurnal_range_c": 47,
+      "mean_temp_c": 12,
+      "rh_pct": 10,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 321,
@@ -4390,13 +4220,11 @@
       "mars": 83
     },
     "analog_params": {
-      "aridity": 8.9,
-      "temp_range": 5.9,
-      "uv_index": 7.2,
-      "surface_roughness": 5.3,
-      "mineral_analog": 7.8,
-      "isolation": 6.1,
-      "regolith": 5.9
+      "annual_precip_mm": 702,
+      "diurnal_range_c": 28,
+      "mean_temp_c": -5,
+      "rh_pct": 11,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 702,
@@ -4443,13 +4271,11 @@
       "mars": 46
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 7.6,
-      "uv_index": 4.3,
-      "surface_roughness": 6.4,
-      "mineral_analog": 5.1,
-      "isolation": 4.2,
-      "regolith": 7.3
+      "annual_precip_mm": 1140,
+      "diurnal_range_c": 10,
+      "mean_temp_c": 14,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1140,
@@ -4493,13 +4319,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 5.5,
-      "uv_index": 7.7,
-      "surface_roughness": 4.2,
-      "mineral_analog": 6.3,
-      "isolation": 7.6,
-      "regolith": 4.7
+      "annual_precip_mm": 761,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 23,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 761,
@@ -4543,13 +4367,11 @@
       "mars": 54
     },
     "analog_params": {
-      "aridity": 6.3,
-      "temp_range": 7.2,
-      "uv_index": 4.0,
-      "surface_roughness": 7.5,
-      "mineral_analog": 5.5,
-      "isolation": 4.7,
-      "regolith": 6.0
+      "annual_precip_mm": 521,
+      "diurnal_range_c": 34,
+      "mean_temp_c": -2,
+      "rh_pct": 37,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 521,
@@ -4594,13 +4416,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 5.7,
-      "uv_index": 4.7,
-      "surface_roughness": 4.0,
-      "mineral_analog": 4.8,
-      "isolation": 7.8,
-      "regolith": 6.4
+      "annual_precip_mm": 426,
+      "diurnal_range_c": 38,
+      "mean_temp_c": -8,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 426,
@@ -4643,13 +4463,11 @@
       "mars": 89
     },
     "analog_params": {
-      "aridity": 4.7,
-      "temp_range": 6.4,
-      "uv_index": 5.9,
-      "surface_roughness": 5.7,
-      "mineral_analog": 4.1,
-      "isolation": 7.3,
-      "regolith": 7.9
+      "annual_precip_mm": 192,
+      "diurnal_range_c": 38,
+      "mean_temp_c": -4,
+      "rh_pct": 53,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 192,
@@ -4695,13 +4513,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 8.4,
-      "temp_range": 4.6,
-      "uv_index": 5.3,
-      "surface_roughness": 7.7,
-      "mineral_analog": 5.1,
-      "isolation": 7.8,
-      "regolith": 4.3
+      "annual_precip_mm": 418,
+      "diurnal_range_c": 31,
+      "mean_temp_c": 2,
+      "rh_pct": 16,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 418,
@@ -4744,13 +4560,11 @@
       "mars": 44
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 5.4,
-      "uv_index": 5.3,
-      "surface_roughness": 6.3,
-      "mineral_analog": 4.5,
-      "isolation": 3.3,
-      "regolith": 7.0
+      "annual_precip_mm": 1400,
+      "diurnal_range_c": 10,
+      "mean_temp_c": 6,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1400,
@@ -4794,13 +4608,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 5.8,
-      "temp_range": 6.7,
-      "uv_index": 4.4,
-      "surface_roughness": 4.0,
-      "mineral_analog": 5.4,
-      "isolation": 8.0,
-      "regolith": 4.1
+      "annual_precip_mm": 343,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 29,
+      "rh_pct": 42,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 343,
@@ -4846,13 +4658,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 4.6,
-      "temp_range": 6.6,
-      "uv_index": 7.5,
-      "surface_roughness": 5.7,
-      "mineral_analog": 5.0,
-      "isolation": 4.2,
-      "regolith": 7.1
+      "annual_precip_mm": 529,
+      "diurnal_range_c": 16,
+      "mean_temp_c": 29,
+      "rh_pct": 54,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 529,
@@ -4897,13 +4707,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 5.5,
-      "uv_index": 6.8,
-      "surface_roughness": 4.6,
-      "mineral_analog": 7.6,
-      "isolation": 5.8,
-      "regolith": 7.0
+      "annual_precip_mm": 441,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 26,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 441,
@@ -4950,13 +4758,11 @@
       "mars": 81
     },
     "analog_params": {
-      "aridity": 4.8,
-      "temp_range": 4.8,
-      "uv_index": 7.5,
-      "surface_roughness": 4.4,
-      "mineral_analog": 8.2,
-      "isolation": 7.0,
-      "regolith": 6.2
+      "annual_precip_mm": 821,
+      "diurnal_range_c": 23,
+      "mean_temp_c": -9,
+      "rh_pct": 52,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 821,
@@ -5001,13 +4807,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 5.0,
-      "uv_index": 7.2,
-      "surface_roughness": 7.8,
-      "mineral_analog": 7.5,
-      "isolation": 7.0,
-      "regolith": 4.9
+      "annual_precip_mm": 114,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 18,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 114,
@@ -5053,13 +4857,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 7.5,
-      "uv_index": 5.5,
-      "surface_roughness": 6.8,
-      "mineral_analog": 6.6,
-      "isolation": 5.5,
-      "regolith": 6.5
+      "annual_precip_mm": 455,
+      "diurnal_range_c": 22,
+      "mean_temp_c": 20,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 455,
@@ -5103,13 +4905,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 8.7,
-      "temp_range": 5.3,
-      "uv_index": 5.0,
-      "surface_roughness": 5.6,
-      "mineral_analog": 4.5,
-      "isolation": 7.0,
-      "regolith": 7.6
+      "annual_precip_mm": 1118,
+      "diurnal_range_c": 40,
+      "mean_temp_c": 15,
+      "rh_pct": 13,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1118,
@@ -5155,13 +4955,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 7.5,
-      "uv_index": 7.2,
-      "surface_roughness": 6.1,
-      "mineral_analog": 6.0,
-      "isolation": 4.0,
-      "regolith": 5.4
+      "annual_precip_mm": 523,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 0,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 523,
@@ -5206,13 +5004,11 @@
       "mars": 45
     },
     "analog_params": {
-      "aridity": 4.7,
-      "temp_range": 7.1,
-      "uv_index": 5.8,
-      "surface_roughness": 4.8,
-      "mineral_analog": 4.6,
-      "isolation": 3.6,
-      "regolith": 7.1
+      "annual_precip_mm": 385,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 27,
+      "rh_pct": 53,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 385,
@@ -5258,13 +5054,11 @@
       "mars": 40
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 5.0,
-      "uv_index": 7.2,
-      "surface_roughness": 6.1,
-      "mineral_analog": 7.9,
-      "isolation": 5.4,
-      "regolith": 7.0
+      "annual_precip_mm": 1263,
+      "diurnal_range_c": 16,
+      "mean_temp_c": 18,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1263,
@@ -5311,13 +5105,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 6.5,
-      "temp_range": 4.8,
-      "uv_index": 4.2,
-      "surface_roughness": 7.2,
-      "mineral_analog": 5.7,
-      "isolation": 3.3,
-      "regolith": 6.7
+      "annual_precip_mm": 1019,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 11,
+      "rh_pct": 35,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1019,
@@ -5362,13 +5154,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 5.0,
-      "uv_index": 7.9,
-      "surface_roughness": 6.9,
-      "mineral_analog": 5.5,
-      "isolation": 3.3,
-      "regolith": 5.0
+      "annual_precip_mm": 984,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 30,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 984,
@@ -5413,13 +5203,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 6.6,
-      "uv_index": 8.0,
-      "surface_roughness": 8.2,
-      "mineral_analog": 4.7,
-      "isolation": 7.4,
-      "regolith": 6.1
+      "annual_precip_mm": 1325,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 28,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1325,
@@ -5464,13 +5252,11 @@
       "mars": 40
     },
     "analog_params": {
-      "aridity": 6.9,
-      "temp_range": 7.9,
-      "uv_index": 4.4,
-      "surface_roughness": 4.1,
-      "mineral_analog": 7.3,
-      "isolation": 4.0,
-      "regolith": 7.5
+      "annual_precip_mm": 101,
+      "diurnal_range_c": 14,
+      "mean_temp_c": 8,
+      "rh_pct": 31,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 101,
@@ -5515,13 +5301,11 @@
       "mars": 54
     },
     "analog_params": {
-      "aridity": 9.0,
-      "temp_range": 7.5,
-      "uv_index": 7.1,
-      "surface_roughness": 4.8,
-      "mineral_analog": 6.0,
-      "isolation": 4.2,
-      "regolith": 7.5
+      "annual_precip_mm": 332,
+      "diurnal_range_c": 24,
+      "mean_temp_c": 18,
+      "rh_pct": 10,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 332,
@@ -5564,13 +5348,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 5.1,
-      "uv_index": 4.9,
-      "surface_roughness": 7.2,
-      "mineral_analog": 6.7,
-      "isolation": 7.2,
-      "regolith": 5.3
+      "annual_precip_mm": 655,
+      "diurnal_range_c": 16,
+      "mean_temp_c": 5,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 655,
@@ -5613,13 +5395,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 8.0,
-      "temp_range": 7.4,
-      "uv_index": 4.7,
-      "surface_roughness": 5.2,
-      "mineral_analog": 5.5,
-      "isolation": 7.6,
-      "regolith": 7.0
+      "annual_precip_mm": 155,
+      "diurnal_range_c": 33,
+      "mean_temp_c": -8,
+      "rh_pct": 20,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 155,
@@ -5662,13 +5442,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 4.5,
-      "temp_range": 7.5,
-      "uv_index": 7.8,
-      "surface_roughness": 4.5,
-      "mineral_analog": 7.4,
-      "isolation": 7.3,
-      "regolith": 6.3
+      "annual_precip_mm": 772,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 6,
+      "rh_pct": 55,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 772,
@@ -5714,13 +5492,11 @@
       "mars": 58
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 6.2,
-      "uv_index": 5.8,
-      "surface_roughness": 5.3,
-      "mineral_analog": 4.3,
-      "isolation": 6.3,
-      "regolith": 6.7
+      "annual_precip_mm": 898,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 29,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 898,
@@ -5765,13 +5541,11 @@
       "mars": 49
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 7.0,
-      "uv_index": 4.1,
-      "surface_roughness": 7.2,
-      "mineral_analog": 4.7,
-      "isolation": 4.1,
-      "regolith": 6.8
+      "annual_precip_mm": 1247,
+      "diurnal_range_c": 28,
+      "mean_temp_c": 30,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1247,
@@ -5818,13 +5592,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 5.7,
-      "uv_index": 7.3,
-      "surface_roughness": 6.3,
-      "mineral_analog": 7.5,
-      "isolation": 5.2,
-      "regolith": 8.0
+      "annual_precip_mm": 225,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 26,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 225,
@@ -5870,13 +5642,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 4.9,
-      "temp_range": 6.7,
-      "uv_index": 7.0,
-      "surface_roughness": 8.1,
-      "mineral_analog": 7.6,
-      "isolation": 6.5,
-      "regolith": 5.7
+      "annual_precip_mm": 1166,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 30,
+      "rh_pct": 51,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1166,
@@ -5919,13 +5689,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 8.4,
-      "temp_range": 7.0,
-      "uv_index": 5.3,
-      "surface_roughness": 5.5,
-      "mineral_analog": 4.2,
-      "isolation": 6.9,
-      "regolith": 4.7
+      "annual_precip_mm": 1098,
+      "diurnal_range_c": 18,
+      "mean_temp_c": -10,
+      "rh_pct": 16,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1098,
@@ -5969,13 +5737,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 6.4,
-      "temp_range": 6.8,
-      "uv_index": 6.5,
-      "surface_roughness": 4.1,
-      "mineral_analog": 8.4,
-      "isolation": 5.3,
-      "regolith": 5.6
+      "annual_precip_mm": 1059,
+      "diurnal_range_c": 26,
+      "mean_temp_c": 24,
+      "rh_pct": 36,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1059,
@@ -6022,13 +5788,11 @@
       "mars": 66
     },
     "analog_params": {
-      "aridity": 8.2,
-      "temp_range": 7.5,
-      "uv_index": 7.3,
-      "surface_roughness": 5.1,
-      "mineral_analog": 5.5,
-      "isolation": 8.4,
-      "regolith": 7.9
+      "annual_precip_mm": 1028,
+      "diurnal_range_c": 19,
+      "mean_temp_c": -2,
+      "rh_pct": 18,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1028,
@@ -6072,13 +5836,11 @@
       "mars": 51
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 4.0,
-      "uv_index": 6.0,
-      "surface_roughness": 5.1,
-      "mineral_analog": 6.6,
-      "isolation": 6.3,
-      "regolith": 8.2
+      "annual_precip_mm": 1043,
+      "diurnal_range_c": 26,
+      "mean_temp_c": 19,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1043,
@@ -6124,13 +5886,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 7.8,
-      "temp_range": 5.2,
-      "uv_index": 7.1,
-      "surface_roughness": 5.3,
-      "mineral_analog": 6.9,
-      "isolation": 4.4,
-      "regolith": 5.4
+      "annual_precip_mm": 521,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 26,
+      "rh_pct": 22,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 521,
@@ -6175,13 +5935,11 @@
       "mars": 57
     },
     "analog_params": {
-      "aridity": 4.5,
-      "temp_range": 4.0,
-      "uv_index": 5.5,
-      "surface_roughness": 4.8,
-      "mineral_analog": 4.3,
-      "isolation": 8.4,
-      "regolith": 4.6
+      "annual_precip_mm": 523,
+      "diurnal_range_c": 39,
+      "mean_temp_c": -11,
+      "rh_pct": 55,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 523,
@@ -6226,13 +5984,11 @@
       "mars": 79
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 7.3,
-      "uv_index": 6.8,
-      "surface_roughness": 8.0,
-      "mineral_analog": 8.3,
-      "isolation": 4.9,
-      "regolith": 6.9
+      "annual_precip_mm": 852,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 21,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 852,
@@ -6275,13 +6031,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 5.9,
-      "uv_index": 5.5,
-      "surface_roughness": 5.5,
-      "mineral_analog": 6.0,
-      "isolation": 7.3,
-      "regolith": 8.3
+      "annual_precip_mm": 1187,
+      "diurnal_range_c": 14,
+      "mean_temp_c": -8,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1187,
@@ -6326,13 +6080,11 @@
       "mars": 59
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 6.5,
-      "uv_index": 5.9,
-      "surface_roughness": 4.3,
-      "mineral_analog": 5.3,
-      "isolation": 6.8,
-      "regolith": 6.1
+      "annual_precip_mm": 85,
+      "diurnal_range_c": 29,
+      "mean_temp_c": -8,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 85,
@@ -6376,13 +6128,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 4.9,
-      "uv_index": 5.5,
-      "surface_roughness": 4.7,
-      "mineral_analog": 8.4,
-      "isolation": 5.1,
-      "regolith": 7.5
+      "annual_precip_mm": 52,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 20,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 52,
@@ -6428,13 +6178,11 @@
       "mars": 59
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 5.5,
-      "uv_index": 7.9,
-      "surface_roughness": 4.3,
-      "mineral_analog": 5.4,
-      "isolation": 8.5,
-      "regolith": 6.7
+      "annual_precip_mm": 250,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 9,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 250,
@@ -6478,13 +6226,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 7.6,
-      "temp_range": 6.4,
-      "uv_index": 4.9,
-      "surface_roughness": 6.5,
-      "mineral_analog": 5.0,
-      "isolation": 4.1,
-      "regolith": 8.4
+      "annual_precip_mm": 1134,
+      "diurnal_range_c": 24,
+      "mean_temp_c": 3,
+      "rh_pct": 24,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1134,
@@ -6528,13 +6274,11 @@
       "mars": 44
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 6.5,
-      "uv_index": 4.4,
-      "surface_roughness": 4.3,
-      "mineral_analog": 5.6,
-      "isolation": 8.9,
-      "regolith": 5.9
+      "annual_precip_mm": 1043,
+      "diurnal_range_c": 19,
+      "mean_temp_c": 23,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1043,
@@ -6579,13 +6323,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 8.7,
-      "temp_range": 6.0,
-      "uv_index": 5.3,
-      "surface_roughness": 4.2,
-      "mineral_analog": 6.1,
-      "isolation": 6.0,
-      "regolith": 7.2
+      "annual_precip_mm": 608,
+      "diurnal_range_c": 15,
+      "mean_temp_c": -11,
+      "rh_pct": 13,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 608,
@@ -6631,13 +6373,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 6.7,
-      "temp_range": 7.7,
-      "uv_index": 4.3,
-      "surface_roughness": 7.3,
-      "mineral_analog": 5.3,
-      "isolation": 5.4,
-      "regolith": 4.6
+      "annual_precip_mm": 1404,
+      "diurnal_range_c": 37,
+      "mean_temp_c": -15,
+      "rh_pct": 33,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1404,
@@ -6683,13 +6423,11 @@
       "mars": 58
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 7.6,
-      "uv_index": 7.9,
-      "surface_roughness": 8.2,
-      "mineral_analog": 7.9,
-      "isolation": 3.6,
-      "regolith": 7.6
+      "annual_precip_mm": 953,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 13,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 953,
@@ -6735,13 +6473,11 @@
       "mars": 66
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 6.2,
-      "uv_index": 6.8,
-      "surface_roughness": 8.4,
-      "mineral_analog": 4.4,
-      "isolation": 4.7,
-      "regolith": 5.1
+      "annual_precip_mm": 1390,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 1,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1390,
@@ -6785,13 +6521,11 @@
       "mars": 48
     },
     "analog_params": {
-      "aridity": 4.9,
-      "temp_range": 4.7,
-      "uv_index": 7.4,
-      "surface_roughness": 7.8,
-      "mineral_analog": 4.3,
-      "isolation": 4.6,
-      "regolith": 4.5
+      "annual_precip_mm": 1186,
+      "diurnal_range_c": 19,
+      "mean_temp_c": -7,
+      "rh_pct": 51,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1186,
@@ -6835,13 +6569,11 @@
       "mars": 43
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 5.7,
-      "uv_index": 4.8,
-      "surface_roughness": 8.5,
-      "mineral_analog": 7.9,
-      "isolation": 3.6,
-      "regolith": 5.7
+      "annual_precip_mm": 1022,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 22,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1022,
@@ -6887,13 +6619,11 @@
       "mars": 42
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 4.5,
-      "uv_index": 4.2,
-      "surface_roughness": 5.8,
-      "mineral_analog": 7.6,
-      "isolation": 7.0,
-      "regolith": 7.7
+      "annual_precip_mm": 1490,
+      "diurnal_range_c": 24,
+      "mean_temp_c": -6,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1490,
@@ -6937,13 +6667,11 @@
       "mars": 88
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 4.5,
-      "uv_index": 7.5,
-      "surface_roughness": 5.1,
-      "mineral_analog": 5.0,
-      "isolation": 8.7,
-      "regolith": 4.9
+      "annual_precip_mm": 317,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 27,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 317,
@@ -6990,13 +6718,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 5.5,
-      "uv_index": 5.1,
-      "surface_roughness": 5.0,
-      "mineral_analog": 6.5,
-      "isolation": 6.0,
-      "regolith": 7.7
+      "annual_precip_mm": 969,
+      "diurnal_range_c": 27,
+      "mean_temp_c": -6,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 969,
@@ -7040,13 +6766,11 @@
       "mars": 67
     },
     "analog_params": {
-      "aridity": 9.0,
-      "temp_range": 5.1,
-      "uv_index": 6.7,
-      "surface_roughness": 6.0,
-      "mineral_analog": 4.6,
-      "isolation": 4.8,
-      "regolith": 7.9
+      "annual_precip_mm": 75,
+      "diurnal_range_c": 37,
+      "mean_temp_c": -8,
+      "rh_pct": 10,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 75,
@@ -7092,13 +6816,11 @@
       "mars": 85
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 4.9,
-      "uv_index": 5.4,
-      "surface_roughness": 5.6,
-      "mineral_analog": 4.5,
-      "isolation": 6.4,
-      "regolith": 7.3
+      "annual_precip_mm": 495,
+      "diurnal_range_c": 34,
+      "mean_temp_c": -14,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 495,
@@ -7144,13 +6866,11 @@
       "mars": 63
     },
     "analog_params": {
-      "aridity": 6.6,
-      "temp_range": 6.8,
-      "uv_index": 7.8,
-      "surface_roughness": 4.2,
-      "mineral_analog": 7.6,
-      "isolation": 9.0,
-      "regolith": 5.5
+      "annual_precip_mm": 995,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 3,
+      "rh_pct": 34,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 995,
@@ -7195,13 +6915,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 4.6,
-      "uv_index": 8.0,
-      "surface_roughness": 4.4,
-      "mineral_analog": 7.4,
-      "isolation": 7.7,
-      "regolith": 4.7
+      "annual_precip_mm": 434,
+      "diurnal_range_c": 14,
+      "mean_temp_c": 11,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 434,
@@ -7245,13 +6963,11 @@
       "mars": 42
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 6.5,
-      "uv_index": 6.9,
-      "surface_roughness": 6.0,
-      "mineral_analog": 7.5,
-      "isolation": 5.5,
-      "regolith": 7.2
+      "annual_precip_mm": 707,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 5,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 707,
@@ -7298,13 +7014,11 @@
       "mars": 83
     },
     "analog_params": {
-      "aridity": 5.8,
-      "temp_range": 5.8,
-      "uv_index": 5.2,
-      "surface_roughness": 7.2,
-      "mineral_analog": 7.8,
-      "isolation": 8.7,
-      "regolith": 7.8
+      "annual_precip_mm": 1246,
+      "diurnal_range_c": 12,
+      "mean_temp_c": -13,
+      "rh_pct": 42,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1246,
@@ -7348,13 +7062,11 @@
       "mars": 78
     },
     "analog_params": {
-      "aridity": 8.9,
-      "temp_range": 7.8,
-      "uv_index": 6.9,
-      "surface_roughness": 5.0,
-      "mineral_analog": 5.9,
-      "isolation": 4.5,
-      "regolith": 5.1
+      "annual_precip_mm": 595,
+      "diurnal_range_c": 35,
+      "mean_temp_c": 10,
+      "rh_pct": 11,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 595,
@@ -7400,13 +7112,11 @@
       "mars": 45
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 7.0,
-      "uv_index": 4.3,
-      "surface_roughness": 4.7,
-      "mineral_analog": 8.0,
-      "isolation": 3.5,
-      "regolith": 8.1
+      "annual_precip_mm": 900,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 24,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 900,
@@ -7449,13 +7159,11 @@
       "mars": 44
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 6.8,
-      "uv_index": 4.8,
-      "surface_roughness": 4.4,
-      "mineral_analog": 7.1,
-      "isolation": 7.5,
-      "regolith": 8.3
+      "annual_precip_mm": 953,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 16,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 953,
@@ -7499,13 +7207,11 @@
       "mars": 66
     },
     "analog_params": {
-      "aridity": 7.8,
-      "temp_range": 6.6,
-      "uv_index": 7.7,
-      "surface_roughness": 5.8,
-      "mineral_analog": 5.9,
-      "isolation": 3.0,
-      "regolith": 6.2
+      "annual_precip_mm": 1000,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 27,
+      "rh_pct": 22,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1000,
@@ -7550,13 +7256,11 @@
       "mars": 48
     },
     "analog_params": {
-      "aridity": 8.2,
-      "temp_range": 7.0,
-      "uv_index": 4.9,
-      "surface_roughness": 8.2,
-      "mineral_analog": 5.6,
-      "isolation": 3.9,
-      "regolith": 7.7
+      "annual_precip_mm": 638,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 18,
+      "rh_pct": 18,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 638,
@@ -7601,13 +7305,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 7.7,
-      "temp_range": 4.3,
-      "uv_index": 5.9,
-      "surface_roughness": 6.3,
-      "mineral_analog": 5.0,
-      "isolation": 5.3,
-      "regolith": 6.7
+      "annual_precip_mm": 1150,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 26,
+      "rh_pct": 23,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1150,
@@ -7651,13 +7353,11 @@
       "mars": 83
     },
     "analog_params": {
-      "aridity": 6.6,
-      "temp_range": 5.3,
-      "uv_index": 6.0,
-      "surface_roughness": 7.8,
-      "mineral_analog": 5.9,
-      "isolation": 5.1,
-      "regolith": 7.3
+      "annual_precip_mm": 519,
+      "diurnal_range_c": 40,
+      "mean_temp_c": 7,
+      "rh_pct": 34,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 519,
@@ -7702,13 +7402,11 @@
       "mars": 81
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 7.4,
-      "uv_index": 4.3,
-      "surface_roughness": 7.4,
-      "mineral_analog": 7.1,
-      "isolation": 3.1,
-      "regolith": 6.3
+      "annual_precip_mm": 67,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 23,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 67,
@@ -7753,13 +7451,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 8.0,
-      "uv_index": 7.2,
-      "surface_roughness": 6.8,
-      "mineral_analog": 8.2,
-      "isolation": 8.5,
-      "regolith": 7.1
+      "annual_precip_mm": 1177,
+      "diurnal_range_c": 21,
+      "mean_temp_c": -4,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1177,
@@ -7802,13 +7498,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 7.6,
-      "temp_range": 5.7,
-      "uv_index": 5.8,
-      "surface_roughness": 4.1,
-      "mineral_analog": 7.6,
-      "isolation": 7.1,
-      "regolith": 4.8
+      "annual_precip_mm": 233,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 27,
+      "rh_pct": 24,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 233,
@@ -7851,13 +7545,11 @@
       "mars": 65
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 4.3,
-      "uv_index": 5.0,
-      "surface_roughness": 7.5,
-      "mineral_analog": 5.3,
-      "isolation": 8.7,
-      "regolith": 4.8
+      "annual_precip_mm": 1372,
+      "diurnal_range_c": 16,
+      "mean_temp_c": 0,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1372,
@@ -7904,13 +7596,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 8.0,
-      "temp_range": 6.9,
-      "uv_index": 4.4,
-      "surface_roughness": 7.2,
-      "mineral_analog": 7.8,
-      "isolation": 6.7,
-      "regolith": 5.5
+      "annual_precip_mm": 312,
+      "diurnal_range_c": 31,
+      "mean_temp_c": 4,
+      "rh_pct": 20,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 312,
@@ -7957,13 +7647,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 4.1,
-      "temp_range": 4.5,
-      "uv_index": 5.6,
-      "surface_roughness": 7.4,
-      "mineral_analog": 5.1,
-      "isolation": 3.6,
-      "regolith": 5.3
+      "annual_precip_mm": 319,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 27,
+      "rh_pct": 59,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 319,
@@ -8010,13 +7698,11 @@
       "mars": 90
     },
     "analog_params": {
-      "aridity": 4.5,
-      "temp_range": 6.7,
-      "uv_index": 6.4,
-      "surface_roughness": 7.1,
-      "mineral_analog": 7.5,
-      "isolation": 6.4,
-      "regolith": 5.3
+      "annual_precip_mm": 1283,
+      "diurnal_range_c": 26,
+      "mean_temp_c": -10,
+      "rh_pct": 55,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1283,
@@ -8060,13 +7746,11 @@
       "mars": 78
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 5.1,
-      "uv_index": 6.0,
-      "surface_roughness": 6.7,
-      "mineral_analog": 5.1,
-      "isolation": 4.1,
-      "regolith": 6.1
+      "annual_precip_mm": 1212,
+      "diurnal_range_c": 29,
+      "mean_temp_c": -5,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1212,
@@ -8111,13 +7795,11 @@
       "mars": 40
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 5.7,
-      "uv_index": 7.6,
-      "surface_roughness": 4.8,
-      "mineral_analog": 7.4,
-      "isolation": 6.6,
-      "regolith": 8.2
+      "annual_precip_mm": 1475,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 2,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1475,
@@ -8163,13 +7845,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 5.2,
-      "uv_index": 5.7,
-      "surface_roughness": 5.8,
-      "mineral_analog": 5.7,
-      "isolation": 3.6,
-      "regolith": 4.4
+      "annual_precip_mm": 634,
+      "diurnal_range_c": 35,
+      "mean_temp_c": 5,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 634,
@@ -8213,13 +7893,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 6.4,
-      "uv_index": 4.5,
-      "surface_roughness": 6.5,
-      "mineral_analog": 4.4,
-      "isolation": 7.0,
-      "regolith": 7.5
+      "annual_precip_mm": 134,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 13,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 134,
@@ -8263,13 +7941,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 6.2,
-      "uv_index": 5.1,
-      "surface_roughness": 4.6,
-      "mineral_analog": 7.1,
-      "isolation": 7.4,
-      "regolith": 6.1
+      "annual_precip_mm": 1056,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 10,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1056,
@@ -8314,13 +7990,11 @@
       "mars": 62
     },
     "analog_params": {
-      "aridity": 7.6,
-      "temp_range": 5.8,
-      "uv_index": 5.3,
-      "surface_roughness": 4.9,
-      "mineral_analog": 7.9,
-      "isolation": 8.7,
-      "regolith": 7.3
+      "annual_precip_mm": 1203,
+      "diurnal_range_c": 23,
+      "mean_temp_c": -9,
+      "rh_pct": 24,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1203,
@@ -8366,13 +8040,11 @@
       "mars": 41
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 6.0,
-      "uv_index": 6.8,
-      "surface_roughness": 4.4,
-      "mineral_analog": 5.6,
-      "isolation": 8.8,
-      "regolith": 5.4
+      "annual_precip_mm": 1240,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 0,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1240,
@@ -8416,13 +8088,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 4.5,
-      "temp_range": 5.2,
-      "uv_index": 6.7,
-      "surface_roughness": 6.3,
-      "mineral_analog": 7.3,
-      "isolation": 7.8,
-      "regolith": 7.4
+      "annual_precip_mm": 939,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 8,
+      "rh_pct": 55,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 939,
@@ -8467,13 +8137,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 5.1,
-      "uv_index": 6.7,
-      "surface_roughness": 6.4,
-      "mineral_analog": 4.2,
-      "isolation": 4.8,
-      "regolith": 6.3
+      "annual_precip_mm": 438,
+      "diurnal_range_c": 38,
+      "mean_temp_c": -9,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 438,
@@ -8517,13 +8185,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 6.7,
-      "temp_range": 6.2,
-      "uv_index": 7.4,
-      "surface_roughness": 5.7,
-      "mineral_analog": 6.3,
-      "isolation": 6.0,
-      "regolith": 5.4
+      "annual_precip_mm": 232,
+      "diurnal_range_c": 17,
+      "mean_temp_c": 20,
+      "rh_pct": 33,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 232,
@@ -8570,13 +8236,11 @@
       "mars": 48
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 7.3,
-      "uv_index": 7.3,
-      "surface_roughness": 4.5,
-      "mineral_analog": 5.5,
-      "isolation": 7.8,
-      "regolith": 6.2
+      "annual_precip_mm": 459,
+      "diurnal_range_c": 40,
+      "mean_temp_c": -15,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 459,
@@ -8622,13 +8286,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 4.4,
-      "temp_range": 4.7,
-      "uv_index": 4.5,
-      "surface_roughness": 8.1,
-      "mineral_analog": 7.3,
-      "isolation": 7.9,
-      "regolith": 5.7
+      "annual_precip_mm": 1192,
+      "diurnal_range_c": 32,
+      "mean_temp_c": 22,
+      "rh_pct": 56,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1192,
@@ -8672,13 +8334,11 @@
       "mars": 66
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 7.2,
-      "uv_index": 5.4,
-      "surface_roughness": 8.2,
-      "mineral_analog": 4.0,
-      "isolation": 6.1,
-      "regolith": 6.7
+      "annual_precip_mm": 1489,
+      "diurnal_range_c": 18,
+      "mean_temp_c": 17,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1489,
@@ -8723,13 +8383,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 5.9,
-      "temp_range": 7.0,
-      "uv_index": 5.9,
-      "surface_roughness": 4.7,
-      "mineral_analog": 5.5,
-      "isolation": 5.4,
-      "regolith": 8.0
+      "annual_precip_mm": 184,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 1,
+      "rh_pct": 41,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 184,
@@ -8773,13 +8431,11 @@
       "mars": 40
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 7.6,
-      "uv_index": 7.2,
-      "surface_roughness": 7.2,
-      "mineral_analog": 6.0,
-      "isolation": 5.7,
-      "regolith": 7.4
+      "annual_precip_mm": 167,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 30,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 167,
@@ -8825,13 +8481,11 @@
       "mars": 46
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 7.3,
-      "uv_index": 6.0,
-      "surface_roughness": 4.4,
-      "mineral_analog": 6.2,
-      "isolation": 6.4,
-      "regolith": 6.9
+      "annual_precip_mm": 1374,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 7,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1374,
@@ -8878,13 +8532,11 @@
       "mars": 70
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 6.7,
-      "uv_index": 6.1,
-      "surface_roughness": 8.3,
-      "mineral_analog": 8.1,
-      "isolation": 5.5,
-      "regolith": 5.3
+      "annual_precip_mm": 1178,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 7,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1178,
@@ -8929,13 +8581,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 6.1,
-      "temp_range": 4.9,
-      "uv_index": 6.7,
-      "surface_roughness": 6.3,
-      "mineral_analog": 4.8,
-      "isolation": 4.2,
-      "regolith": 6.6
+      "annual_precip_mm": 822,
+      "diurnal_range_c": 16,
+      "mean_temp_c": 18,
+      "rh_pct": 39,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 822,
@@ -8979,13 +8629,11 @@
       "mars": 88
     },
     "analog_params": {
-      "aridity": 4.1,
-      "temp_range": 5.5,
-      "uv_index": 7.1,
-      "surface_roughness": 5.9,
-      "mineral_analog": 4.9,
-      "isolation": 8.1,
-      "regolith": 8.3
+      "annual_precip_mm": 668,
+      "diurnal_range_c": 40,
+      "mean_temp_c": -1,
+      "rh_pct": 59,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 668,
@@ -9028,13 +8676,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 4.1,
-      "temp_range": 4.5,
-      "uv_index": 4.8,
-      "surface_roughness": 5.6,
-      "mineral_analog": 5.1,
-      "isolation": 4.8,
-      "regolith": 8.3
+      "annual_precip_mm": 1178,
+      "diurnal_range_c": 36,
+      "mean_temp_c": -15,
+      "rh_pct": 59,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1178,
@@ -9080,13 +8726,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 6.0,
-      "uv_index": 6.8,
-      "surface_roughness": 7.6,
-      "mineral_analog": 4.7,
-      "isolation": 5.7,
-      "regolith": 5.4
+      "annual_precip_mm": 1024,
+      "diurnal_range_c": 31,
+      "mean_temp_c": 12,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1024,
@@ -9129,13 +8773,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 4.5,
-      "uv_index": 7.6,
-      "surface_roughness": 5.7,
-      "mineral_analog": 8.2,
-      "isolation": 6.5,
-      "regolith": 7.2
+      "annual_precip_mm": 103,
+      "diurnal_range_c": 22,
+      "mean_temp_c": -6,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 103,
@@ -9178,13 +8820,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 7.2,
-      "uv_index": 6.3,
-      "surface_roughness": 7.6,
-      "mineral_analog": 8.5,
-      "isolation": 4.8,
-      "regolith": 8.1
+      "annual_precip_mm": 1382,
+      "diurnal_range_c": 11,
+      "mean_temp_c": 27,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1382,
@@ -9231,13 +8871,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 6.9,
-      "uv_index": 5.4,
-      "surface_roughness": 7.8,
-      "mineral_analog": 5.5,
-      "isolation": 7.4,
-      "regolith": 7.2
+      "annual_precip_mm": 1194,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 8,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1194,
@@ -9284,13 +8922,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 4.1,
-      "temp_range": 5.3,
-      "uv_index": 5.8,
-      "surface_roughness": 4.3,
-      "mineral_analog": 6.3,
-      "isolation": 6.1,
-      "regolith": 8.2
+      "annual_precip_mm": 132,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 28,
+      "rh_pct": 59,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 132,
@@ -9333,13 +8969,11 @@
       "mars": 41
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 7.1,
-      "uv_index": 5.2,
-      "surface_roughness": 5.6,
-      "mineral_analog": 5.9,
-      "isolation": 4.0,
-      "regolith": 4.4
+      "annual_precip_mm": 305,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 3,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 305,
@@ -9385,13 +9019,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 4.9,
-      "uv_index": 7.5,
-      "surface_roughness": 7.4,
-      "mineral_analog": 7.2,
-      "isolation": 5.2,
-      "regolith": 6.8
+      "annual_precip_mm": 1212,
+      "diurnal_range_c": 22,
+      "mean_temp_c": 1,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1212,
@@ -9437,13 +9069,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 5.4,
-      "uv_index": 4.6,
-      "surface_roughness": 5.6,
-      "mineral_analog": 6.7,
-      "isolation": 4.7,
-      "regolith": 6.8
+      "annual_precip_mm": 1433,
+      "diurnal_range_c": 10,
+      "mean_temp_c": 29,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1433,
@@ -9488,13 +9118,11 @@
       "mars": 62
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 6.4,
-      "uv_index": 4.4,
-      "surface_roughness": 4.5,
-      "mineral_analog": 5.3,
-      "isolation": 6.4,
-      "regolith": 4.4
+      "annual_precip_mm": 830,
+      "diurnal_range_c": 19,
+      "mean_temp_c": 9,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 830,
@@ -9538,13 +9166,11 @@
       "mars": 40
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 4.9,
-      "uv_index": 4.1,
-      "surface_roughness": 7.9,
-      "mineral_analog": 4.7,
-      "isolation": 7.4,
-      "regolith": 5.2
+      "annual_precip_mm": 1224,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 14,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1224,
@@ -9592,13 +9218,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 6.1,
-      "uv_index": 6.8,
-      "surface_roughness": 6.2,
-      "mineral_analog": 4.1,
-      "isolation": 6.7,
-      "regolith": 5.3
+      "annual_precip_mm": 629,
+      "diurnal_range_c": 36,
+      "mean_temp_c": 6,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 629,
@@ -9643,13 +9267,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 6.3,
-      "uv_index": 5.4,
-      "surface_roughness": 4.5,
-      "mineral_analog": 6.1,
-      "isolation": 8.9,
-      "regolith": 6.3
+      "annual_precip_mm": 913,
+      "diurnal_range_c": 36,
+      "mean_temp_c": 4,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 913,
@@ -9693,13 +9315,11 @@
       "mars": 42
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 6.1,
-      "uv_index": 4.6,
-      "surface_roughness": 8.1,
-      "mineral_analog": 8.2,
-      "isolation": 5.9,
-      "regolith": 4.5
+      "annual_precip_mm": 1443,
+      "diurnal_range_c": 14,
+      "mean_temp_c": -14,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1443,
@@ -9744,13 +9364,11 @@
       "mars": 65
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 7.9,
-      "uv_index": 7.4,
-      "surface_roughness": 6.2,
-      "mineral_analog": 6.8,
-      "isolation": 7.6,
-      "regolith": 5.9
+      "annual_precip_mm": 644,
+      "diurnal_range_c": 28,
+      "mean_temp_c": -11,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 644,
@@ -9794,13 +9412,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 5.2,
-      "uv_index": 4.5,
-      "surface_roughness": 5.3,
-      "mineral_analog": 8.4,
-      "isolation": 4.1,
-      "regolith": 6.6
+      "annual_precip_mm": 1302,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 6,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1302,
@@ -9846,13 +9462,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 7.6,
-      "temp_range": 5.3,
-      "uv_index": 5.3,
-      "surface_roughness": 7.1,
-      "mineral_analog": 7.5,
-      "isolation": 5.0,
-      "regolith": 6.4
+      "annual_precip_mm": 980,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 8,
+      "rh_pct": 24,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 980,
@@ -9897,13 +9511,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 6.1,
-      "uv_index": 5.8,
-      "surface_roughness": 4.5,
-      "mineral_analog": 7.9,
-      "isolation": 4.7,
-      "regolith": 7.8
+      "annual_precip_mm": 645,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 13,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 645,
@@ -9946,13 +9558,11 @@
       "mars": 85
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 6.8,
-      "uv_index": 6.6,
-      "surface_roughness": 8.1,
-      "mineral_analog": 4.2,
-      "isolation": 4.0,
-      "regolith": 5.1
+      "annual_precip_mm": 323,
+      "diurnal_range_c": 32,
+      "mean_temp_c": -14,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 323,
@@ -9999,13 +9609,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 8.9,
-      "temp_range": 7.6,
-      "uv_index": 4.6,
-      "surface_roughness": 5.5,
-      "mineral_analog": 4.2,
-      "isolation": 8.2,
-      "regolith": 7.5
+      "annual_precip_mm": 223,
+      "diurnal_range_c": 13,
+      "mean_temp_c": 20,
+      "rh_pct": 11,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 223,
@@ -10049,13 +9657,11 @@
       "mars": 85
     },
     "analog_params": {
-      "aridity": 4.4,
-      "temp_range": 5.7,
-      "uv_index": 7.9,
-      "surface_roughness": 6.5,
-      "mineral_analog": 5.4,
-      "isolation": 7.7,
-      "regolith": 4.3
+      "annual_precip_mm": 799,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 23,
+      "rh_pct": 56,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 799,
@@ -10100,13 +9706,11 @@
       "mars": 45
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 6.3,
-      "uv_index": 6.0,
-      "surface_roughness": 4.8,
-      "mineral_analog": 7.3,
-      "isolation": 3.4,
-      "regolith": 5.7
+      "annual_precip_mm": 392,
+      "diurnal_range_c": 18,
+      "mean_temp_c": 10,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 392,
@@ -10150,13 +9754,11 @@
       "mars": 67
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 5.8,
-      "uv_index": 6.6,
-      "surface_roughness": 7.1,
-      "mineral_analog": 4.5,
-      "isolation": 6.0,
-      "regolith": 5.1
+      "annual_precip_mm": 424,
+      "diurnal_range_c": 37,
+      "mean_temp_c": 17,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 424,
@@ -10201,13 +9803,11 @@
       "mars": 54
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 4.2,
-      "uv_index": 7.8,
-      "surface_roughness": 4.4,
-      "mineral_analog": 5.6,
-      "isolation": 6.3,
-      "regolith": 4.4
+      "annual_precip_mm": 1389,
+      "diurnal_range_c": 18,
+      "mean_temp_c": 3,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1389,
@@ -10254,13 +9854,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 5.5,
-      "uv_index": 4.1,
-      "surface_roughness": 8.1,
-      "mineral_analog": 6.1,
-      "isolation": 7.9,
-      "regolith": 4.5
+      "annual_precip_mm": 1002,
+      "diurnal_range_c": 16,
+      "mean_temp_c": -14,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1002,
@@ -10304,13 +9902,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 6.7,
-      "uv_index": 7.2,
-      "surface_roughness": 7.2,
-      "mineral_analog": 6.0,
-      "isolation": 7.5,
-      "regolith": 4.0
+      "annual_precip_mm": 1365,
+      "diurnal_range_c": 28,
+      "mean_temp_c": -8,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1365,
@@ -10356,13 +9952,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 6.8,
-      "uv_index": 7.4,
-      "surface_roughness": 4.8,
-      "mineral_analog": 5.8,
-      "isolation": 7.8,
-      "regolith": 8.3
+      "annual_precip_mm": 817,
+      "diurnal_range_c": 18,
+      "mean_temp_c": 18,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 817,
@@ -10410,13 +10004,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 5.8,
-      "uv_index": 6.6,
-      "surface_roughness": 5.9,
-      "mineral_analog": 4.3,
-      "isolation": 3.4,
-      "regolith": 8.1
+      "annual_precip_mm": 53,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 12,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 53,
@@ -10461,13 +10053,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 5.1,
-      "uv_index": 5.0,
-      "surface_roughness": 8.4,
-      "mineral_analog": 4.1,
-      "isolation": 6.2,
-      "regolith": 6.7
+      "annual_precip_mm": 481,
+      "diurnal_range_c": 17,
+      "mean_temp_c": 10,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 481,
@@ -10513,13 +10103,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 6.5,
-      "uv_index": 4.2,
-      "surface_roughness": 8.3,
-      "mineral_analog": 6.5,
-      "isolation": 6.6,
-      "regolith": 6.2
+      "annual_precip_mm": 387,
+      "diurnal_range_c": 25,
+      "mean_temp_c": -9,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 387,
@@ -10563,13 +10151,11 @@
       "mars": 46
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 4.1,
-      "uv_index": 7.5,
-      "surface_roughness": 5.5,
-      "mineral_analog": 7.7,
-      "isolation": 3.4,
-      "regolith": 4.7
+      "annual_precip_mm": 1471,
+      "diurnal_range_c": 24,
+      "mean_temp_c": 23,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1471,
@@ -10615,13 +10201,11 @@
       "mars": 49
     },
     "analog_params": {
-      "aridity": 4.5,
-      "temp_range": 5.2,
-      "uv_index": 5.6,
-      "surface_roughness": 6.7,
-      "mineral_analog": 5.1,
-      "isolation": 5.7,
-      "regolith": 4.0
+      "annual_precip_mm": 1382,
+      "diurnal_range_c": 13,
+      "mean_temp_c": -15,
+      "rh_pct": 55,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1382,
@@ -10668,13 +10252,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 5.1,
-      "uv_index": 6.9,
-      "surface_roughness": 5.9,
-      "mineral_analog": 4.7,
-      "isolation": 8.6,
-      "regolith": 7.9
+      "annual_precip_mm": 1210,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 1,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1210,
@@ -10717,13 +10299,11 @@
       "mars": 63
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 4.9,
-      "uv_index": 5.4,
-      "surface_roughness": 8.1,
-      "mineral_analog": 4.7,
-      "isolation": 4.0,
-      "regolith": 8.3
+      "annual_precip_mm": 1129,
+      "diurnal_range_c": 37,
+      "mean_temp_c": 26,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1129,
@@ -10768,13 +10348,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 7.6,
-      "uv_index": 6.4,
-      "surface_roughness": 4.7,
-      "mineral_analog": 6.0,
-      "isolation": 5.4,
-      "regolith": 5.5
+      "annual_precip_mm": 1182,
+      "diurnal_range_c": 12,
+      "mean_temp_c": -10,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1182,
@@ -10820,13 +10398,11 @@
       "mars": 62
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 7.1,
-      "uv_index": 5.9,
-      "surface_roughness": 7.9,
-      "mineral_analog": 4.1,
-      "isolation": 5.8,
-      "regolith": 5.8
+      "annual_precip_mm": 360,
+      "diurnal_range_c": 32,
+      "mean_temp_c": 5,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 360,
@@ -10870,13 +10446,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 6.7,
-      "temp_range": 5.5,
-      "uv_index": 4.5,
-      "surface_roughness": 7.5,
-      "mineral_analog": 5.5,
-      "isolation": 3.7,
-      "regolith": 6.3
+      "annual_precip_mm": 1376,
+      "diurnal_range_c": 37,
+      "mean_temp_c": 5,
+      "rh_pct": 33,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1376,
@@ -10922,13 +10496,11 @@
       "mars": 70
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 7.5,
-      "uv_index": 4.0,
-      "surface_roughness": 8.1,
-      "mineral_analog": 4.6,
-      "isolation": 4.6,
-      "regolith": 8.4
+      "annual_precip_mm": 1343,
+      "diurnal_range_c": 24,
+      "mean_temp_c": -1,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1343,
@@ -10975,13 +10547,11 @@
       "mars": 67
     },
     "analog_params": {
-      "aridity": 8.0,
-      "temp_range": 5.6,
-      "uv_index": 5.6,
-      "surface_roughness": 5.3,
-      "mineral_analog": 8.0,
-      "isolation": 7.4,
-      "regolith": 5.7
+      "annual_precip_mm": 526,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 28,
+      "rh_pct": 20,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 526,
@@ -11027,13 +10597,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 5.8,
-      "uv_index": 5.7,
-      "surface_roughness": 8.0,
-      "mineral_analog": 6.4,
-      "isolation": 5.7,
-      "regolith": 6.7
+      "annual_precip_mm": 118,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 16,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 118,
@@ -11078,13 +10646,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 5.9,
-      "uv_index": 6.2,
-      "surface_roughness": 8.2,
-      "mineral_analog": 6.9,
-      "isolation": 8.2,
-      "regolith": 6.8
+      "annual_precip_mm": 718,
+      "diurnal_range_c": 27,
+      "mean_temp_c": -7,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 718,
@@ -11127,13 +10693,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 7.8,
-      "temp_range": 4.6,
-      "uv_index": 5.6,
-      "surface_roughness": 6.1,
-      "mineral_analog": 6.4,
-      "isolation": 6.4,
-      "regolith": 5.0
+      "annual_precip_mm": 857,
+      "diurnal_range_c": 21,
+      "mean_temp_c": -6,
+      "rh_pct": 22,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 857,
@@ -11178,13 +10742,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 4.9,
-      "uv_index": 5.8,
-      "surface_roughness": 5.6,
-      "mineral_analog": 4.5,
-      "isolation": 7.8,
-      "regolith": 4.9
+      "annual_precip_mm": 1167,
+      "diurnal_range_c": 11,
+      "mean_temp_c": 18,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1167,
@@ -11230,13 +10792,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 4.0,
-      "temp_range": 5.0,
-      "uv_index": 4.7,
-      "surface_roughness": 5.7,
-      "mineral_analog": 5.9,
-      "isolation": 3.8,
-      "regolith": 5.9
+      "annual_precip_mm": 921,
+      "diurnal_range_c": 40,
+      "mean_temp_c": -2,
+      "rh_pct": 60,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 921,
@@ -11280,13 +10840,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 6.7,
-      "uv_index": 4.6,
-      "surface_roughness": 6.4,
-      "mineral_analog": 4.6,
-      "isolation": 8.7,
-      "regolith": 5.7
+      "annual_precip_mm": 589,
+      "diurnal_range_c": 36,
+      "mean_temp_c": 20,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 589,
@@ -11329,13 +10887,11 @@
       "mars": 42
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 7.0,
-      "uv_index": 6.6,
-      "surface_roughness": 6.0,
-      "mineral_analog": 4.4,
-      "isolation": 7.4,
-      "regolith": 5.7
+      "annual_precip_mm": 1249,
+      "diurnal_range_c": 32,
+      "mean_temp_c": 14,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1249,
@@ -11382,13 +10938,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 8.5,
-      "temp_range": 4.3,
-      "uv_index": 6.2,
-      "surface_roughness": 7.4,
-      "mineral_analog": 7.0,
-      "isolation": 5.7,
-      "regolith": 4.9
+      "annual_precip_mm": 413,
+      "diurnal_range_c": 24,
+      "mean_temp_c": -13,
+      "rh_pct": 15,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 413,
@@ -11433,13 +10987,11 @@
       "mars": 71
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 4.9,
-      "uv_index": 6.0,
-      "surface_roughness": 6.0,
-      "mineral_analog": 7.5,
-      "isolation": 6.8,
-      "regolith": 6.8
+      "annual_precip_mm": 1263,
+      "diurnal_range_c": 10,
+      "mean_temp_c": -10,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1263,
@@ -11485,13 +11037,11 @@
       "mars": 42
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 6.7,
-      "uv_index": 4.7,
-      "surface_roughness": 8.4,
-      "mineral_analog": 6.4,
-      "isolation": 3.1,
-      "regolith": 7.9
+      "annual_precip_mm": 467,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 24,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 467,
@@ -11536,13 +11086,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 6.2,
-      "uv_index": 4.5,
-      "surface_roughness": 5.1,
-      "mineral_analog": 4.9,
-      "isolation": 8.5,
-      "regolith": 6.7
+      "annual_precip_mm": 434,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 11,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 434,
@@ -11587,13 +11135,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 4.4,
-      "temp_range": 7.7,
-      "uv_index": 6.9,
-      "surface_roughness": 5.0,
-      "mineral_analog": 6.7,
-      "isolation": 6.9,
-      "regolith": 5.0
+      "annual_precip_mm": 730,
+      "diurnal_range_c": 23,
+      "mean_temp_c": -11,
+      "rh_pct": 56,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 730,
@@ -11637,13 +11183,11 @@
       "mars": 89
     },
     "analog_params": {
-      "aridity": 6.2,
-      "temp_range": 6.1,
-      "uv_index": 5.2,
-      "surface_roughness": 6.5,
-      "mineral_analog": 5.1,
-      "isolation": 4.6,
-      "regolith": 5.5
+      "annual_precip_mm": 538,
+      "diurnal_range_c": 26,
+      "mean_temp_c": 18,
+      "rh_pct": 38,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 538,
@@ -11689,13 +11233,11 @@
       "mars": 61
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 6.4,
-      "uv_index": 7.0,
-      "surface_roughness": 6.3,
-      "mineral_analog": 6.1,
-      "isolation": 7.7,
-      "regolith": 4.1
+      "annual_precip_mm": 563,
+      "diurnal_range_c": 38,
+      "mean_temp_c": 14,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 563,
@@ -11739,13 +11281,11 @@
       "mars": 55
     },
     "analog_params": {
-      "aridity": 5.6,
-      "temp_range": 4.8,
-      "uv_index": 5.2,
-      "surface_roughness": 6.8,
-      "mineral_analog": 5.8,
-      "isolation": 8.8,
-      "regolith": 6.0
+      "annual_precip_mm": 1379,
+      "diurnal_range_c": 29,
+      "mean_temp_c": 2,
+      "rh_pct": 44,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1379,
@@ -11789,13 +11329,11 @@
       "mars": 57
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 4.3,
-      "uv_index": 4.8,
-      "surface_roughness": 7.5,
-      "mineral_analog": 4.6,
-      "isolation": 6.4,
-      "regolith": 4.1
+      "annual_precip_mm": 1419,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 12,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1419,
@@ -11839,13 +11377,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 4.1,
-      "temp_range": 6.8,
-      "uv_index": 4.6,
-      "surface_roughness": 4.7,
-      "mineral_analog": 6.3,
-      "isolation": 7.0,
-      "regolith": 4.5
+      "annual_precip_mm": 773,
+      "diurnal_range_c": 28,
+      "mean_temp_c": -10,
+      "rh_pct": 59,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 773,
@@ -11888,13 +11424,11 @@
       "mars": 57
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 5.7,
-      "uv_index": 5.2,
-      "surface_roughness": 7.4,
-      "mineral_analog": 6.4,
-      "isolation": 8.2,
-      "regolith": 7.4
+      "annual_precip_mm": 1248,
+      "diurnal_range_c": 35,
+      "mean_temp_c": 2,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1248,
@@ -11939,13 +11473,11 @@
       "mars": 61
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 4.8,
-      "uv_index": 5.5,
-      "surface_roughness": 6.0,
-      "mineral_analog": 5.7,
-      "isolation": 8.0,
-      "regolith": 5.9
+      "annual_precip_mm": 760,
+      "diurnal_range_c": 26,
+      "mean_temp_c": 29,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 760,
@@ -11989,13 +11521,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 8.6,
-      "temp_range": 5.0,
-      "uv_index": 7.4,
-      "surface_roughness": 6.0,
-      "mineral_analog": 7.4,
-      "isolation": 8.5,
-      "regolith": 8.2
+      "annual_precip_mm": 1028,
+      "diurnal_range_c": 28,
+      "mean_temp_c": 6,
+      "rh_pct": 14,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1028,
@@ -12039,13 +11569,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 6.5,
-      "uv_index": 7.0,
-      "surface_roughness": 6.9,
-      "mineral_analog": 8.2,
-      "isolation": 8.5,
-      "regolith": 8.3
+      "annual_precip_mm": 163,
+      "diurnal_range_c": 21,
+      "mean_temp_c": 3,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 163,
@@ -12090,13 +11618,11 @@
       "mars": 42
     },
     "analog_params": {
-      "aridity": 9.0,
-      "temp_range": 7.2,
-      "uv_index": 7.1,
-      "surface_roughness": 5.2,
-      "mineral_analog": 5.8,
-      "isolation": 7.4,
-      "regolith": 5.4
+      "annual_precip_mm": 1368,
+      "diurnal_range_c": 33,
+      "mean_temp_c": -11,
+      "rh_pct": 10,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1368,
@@ -12141,13 +11667,11 @@
       "mars": 50
     },
     "analog_params": {
-      "aridity": 4.3,
-      "temp_range": 5.8,
-      "uv_index": 4.7,
-      "surface_roughness": 8.3,
-      "mineral_analog": 4.9,
-      "isolation": 3.6,
-      "regolith": 5.4
+      "annual_precip_mm": 1073,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 26,
+      "rh_pct": 57,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1073,
@@ -12193,13 +11717,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 7.3,
-      "uv_index": 5.7,
-      "surface_roughness": 5.2,
-      "mineral_analog": 7.1,
-      "isolation": 3.0,
-      "regolith": 7.0
+      "annual_precip_mm": 68,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 3,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 68,
@@ -12242,13 +11764,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 4.8,
-      "uv_index": 7.8,
-      "surface_roughness": 7.3,
-      "mineral_analog": 5.5,
-      "isolation": 3.1,
-      "regolith": 4.7
+      "annual_precip_mm": 877,
+      "diurnal_range_c": 31,
+      "mean_temp_c": -13,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 877,
@@ -12293,13 +11813,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 7.7,
-      "uv_index": 7.3,
-      "surface_roughness": 8.4,
-      "mineral_analog": 4.1,
-      "isolation": 4.9,
-      "regolith": 4.3
+      "annual_precip_mm": 732,
+      "diurnal_range_c": 34,
+      "mean_temp_c": -15,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 732,
@@ -12345,13 +11863,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 5.9,
-      "temp_range": 7.2,
-      "uv_index": 5.5,
-      "surface_roughness": 7.8,
-      "mineral_analog": 7.8,
-      "isolation": 4.5,
-      "regolith": 4.7
+      "annual_precip_mm": 437,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 9,
+      "rh_pct": 41,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 437,
@@ -12396,13 +11912,11 @@
       "mars": 83
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 4.5,
-      "uv_index": 5.7,
-      "surface_roughness": 5.3,
-      "mineral_analog": 4.1,
-      "isolation": 4.5,
-      "regolith": 5.6
+      "annual_precip_mm": 271,
+      "diurnal_range_c": 17,
+      "mean_temp_c": -6,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 271,
@@ -12448,13 +11962,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 6.0,
-      "uv_index": 6.2,
-      "surface_roughness": 5.5,
-      "mineral_analog": 4.8,
-      "isolation": 7.7,
-      "regolith": 4.6
+      "annual_precip_mm": 766,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 19,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 766,
@@ -12497,13 +12009,11 @@
       "mars": 57
     },
     "analog_params": {
-      "aridity": 7.9,
-      "temp_range": 4.0,
-      "uv_index": 5.8,
-      "surface_roughness": 4.3,
-      "mineral_analog": 5.5,
-      "isolation": 4.5,
-      "regolith": 6.1
+      "annual_precip_mm": 231,
+      "diurnal_range_c": 15,
+      "mean_temp_c": -5,
+      "rh_pct": 21,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 231,
@@ -12549,13 +12059,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 4.1,
-      "temp_range": 5.1,
-      "uv_index": 7.3,
-      "surface_roughness": 6.0,
-      "mineral_analog": 5.0,
-      "isolation": 5.2,
-      "regolith": 7.8
+      "annual_precip_mm": 970,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 3,
+      "rh_pct": 59,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 970,
@@ -12601,13 +12109,11 @@
       "mars": 89
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 7.8,
-      "uv_index": 7.8,
-      "surface_roughness": 4.9,
-      "mineral_analog": 7.1,
-      "isolation": 6.2,
-      "regolith": 5.5
+      "annual_precip_mm": 860,
+      "diurnal_range_c": 38,
+      "mean_temp_c": -6,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 860,
@@ -12653,13 +12159,11 @@
       "mars": 64
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 6.3,
-      "uv_index": 4.6,
-      "surface_roughness": 7.6,
-      "mineral_analog": 6.9,
-      "isolation": 4.1,
-      "regolith": 5.8
+      "annual_precip_mm": 248,
+      "diurnal_range_c": 32,
+      "mean_temp_c": 28,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 248,
@@ -12705,13 +12209,11 @@
       "mars": 85
     },
     "analog_params": {
-      "aridity": 8.4,
-      "temp_range": 6.4,
-      "uv_index": 7.7,
-      "surface_roughness": 5.0,
-      "mineral_analog": 8.4,
-      "isolation": 8.5,
-      "regolith": 6.2
+      "annual_precip_mm": 795,
+      "diurnal_range_c": 32,
+      "mean_temp_c": 30,
+      "rh_pct": 16,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 795,
@@ -12754,13 +12256,11 @@
       "mars": 54
     },
     "analog_params": {
-      "aridity": 8.1,
-      "temp_range": 6.9,
-      "uv_index": 4.8,
-      "surface_roughness": 7.1,
-      "mineral_analog": 5.8,
-      "isolation": 7.2,
-      "regolith": 6.9
+      "annual_precip_mm": 370,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 15,
+      "rh_pct": 19,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 370,
@@ -12805,13 +12305,11 @@
       "mars": 50
     },
     "analog_params": {
-      "aridity": 8.0,
-      "temp_range": 7.8,
-      "uv_index": 5.7,
-      "surface_roughness": 6.6,
-      "mineral_analog": 4.2,
-      "isolation": 7.1,
-      "regolith": 5.9
+      "annual_precip_mm": 619,
+      "diurnal_range_c": 17,
+      "mean_temp_c": 11,
+      "rh_pct": 20,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 619,
@@ -12858,13 +12356,11 @@
       "mars": 72
     },
     "analog_params": {
-      "aridity": 8.6,
-      "temp_range": 6.8,
-      "uv_index": 6.7,
-      "surface_roughness": 4.9,
-      "mineral_analog": 4.6,
-      "isolation": 8.0,
-      "regolith": 4.1
+      "annual_precip_mm": 664,
+      "diurnal_range_c": 18,
+      "mean_temp_c": -9,
+      "rh_pct": 14,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 664,
@@ -12910,13 +12406,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 7.6,
-      "temp_range": 4.4,
-      "uv_index": 4.5,
-      "surface_roughness": 6.6,
-      "mineral_analog": 6.3,
-      "isolation": 7.2,
-      "regolith": 4.8
+      "annual_precip_mm": 160,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 12,
+      "rh_pct": 24,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 160,
@@ -12961,13 +12455,11 @@
       "mars": 54
     },
     "analog_params": {
-      "aridity": 6.7,
-      "temp_range": 6.0,
-      "uv_index": 7.3,
-      "surface_roughness": 8.2,
-      "mineral_analog": 6.7,
-      "isolation": 3.7,
-      "regolith": 7.1
+      "annual_precip_mm": 347,
+      "diurnal_range_c": 10,
+      "mean_temp_c": 24,
+      "rh_pct": 33,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 347,
@@ -13014,13 +12506,11 @@
       "mars": 67
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 4.4,
-      "uv_index": 6.4,
-      "surface_roughness": 7.9,
-      "mineral_analog": 8.1,
-      "isolation": 5.7,
-      "regolith": 8.2
+      "annual_precip_mm": 901,
+      "diurnal_range_c": 30,
+      "mean_temp_c": 21,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 901,
@@ -13066,13 +12556,11 @@
       "mars": 40
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 6.7,
-      "uv_index": 4.3,
-      "surface_roughness": 5.6,
-      "mineral_analog": 7.0,
-      "isolation": 3.1,
-      "regolith": 6.4
+      "annual_precip_mm": 688,
+      "diurnal_range_c": 36,
+      "mean_temp_c": -11,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 688,
@@ -13116,13 +12604,11 @@
       "mars": 65
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 4.9,
-      "uv_index": 6.0,
-      "surface_roughness": 6.9,
-      "mineral_analog": 5.9,
-      "isolation": 4.9,
-      "regolith": 8.4
+      "annual_precip_mm": 975,
+      "diurnal_range_c": 10,
+      "mean_temp_c": 26,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 975,
@@ -13165,13 +12651,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 4.9,
-      "uv_index": 4.6,
-      "surface_roughness": 7.1,
-      "mineral_analog": 5.6,
-      "isolation": 5.2,
-      "regolith": 6.9
+      "annual_precip_mm": 1310,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 24,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1310,
@@ -13215,13 +12699,11 @@
       "mars": 41
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 7.5,
-      "uv_index": 5.0,
-      "surface_roughness": 7.5,
-      "mineral_analog": 5.3,
-      "isolation": 4.7,
-      "regolith": 4.3
+      "annual_precip_mm": 1408,
+      "diurnal_range_c": 10,
+      "mean_temp_c": -3,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1408,
@@ -13266,13 +12748,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 7.8,
-      "uv_index": 6.0,
-      "surface_roughness": 8.1,
-      "mineral_analog": 4.8,
-      "isolation": 5.1,
-      "regolith": 5.5
+      "annual_precip_mm": 959,
+      "diurnal_range_c": 36,
+      "mean_temp_c": -12,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 959,
@@ -13315,13 +12795,11 @@
       "mars": 75
     },
     "analog_params": {
-      "aridity": 6.2,
-      "temp_range": 8.0,
-      "uv_index": 7.5,
-      "surface_roughness": 5.2,
-      "mineral_analog": 6.4,
-      "isolation": 7.3,
-      "regolith": 5.8
+      "annual_precip_mm": 263,
+      "diurnal_range_c": 15,
+      "mean_temp_c": -11,
+      "rh_pct": 38,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 263,
@@ -13367,13 +12845,11 @@
       "mars": 41
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 7.4,
-      "uv_index": 5.9,
-      "surface_roughness": 8.0,
-      "mineral_analog": 5.5,
-      "isolation": 4.2,
-      "regolith": 6.1
+      "annual_precip_mm": 1264,
+      "diurnal_range_c": 33,
+      "mean_temp_c": 28,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1264,
@@ -13418,13 +12894,11 @@
       "mars": 82
     },
     "analog_params": {
-      "aridity": 7.4,
-      "temp_range": 4.4,
-      "uv_index": 7.6,
-      "surface_roughness": 5.4,
-      "mineral_analog": 6.4,
-      "isolation": 4.0,
-      "regolith": 4.9
+      "annual_precip_mm": 699,
+      "diurnal_range_c": 40,
+      "mean_temp_c": -9,
+      "rh_pct": 26,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 699,
@@ -13469,13 +12943,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 7.1,
-      "temp_range": 6.9,
-      "uv_index": 4.1,
-      "surface_roughness": 8.5,
-      "mineral_analog": 8.5,
-      "isolation": 7.6,
-      "regolith": 7.8
+      "annual_precip_mm": 150,
+      "diurnal_range_c": 29,
+      "mean_temp_c": -11,
+      "rh_pct": 29,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 150,
@@ -13521,13 +12993,11 @@
       "mars": 79
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 6.8,
-      "uv_index": 5.7,
-      "surface_roughness": 7.1,
-      "mineral_analog": 5.8,
-      "isolation": 4.2,
-      "regolith": 4.1
+      "annual_precip_mm": 752,
+      "diurnal_range_c": 29,
+      "mean_temp_c": -11,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 752,
@@ -13573,13 +13043,11 @@
       "mars": 86
     },
     "analog_params": {
-      "aridity": 5.8,
-      "temp_range": 5.2,
-      "uv_index": 6.1,
-      "surface_roughness": 5.9,
-      "mineral_analog": 5.1,
-      "isolation": 4.9,
-      "regolith": 4.5
+      "annual_precip_mm": 1198,
+      "diurnal_range_c": 31,
+      "mean_temp_c": 15,
+      "rh_pct": 42,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1198,
@@ -13623,13 +13091,11 @@
       "mars": 45
     },
     "analog_params": {
-      "aridity": 7.7,
-      "temp_range": 7.8,
-      "uv_index": 5.7,
-      "surface_roughness": 5.1,
-      "mineral_analog": 7.5,
-      "isolation": 6.6,
-      "regolith": 7.2
+      "annual_precip_mm": 874,
+      "diurnal_range_c": 36,
+      "mean_temp_c": 27,
+      "rh_pct": 23,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 874,
@@ -13672,13 +13138,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 6.5,
-      "temp_range": 6.4,
-      "uv_index": 7.0,
-      "surface_roughness": 7.3,
-      "mineral_analog": 7.0,
-      "isolation": 8.7,
-      "regolith": 7.1
+      "annual_precip_mm": 1247,
+      "diurnal_range_c": 23,
+      "mean_temp_c": -1,
+      "rh_pct": 35,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1247,
@@ -13724,13 +13188,11 @@
       "mars": 58
     },
     "analog_params": {
-      "aridity": 5.8,
-      "temp_range": 6.3,
-      "uv_index": 7.8,
-      "surface_roughness": 7.8,
-      "mineral_analog": 4.4,
-      "isolation": 4.0,
-      "regolith": 4.8
+      "annual_precip_mm": 1022,
+      "diurnal_range_c": 38,
+      "mean_temp_c": -10,
+      "rh_pct": 42,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1022,
@@ -13774,13 +13236,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 6.0,
-      "uv_index": 5.8,
-      "surface_roughness": 5.6,
-      "mineral_analog": 6.6,
-      "isolation": 7.5,
-      "regolith": 6.4
+      "annual_precip_mm": 200,
+      "diurnal_range_c": 17,
+      "mean_temp_c": 17,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 200,
@@ -13825,13 +13285,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 8.6,
-      "temp_range": 5.3,
-      "uv_index": 6.0,
-      "surface_roughness": 6.6,
-      "mineral_analog": 6.9,
-      "isolation": 6.2,
-      "regolith": 6.1
+      "annual_precip_mm": 1407,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 23,
+      "rh_pct": 14,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1407,
@@ -13877,13 +13335,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 6.8,
-      "uv_index": 5.1,
-      "surface_roughness": 5.5,
-      "mineral_analog": 8.1,
-      "isolation": 8.7,
-      "regolith": 4.9
+      "annual_precip_mm": 1320,
+      "diurnal_range_c": 26,
+      "mean_temp_c": 12,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1320,
@@ -13927,13 +13383,11 @@
       "mars": 58
     },
     "analog_params": {
-      "aridity": 5.3,
-      "temp_range": 6.4,
-      "uv_index": 5.7,
-      "surface_roughness": 5.9,
-      "mineral_analog": 5.8,
-      "isolation": 7.6,
-      "regolith": 6.7
+      "annual_precip_mm": 263,
+      "diurnal_range_c": 17,
+      "mean_temp_c": 5,
+      "rh_pct": 47,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 263,
@@ -13976,13 +13430,11 @@
       "mars": 59
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 5.8,
-      "uv_index": 4.9,
-      "surface_roughness": 6.7,
-      "mineral_analog": 5.6,
-      "isolation": 8.1,
-      "regolith": 7.1
+      "annual_precip_mm": 859,
+      "diurnal_range_c": 14,
+      "mean_temp_c": 22,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 859,
@@ -14027,13 +13479,11 @@
       "mars": 80
     },
     "analog_params": {
-      "aridity": 5.7,
-      "temp_range": 7.0,
-      "uv_index": 4.5,
-      "surface_roughness": 6.1,
-      "mineral_analog": 4.8,
-      "isolation": 8.0,
-      "regolith": 4.1
+      "annual_precip_mm": 391,
+      "diurnal_range_c": 14,
+      "mean_temp_c": 30,
+      "rh_pct": 43,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 391,
@@ -14077,13 +13527,11 @@
       "mars": 67
     },
     "analog_params": {
-      "aridity": 7.2,
-      "temp_range": 4.2,
-      "uv_index": 6.4,
-      "surface_roughness": 5.9,
-      "mineral_analog": 6.0,
-      "isolation": 3.6,
-      "regolith": 6.1
+      "annual_precip_mm": 1159,
+      "diurnal_range_c": 27,
+      "mean_temp_c": 14,
+      "rh_pct": 28,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1159,
@@ -14129,13 +13577,11 @@
       "mars": 45
     },
     "analog_params": {
-      "aridity": 5.1,
-      "temp_range": 7.2,
-      "uv_index": 5.9,
-      "surface_roughness": 5.6,
-      "mineral_analog": 5.7,
-      "isolation": 5.7,
-      "regolith": 4.8
+      "annual_precip_mm": 1025,
+      "diurnal_range_c": 34,
+      "mean_temp_c": 19,
+      "rh_pct": 49,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1025,
@@ -14180,13 +13626,11 @@
       "mars": 67
     },
     "analog_params": {
-      "aridity": 4.7,
-      "temp_range": 4.9,
-      "uv_index": 8.0,
-      "surface_roughness": 4.8,
-      "mineral_analog": 8.4,
-      "isolation": 8.1,
-      "regolith": 7.9
+      "annual_precip_mm": 998,
+      "diurnal_range_c": 37,
+      "mean_temp_c": 4,
+      "rh_pct": 53,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 998,
@@ -14232,13 +13676,11 @@
       "mars": 86
     },
     "analog_params": {
-      "aridity": 5.4,
-      "temp_range": 7.0,
-      "uv_index": 7.1,
-      "surface_roughness": 4.2,
-      "mineral_analog": 7.1,
-      "isolation": 4.7,
-      "regolith": 6.1
+      "annual_precip_mm": 520,
+      "diurnal_range_c": 19,
+      "mean_temp_c": 27,
+      "rh_pct": 46,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 520,
@@ -14282,13 +13724,11 @@
       "mars": 87
     },
     "analog_params": {
-      "aridity": 7.0,
-      "temp_range": 4.4,
-      "uv_index": 6.3,
-      "surface_roughness": 4.8,
-      "mineral_analog": 5.9,
-      "isolation": 7.0,
-      "regolith": 6.7
+      "annual_precip_mm": 219,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 26,
+      "rh_pct": 30,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 219,
@@ -14332,13 +13772,11 @@
       "mars": 77
     },
     "analog_params": {
-      "aridity": 5.9,
-      "temp_range": 4.2,
-      "uv_index": 4.6,
-      "surface_roughness": 6.6,
-      "mineral_analog": 8.1,
-      "isolation": 4.6,
-      "regolith": 4.8
+      "annual_precip_mm": 1466,
+      "diurnal_range_c": 21,
+      "mean_temp_c": -6,
+      "rh_pct": 41,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1466,
@@ -14383,13 +13821,11 @@
       "mars": 73
     },
     "analog_params": {
-      "aridity": 4.0,
-      "temp_range": 7.5,
-      "uv_index": 5.3,
-      "surface_roughness": 7.6,
-      "mineral_analog": 8.5,
-      "isolation": 5.7,
-      "regolith": 6.8
+      "annual_precip_mm": 515,
+      "diurnal_range_c": 28,
+      "mean_temp_c": 22,
+      "rh_pct": 60,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 515,
@@ -14433,13 +13869,11 @@
       "mars": 45
     },
     "analog_params": {
-      "aridity": 5.2,
-      "temp_range": 4.6,
-      "uv_index": 5.5,
-      "surface_roughness": 4.8,
-      "mineral_analog": 6.1,
-      "isolation": 4.5,
-      "regolith": 6.4
+      "annual_precip_mm": 111,
+      "diurnal_range_c": 20,
+      "mean_temp_c": 11,
+      "rh_pct": 48,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 111,
@@ -14485,13 +13919,11 @@
       "mars": 47
     },
     "analog_params": {
-      "aridity": 7.7,
-      "temp_range": 5.1,
-      "uv_index": 6.9,
-      "surface_roughness": 4.9,
-      "mineral_analog": 6.5,
-      "isolation": 3.0,
-      "regolith": 7.2
+      "annual_precip_mm": 167,
+      "diurnal_range_c": 12,
+      "mean_temp_c": -4,
+      "rh_pct": 23,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 167,
@@ -14535,13 +13967,11 @@
       "mars": 89
     },
     "analog_params": {
-      "aridity": 7.3,
-      "temp_range": 5.6,
-      "uv_index": 7.9,
-      "surface_roughness": 7.7,
-      "mineral_analog": 7.1,
-      "isolation": 5.1,
-      "regolith": 5.5
+      "annual_precip_mm": 870,
+      "diurnal_range_c": 39,
+      "mean_temp_c": 12,
+      "rh_pct": 27,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 870,
@@ -14584,13 +14014,11 @@
       "mars": 50
     },
     "analog_params": {
-      "aridity": 7.5,
-      "temp_range": 5.0,
-      "uv_index": 4.8,
-      "surface_roughness": 8.1,
-      "mineral_analog": 5.6,
-      "isolation": 4.9,
-      "regolith": 4.3
+      "annual_precip_mm": 671,
+      "diurnal_range_c": 12,
+      "mean_temp_c": 6,
+      "rh_pct": 25,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 671,
@@ -14637,13 +14065,11 @@
       "mars": 84
     },
     "analog_params": {
-      "aridity": 5.0,
-      "temp_range": 6.7,
-      "uv_index": 7.6,
-      "surface_roughness": 5.3,
-      "mineral_analog": 7.5,
-      "isolation": 3.7,
-      "regolith": 8.4
+      "annual_precip_mm": 185,
+      "diurnal_range_c": 11,
+      "mean_temp_c": -3,
+      "rh_pct": 50,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 185,
@@ -14689,13 +14115,11 @@
       "mars": 74
     },
     "analog_params": {
-      "aridity": 8.2,
-      "temp_range": 6.1,
-      "uv_index": 5.5,
-      "surface_roughness": 4.0,
-      "mineral_analog": 7.5,
-      "isolation": 6.7,
-      "regolith": 7.2
+      "annual_precip_mm": 1466,
+      "diurnal_range_c": 26,
+      "mean_temp_c": 27,
+      "rh_pct": 18,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1466,
@@ -14741,13 +14165,11 @@
       "mars": 52
     },
     "analog_params": {
-      "aridity": 4.9,
-      "temp_range": 5.6,
-      "uv_index": 4.3,
-      "surface_roughness": 4.6,
-      "mineral_analog": 7.4,
-      "isolation": 4.0,
-      "regolith": 4.5
+      "annual_precip_mm": 1111,
+      "diurnal_range_c": 35,
+      "mean_temp_c": -3,
+      "rh_pct": 51,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1111,
@@ -14792,13 +14214,11 @@
       "mars": 68
     },
     "analog_params": {
-      "aridity": 4.7,
-      "temp_range": 5.9,
-      "uv_index": 5.3,
-      "surface_roughness": 5.9,
-      "mineral_analog": 7.1,
-      "isolation": 3.9,
-      "regolith": 6.2
+      "annual_precip_mm": 916,
+      "diurnal_range_c": 35,
+      "mean_temp_c": -10,
+      "rh_pct": 53,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 916,
@@ -14842,13 +14262,11 @@
       "mars": 60
     },
     "analog_params": {
-      "aridity": 6.7,
-      "temp_range": 6.3,
-      "uv_index": 7.6,
-      "surface_roughness": 5.3,
-      "mineral_analog": 7.4,
-      "isolation": 7.4,
-      "regolith": 5.8
+      "annual_precip_mm": 806,
+      "diurnal_range_c": 19,
+      "mean_temp_c": -11,
+      "rh_pct": 33,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 806,
@@ -14892,13 +14310,11 @@
       "mars": 70
     },
     "analog_params": {
-      "aridity": 5.5,
-      "temp_range": 5.9,
-      "uv_index": 7.8,
-      "surface_roughness": 7.9,
-      "mineral_analog": 7.4,
-      "isolation": 4.1,
-      "regolith": 8.5
+      "annual_precip_mm": 1310,
+      "diurnal_range_c": 11,
+      "mean_temp_c": 0,
+      "rh_pct": 45,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1310,
@@ -14943,13 +14359,11 @@
       "mars": 56
     },
     "analog_params": {
-      "aridity": 4.8,
-      "temp_range": 5.0,
-      "uv_index": 6.2,
-      "surface_roughness": 8.2,
-      "mineral_analog": 4.7,
-      "isolation": 7.2,
-      "regolith": 5.0
+      "annual_precip_mm": 1485,
+      "diurnal_range_c": 36,
+      "mean_temp_c": -11,
+      "rh_pct": 52,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1485,
@@ -14992,13 +14406,11 @@
       "mars": 64
     },
     "analog_params": {
-      "aridity": 6.0,
-      "temp_range": 5.6,
-      "uv_index": 4.1,
-      "surface_roughness": 4.1,
-      "mineral_analog": 5.7,
-      "isolation": 5.7,
-      "regolith": 7.7
+      "annual_precip_mm": 909,
+      "diurnal_range_c": 15,
+      "mean_temp_c": 23,
+      "rh_pct": 40,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 909,
@@ -15046,13 +14458,11 @@
       "mars": 64
     },
     "analog_params": {
-      "aridity": 6.8,
-      "temp_range": 4.5,
-      "uv_index": 4.5,
-      "surface_roughness": 7.5,
-      "mineral_analog": 7.1,
-      "isolation": 8.3,
-      "regolith": 8.1
+      "annual_precip_mm": 808,
+      "diurnal_range_c": 22,
+      "mean_temp_c": 7,
+      "rh_pct": 32,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 808,
@@ -15095,13 +14505,11 @@
       "mars": 86
     },
     "analog_params": {
-      "aridity": 8.6,
-      "temp_range": 7.2,
-      "uv_index": 6.3,
-      "surface_roughness": 7.9,
-      "mineral_analog": 4.3,
-      "isolation": 6.4,
-      "regolith": 6.9
+      "annual_precip_mm": 181,
+      "diurnal_range_c": 25,
+      "mean_temp_c": 5,
+      "rh_pct": 14,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 181,
@@ -15148,13 +14556,11 @@
       "mars": 76
     },
     "analog_params": {
-      "aridity": 4.2,
-      "temp_range": 5.2,
-      "uv_index": 4.7,
-      "surface_roughness": 7.9,
-      "mineral_analog": 5.3,
-      "isolation": 3.5,
-      "regolith": 4.1
+      "annual_precip_mm": 1010,
+      "diurnal_range_c": 33,
+      "mean_temp_c": -12,
+      "rh_pct": 58,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 1010,
@@ -15200,13 +14606,11 @@
       "mars": 61
     },
     "analog_params": {
-      "aridity": 8.3,
-      "temp_range": 4.3,
-      "uv_index": 4.8,
-      "surface_roughness": 8.0,
-      "mineral_analog": 8.1,
-      "isolation": 3.3,
-      "regolith": 4.4
+      "annual_precip_mm": 421,
+      "diurnal_range_c": 40,
+      "mean_temp_c": -9,
+      "rh_pct": 17,
+      "wind_ms": 5
     },
     "climate": {
       "map_mm_yr": 421,

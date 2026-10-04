@@ -6,13 +6,11 @@ import {
 } from 'lucide-react';
 
 const paramIconMap = {
-  aridity: <Droplets size={14} />,
-  temp_range: <ThermometerSun size={14} />,
-  uv_index: <Sun size={14} />,
-  surface_roughness: <Mountain size={14} />,
-  mineral_analog: <Pickaxe size={14} />,
-  isolation: <MapPin size={14} />,
-  regolith: <Cuboid size={14} />,
+  annual_precip_mm: <Droplets size={14} />,
+  diurnal_range_c: <ThermometerSun size={14} />,
+  mean_temp_c: <ThermometerSun size={14} />,
+  rh_pct: <Droplets size={14} />,
+  wind_ms: <Map size={14} />
 };
 
 export default function AnalogReport({ site, targetBody }) {

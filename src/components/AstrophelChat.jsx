@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { askAstrophel } from '../services/astraService';
+import { askAstrophel } from '../services/astrophelService';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Send, Bot, User, X, Minimize2, Maximize2, Satellite } from 'lucide-react';
@@ -12,7 +12,7 @@ const SUGGESTIONS = [
   "Top 3 sites for geological sampling?",
 ];
 
-export default function ASTRAChat({ onClose }) {
+export default function AstrophelChat({ onClose }) {
   const [messages, setMessages] = useState([
     {
       role: 'model',

@@ -22,7 +22,7 @@ Instead of simply claiming to "find Mars on Earth," our system uses real NASA ge
 *   **🌍 Interactive 3D Digital Twin:** A high-performance 3D Earth globe (`react-globe.gl` & Three.js) that visualizes ranked analog sites and allows users to deep-dive into high-res satellite imagery.
 *   **📊 Explainable AI Dashboard:** It doesn't just give a "Similarity Score." It provides a transparent breakdown of environmental parameters (Precipitation, Diurnal Range, Humidity, Temperature, Wind) and explicitly states terrestrial limitations.
 *   **🧑‍🚀 "Train Like an Astronaut" Mode:** Procedurally generates 5-day training schedules tailored to the geological realities of the selected analog site (e.g., lava tube mapping for volcanic sites, ice core drilling for polar sites).
-*   **🤖 ASTRA Mission AI:** A floating, context-aware AI chatbot powered by **Groq (Llama 3.1 8B)**. ASTRA knows the exact scientific parameters of every site in our database and assists mission planners in real-time.
+*   **🤖 Astrophel Mission AI:** A floating, context-aware AI chatbot powered by **Groq (Llama 3.3 70B)**. Astrophel knows the exact scientific parameters of every site in our database and assists mission planners in real-time.
 
 ---
 
@@ -54,7 +54,7 @@ Our project isn't just a frontend dashboard; it is backed by a robust Python Mac
 1.  **Transparent Analog Suitability Index (ASI):** We designed a fully transparent, physics-based mathematical equation that compares terrestrial sites against exact published extraterrestrial baselines (e.g., Martian mean temperature of -63°C, Lunar diurnal range of 300°C) across normalized dimensions. 
 2.  **Surrogate ML Modeling (XGBoost & GradientBoosting):** Instead of running computationally heavy historical climate API calls for every point on Earth, we trained highly accurate surrogate ML models (CV R²² > 0.90) to emulate our physical ASI equation. This allows for lightning-fast, real-time map inference.
 3.  **Unsupervised Clustering (PCA):** We utilize Principal Component Analysis (PCA) to visually plot how close Earth environments are to extraterrestrial baselines on a multi-dimensional scatter space.
-4.  **ASTRA Conversational AI:** We integrated the **Groq SDK** to power our in-app mission assistant. By leveraging system prompts engineered with our ML outputs, ASTRA provides instant, hallucination-free mission planning advice at 560 tokens/second.
+4.  **Astrophel Conversational AI:** We integrated the **Groq SDK** to power our in-app mission assistant. By leveraging system prompts engineered with our ML outputs, Astrophel provides instant, hallucination-free mission planning advice at 560 tokens/second.
 
 ---
 
@@ -74,7 +74,7 @@ npm install
 ```
 
 **3. Configure Environment Variables**
-Rename `.env.example` to `.env` and add your free Groq API key to activate the ASTRA Chatbot.
+Rename `.env.example` to `.env` and add your free Groq API key to activate the Astrophel Chatbot.
 ```env
 VITE_GROQ_API_KEY=your_api_key_here
 ```

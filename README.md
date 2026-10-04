@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA Logo" width="100"/>
   <h1>The Parallel</h1>
   <p><b>An Explainable Decision-Support System for Terrestrial Analog Mission Planning</b></p>
@@ -20,7 +20,7 @@ Instead of simply claiming to "find Mars on Earth," our system uses real NASA ge
 
 *   **🔍 "Find My Mars" Scanning Engine:** A cinematic mission selector that filters through thousands of global coordinates to find the best planetary matches.
 *   **🌍 Interactive 3D Digital Twin:** A high-performance 3D Earth globe (`react-globe.gl` & Three.js) that visualizes ranked analog sites and allows users to deep-dive into high-res satellite imagery.
-*   **📊 Explainable AI Dashboard:** It doesn't just give a "Similarity Score." It provides a transparent breakdown of environmental parameters (Aridity, UV, Roughness, Mineralogy) and explicitly states terrestrial limitations.
+*   **📊 Explainable AI Dashboard:** It doesn't just give a "Similarity Score." It provides a transparent breakdown of environmental parameters (Precipitation, Diurnal Range, Humidity, Temperature, Wind) and explicitly states terrestrial limitations.
 *   **🧑‍🚀 "Train Like an Astronaut" Mode:** Procedurally generates 5-day training schedules tailored to the geological realities of the selected analog site (e.g., lava tube mapping for volcanic sites, ice core drilling for polar sites).
 *   **🤖 ASTRA Mission AI:** A floating, context-aware AI chatbot powered by **Groq (Llama 3.1 8B)**. ASTRA knows the exact scientific parameters of every site in our database and assists mission planners in real-time.
 
@@ -31,18 +31,13 @@ Instead of simply claiming to "find Mars on Earth," our system uses real NASA ge
 
 **The Parallel** is proudly built using open data, APIs, and resources from the **17 International Space Agency Partners** and **Global Collaborators** of the 2026 NASA Space Apps Challenge. 
 
-### 🌌 Space Agency Partners Data Sources
+### Space Agency Partners Data Sources
 Our machine learning models and environmental profiling engines leverage telemetry and Earth observation data from:
 
-*   **NASA (USA):** SRTM Topography (Surface Roughness), MODIS (Temperature Range), and PDS (Lunar/Martian baseline mapping).
-*   **ESA (Europe):** Sentinel-2 Multi-spectral imagery (Copernicus) for mineralogy verification (e.g., iron oxides, basalts).
-*   **JAXA (Japan):** ALOS-2 PALSAR-2 L-band Synthetic Aperture Radar for subsurface geological structure detection (lava tubes).
-*   **CSA (Canada):** Radarsat Constellation C-band SAR for mapping permafrost and soil moisture dynamics.
-*   **ISRO (India):** Cartosat-3 high-resolution optical imagery for surface morphology validation.
-*   **ASI (Italy):** COSMO-SkyMed radar data for extreme terrain interferometry.
-*   **AEB (Brazil):** Amazonia-1 data used for comparative biome analysis.
-*   **CONAE (Argentina):** SAOCOM L-band radar utilized for soil moisture indexing in arid analog regions.
-*   **Additional Partners Integrated in Global Scanning:** GGPEN (Angola), BSA (Bahrain), KASA (South Korea), NASRDA (Nigeria), AEP (Paraguay), ASES (Senegal), AEE (Spain), TUA (Turkey).
+*   **NASA POWER (MERRA-2):** Real-time and historical climate reanalysis (Precipitation, Diurnal Range, Humidity, Temperature, Wind Speed).
+*   **NASA EONET v3:** (Earth Observatory Natural Event Tracker) utilized to dynamically identify active thermal events, wildfires, and volcanic activity for geological analogs.
+*   **ESA (Europe) / Copernicus DEM:** High-resolution digital elevation models for computing precise terrain roughness and topographical suitability.
+*   **GeoNames / Global Database:** Utilized for calculating terrestrial remoteness and isolation metrics for psychological mission planning.
 
 ### 🌐 Global Collaborators & Technical Stack
 We utilized resources provided by the 2026 Global Collaborators to build and scale this application:
@@ -56,9 +51,10 @@ We utilized resources provided by the 2026 Global Collaborators to build and sca
 
 Our project isn't just a frontend dashboard; it is backed by a robust Python Machine Learning pipeline (located in the `/notebooks` directory).
 
-1.  **Similarity Engine (K-Nearest Neighbors):** We augmented our curated database with 5,000 synthetic global coordinates and trained a KNN model (using `scikit-learn`). By feeding the model an "Ideal Mars" or "Ideal Moon" vector, it retrieves the mathematically closest Earth locations across 7 normalized dimensions.
-2.  **Unsupervised Clustering (K-Means & PCA):** We utilize K-Means clustering to group Earth biomes and use Principal Component Analysis (PCA) to visually plot how close Earth environments are to extraterrestrial baselines.
-3.  **ASTRA Conversational AI:** We integrated the **Groq SDK** to power our in-app mission assistant. By leveraging system prompts engineered with our ML outputs, ASTRA provides instant, hallucination-free mission planning advice at 560 tokens/second.
+1.  **Transparent Analog Suitability Index (ASI):** We designed a fully transparent, physics-based mathematical equation that compares terrestrial sites against exact published extraterrestrial baselines (e.g., Martian mean temperature of -63°C, Lunar diurnal range of 300°C) across normalized dimensions. 
+2.  **Surrogate ML Modeling (XGBoost & GradientBoosting):** Instead of running computationally heavy historical climate API calls for every point on Earth, we trained highly accurate surrogate ML models (CV R²² > 0.90) to emulate our physical ASI equation. This allows for lightning-fast, real-time map inference.
+3.  **Unsupervised Clustering (PCA):** We utilize Principal Component Analysis (PCA) to visually plot how close Earth environments are to extraterrestrial baselines on a multi-dimensional scatter space.
+4.  **ASTRA Conversational AI:** We integrated the **Groq SDK** to power our in-app mission assistant. By leveraging system prompts engineered with our ML outputs, ASTRA provides instant, hallucination-free mission planning advice at 560 tokens/second.
 
 ---
 
